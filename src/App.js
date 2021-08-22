@@ -28,16 +28,7 @@ function App() {
         <NavBar />
         <Banner />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/apply" component={Apply} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/members" component={Members} />
-          <Route path="/faq" component={FAQ} />
-          <Route path="/checkin" component={Redirecting} />
-          <Route path="/check-in" component={Redirecting} />
-          <Route path="/pm" component={RedirectingPM} />
-          <Route component={NotFound} />
+          <Route component={Redirecting} />
         </Switch>
         <Footer />
         <ScrollToTop />
