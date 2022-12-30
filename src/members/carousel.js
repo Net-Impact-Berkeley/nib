@@ -1,4 +1,3 @@
-import React from "react";
 import Flickity from "react-flickity-component";
 
 import photo1 from './img/carousel/photo1.jpg';
@@ -13,7 +12,7 @@ const flickityOptions = {
     fade: true
 }
 
-function Carousel(props) {
+const Carousel = () => {
   return (
       <Flickity
         options={flickityOptions}

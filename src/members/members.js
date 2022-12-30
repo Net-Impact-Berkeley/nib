@@ -1,4 +1,3 @@
-import React from 'react';
 import './members.scss';
 import Member from './member.js';
 import CallToAction from '../components/callToAction';
@@ -21,28 +20,13 @@ const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
 
-class Members extends React.Component {
-    handleOnDragStart = (e) => e.preventDefault();
+const Members = () => {
+    document.title = 'NIB | Members';
 
-    render() {
-        document.title = 'NIB | Members';
+    let execList = memberInfo.execList.map((person) => <Member isExec {...person} key={person.name} />);
+    let memberList = memberInfo.memberList.map((person) => <Member {...person} key={person.name} />);
 
-        let execList = memberInfo.execList.map((person) => {
-            return <Member exec {...person} />
-          }
-        );
-
-        let memberList = memberInfo.memberList.map((person) => {
-            return <Member {...person} />
-        });
-
-        let images = imageList.map((photo) => {
-            return <img src={photo.src} alt={photo.alt} />
-        })
-
-        console.log(images)
-
-        return (
+    return (
         <section className="membersPage">
             <section className="membersHero">
                 <section className="container">
@@ -62,7 +46,7 @@ class Members extends React.Component {
             </svg>
             <section className="container nibVideo">
                 <p>Want to see some of our members’ favorite memories in NIB? Watch this video!</p>
-                <iframe title="Net Impact Video" width="840" height="472" src="https://www.youtube.com/embed/of6Uh9WxdyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Net Impact Video" width="840" height="472" src="https://www.youtube.com/embed/of6Uh9WxdyA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
             <svg className="splashWave wave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" />
@@ -106,7 +90,7 @@ class Members extends React.Component {
             </section>
             <section className="carousel hideOnMobile">
                 <section className="container">
-                    <div class="carouselView">
+                    <div className="carouselView">
                         <Carousel>
                             <img src={photo1} alt="" />
                             <img src={photo2} alt="" />
@@ -139,8 +123,7 @@ class Members extends React.Component {
             </section>
             <CallToAction />
         </section>
-        );
-    }
+    );
 }
 
 export default Members;

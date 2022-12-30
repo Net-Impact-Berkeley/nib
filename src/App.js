@@ -34,7 +34,7 @@ function App() {
           <Route path="/checkin" element={<Redirecting/>} />
           <Route path="/check-in" element={<Redirecting/>} />
           <Route path="/pm" element={<RedirectingPM/>} />
-          <Route element={<NotFound/>} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
         <Footer />
         <ScrollToTop />
