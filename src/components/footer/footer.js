@@ -11,8 +11,7 @@ const FooterLink = ({ link, name }) => {
     return <Link to={link} className="footerLink">{name}</Link>;
 }
 
-class Footer extends React.Component {
-  render() {
+const Footer = () => {
     return (
         <footer>
             <div className="footerLeft">
@@ -61,7 +60,6 @@ class Footer extends React.Component {
             </div>
         </footer>
     );
-  }
 }
 
 export default Footer; 

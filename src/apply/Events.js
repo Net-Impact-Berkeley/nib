@@ -11,73 +11,32 @@ import blob2 from '../img/apply/shapes/photo2.png';
 import zoom from '../img/apply/zoom.png';
 
 
-class Apply extends React.Component {
-    virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
+const Apply = () => {
+    document.title = 'NIB | Apply';
+    let timelineInfo = Timeline.map((timelineItem) => (
+        <TimelineItem
+            date={timelineItem.date}
+            title={timelineItem.title}
+            description={timelineItem.description}
+            link={timelineItem.link}
+            buttonTitle={timelineItem.buttonTitle}
+            buttonLink={timelineItem.buttonLink}
+            key={timelineItem.title}
+        />
+    ));
 
-    constructor(props) {
-        super(props);
-        this.state = ({
-            exitedBanner: false,
-        });
-    }
+    let preparationTypes = prepareTypeInfo.map((project) => {
+        return <ProjectType
+            img={project.img}
+            alt={project.alt}
+            title={project.title}
+            description={project.description}
+            key={project.title}
+        />
+    })
 
-    getComponent = () => {
-        let now = new Date(Date.now());
-
-        let hour = now.getHours();
-        let day = now.getDate();
-        if (day >= 26 && day <= 29) {
-            if (hour >= 10 && hour <= 15) {
-                return (
-                    <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
-                        <div className="zoomBanner">
-                            <a href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>2 members of NIB are on this Zoom call from Wednesday to Friday, 10am-5pm PST. 
-                            Click the Zoom icon to join now and chat with our members!</p>
-                            <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
-                                <rect x="33.3604" y="64.4731" width="43" height="136" transform="rotate(-45 33.3604 64.4731)" fill="#1C68B2"/>
-                            </svg>
-                        </div>
-                    </div>
-                );
-            }
-        }
-    }
-
-    exitBanner = () => {
-        this.setState({
-            exitedBanner: true
-        });
-    }
-
-    render() {
-        document.title = 'NIB | Apply';
-        let timelineInfo = Timeline.map((timelineItem) => {
-            return <TimelineItem
-                date={timelineItem.date}
-                title={timelineItem.title}
-                description={timelineItem.description}
-                link={timelineItem.link}
-                buttonTitle={timelineItem.buttonTitle}
-                buttonLink={timelineItem.buttonLink}
-                key={timelineItem.title}
-                />
-        });
-
-        let preparationTypes = prepareTypeInfo.map((project) => {
-            return <ProjectType
-                img={project.img}
-                alt={project.alt}
-                title={project.title}
-                description={project.description}
-                key={project.title}
-            />
-        })
-
-        return (
+    return (
         <section className="applyPage">
-            {this.getComponent()}
             <section className="container timelineSection">
                 <h1>Timeline</h1>
                 <div className="timelinePhotos">
@@ -111,8 +70,7 @@ class Apply extends React.Component {
                 </div>
             </section>
         </section>
-        );
-    }
+    );
 }
 
 export default Apply;

@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './about';
 import Home from './home';
 import Apply from './apply';
@@ -15,8 +14,6 @@ import ScrollToTop from 'components/ScrollToTop';
 import GA from 'components/GoogleAnalytics';
 import Banner from 'components/banner';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 function App() {
   return (
     <Router
@@ -27,18 +24,18 @@ function App() {
       { GA.init() && <GA.RouteTracker /> }
         <NavBar />
         <Banner />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/apply" component={Apply} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/members" component={Members} />
-          <Route path="/faq" component={FAQ} />
-          <Route path="/checkin" component={Redirecting} />
-          <Route path="/check-in" component={Redirecting} />
-          <Route path="/pm" component={RedirectingPM} />
-          <Route component={NotFound} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/apply" element={<Apply/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/members" element={<Members/>} />
+          <Route path="/faq" element={<FAQ/>} />
+          <Route path="/checkin" element={<Redirecting/>} />
+          <Route path="/check-in" element={<Redirecting/>} />
+          <Route path="/pm" element={<RedirectingPM/>} />
+          <Route element={<NotFound/>} />
+        </Routes>
         <Footer />
         <ScrollToTop />
       </div>

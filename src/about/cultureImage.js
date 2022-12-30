@@ -1,10 +1,12 @@
 import React from 'react';
 
-export default function CultureImage(props) {
+const CultureImage = ({imageLink, description, alt}) => {
     return (
         <div className="col">
-            <img src={props.img} className="lifeInNibPics" height= "280" alt={props.alt} />
-            <p>{props.description}</p>
+            <img src={imageLink} className="lifeInNibPics" height= "280" alt={alt} />
+            <p>{description}</p>
         </div>
     );
 }
+
+export default CultureImage;

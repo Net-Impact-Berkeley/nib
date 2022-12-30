@@ -13,12 +13,11 @@ import membersSectionImage from './img/whoarewe.png';
 import SpectrumSection from './spectrumSection';
 import pastClients from './data/pastClientsHighlights';
 
-class Home extends React.Component {
-  render() {
+const Home = () => {
     document.title = 'NIB | Home';
 
     return (
-      <section className="homePage">
+        <section className="homePage">
         <section className="splash">
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
@@ -86,7 +85,7 @@ class Home extends React.Component {
             <div className="container">
                 <h1>150+ Past Clients</h1>
                 {pastClients.map((client) => {
-                    return <img src={client.img} alt={client.alt} />;
+                    return <img src={client.img} alt={client.alt} key={client.alt} />;
                 })}
             </div>
         </section>
@@ -109,7 +108,6 @@ class Home extends React.Component {
         <CallToAction />
       </section>
     );
-  }
-}
+} 
 
 export default Home;

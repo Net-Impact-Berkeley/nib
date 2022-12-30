@@ -1,11 +1,9 @@
-import React from 'react';
 import CallToAction from '../components/callToAction';
 import './faq.scss'
 
-class FAQ extends React.Component {
-    render() {
-        document.title = 'NIB | FAQ';
-        return (
+const FAQ = () => {
+    document.title = 'NIB | FAQ';
+    return (
         <section className="faqPage">
             <section className="questions container">
             <h2> Questions </h2>
@@ -98,8 +96,7 @@ class FAQ extends React.Component {
             </section>
             <CallToAction />
         </section>
-        );
-    }
+    );
 }
 
 export default FAQ;

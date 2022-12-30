@@ -24,7 +24,6 @@ const AlumniCompany = ({name, href, fileName}) => {
 class Members extends React.Component {
     handleOnDragStart = (e) => e.preventDefault();
 
-
     render() {
         document.title = 'NIB | Members';
 

@@ -8,21 +8,19 @@ import projectTypeInfo from './data/ProjectTypesText';
 import clients from './data/clients';
 import ClientImage from './clientImage';
 
-class Projects extends React.Component {
-    render() {
-        let projectTypes = projectTypeInfo.map((project) => {
-            return <ProjectType {...project} />
-        });
+const Projects = () => {
+    let projectTypes = projectTypeInfo.map((project) => {
+        return <ProjectType {...project} key={project.title} />
+    });
 
-        let clientImages = clients.map((client) => {
-            return <ClientImage {...client} />
-        });
+    let clientImages = clients.map((client) => {
+        return <ClientImage {...client} key={client.link} />
+    });
 
-        let clientImagesMobile = clientImages.slice(0, 12);
+    let clientImagesMobile = clientImages.slice(0, 12);
 
-
-        document.title = 'NIB | Projects';
-        return (
+    document.title = 'NIB | Projects';
+    return (
         <section className="projectsPage">
             <section className="hero container">
                 <div className="left">
@@ -65,8 +63,7 @@ class Projects extends React.Component {
             </section>
             <CallToAction />
         </section>
-        );
-    }
+    );
 }
 
 
