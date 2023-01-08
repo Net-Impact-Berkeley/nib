@@ -47,7 +47,7 @@ GoogleAnalytics.propTypes = {
 
 const RouteTracker = () => <Route element={GoogleAnalytics} />;
 
-const init = (options = {}) => {
+export const init = () => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
     if (isGAEnabled) {
@@ -55,10 +55,4 @@ const init = (options = {}) => {
     }
 
     return isGAEnabled;
-};
-
-export default {
-    GoogleAnalytics,
-    RouteTracker,
-    init
 };
