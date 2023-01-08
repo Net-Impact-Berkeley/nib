@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './about';
 import Home from './home';
 import Apply from './apply';
@@ -17,7 +17,6 @@ import Banner from 'components/banner';
 function App() {
   return (
     <Router
-      hashType={"slash"}
       basename={""}
     >
       <div>
@@ -25,7 +24,7 @@ function App() {
         <NavBar />
         <Banner />
         <Routes>
-          <Route exact path="/" element={<Home/>} />
+          <Route index element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/apply" element={<Apply/>} />
           <Route path="/projects" element={<Projects/>} />
