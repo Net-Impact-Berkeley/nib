@@ -6,7 +6,7 @@ const Values = () => {
     return (
         <div>
             {valuesData.map((valueData) => {
-                return <Value {...valueData} />;
+                return <Value {...valueData} key={valueData.description} />;
             })}
         </div>
     );
