@@ -3,8 +3,10 @@ let memberInfo = {
         {
             name: 'Alexander Manes',
             title: 'President',
-            bio: ["Hello! My name is Heather Yuan, and I'm a junior from Seattle studying Computer Science and Business. I joined Net Impact during the fall of my sophomore year and will be a Senior Associate this semester. In past projects, I've worked with a sustainable apparel company to optimize their ESG strategy as well as an international girl's education non-profit to help boost their revenue by monetizing their curriculum offerings.", 
-            "I'm interested in entering the tech space as either a software engineer or product manager, but, growing up as a dancer, my heart still hopes to connect back to the entertainment industry somehow. In my free time, I love dancing, cooking, and lifting. Please feel free to reach out to chat about anything (I coffee chatted way too many members to count when I applied so, really, don't be afraid to talk to me)! I'm super excited to meet you all!! :)"],
+            bio: [
+                "Hello! My name is Heather Yuan, and I'm a junior from Seattle studying Computer Science and Business. I joined Net Impact during the fall of my sophomore year and will be a Senior Associate this semester. In past projects, I've worked with a sustainable apparel company to optimize their ESG strategy as well as an international girl's education non-profit to help boost their revenue by monetizing their curriculum offerings.", 
+                "I'm interested in entering the tech space as either a software engineer or product manager, but, growing up as a dancer, my heart still hopes to connect back to the entertainment industry somehow. In my free time, I love dancing, cooking, and lifting. Please feel free to reach out to chat about anything (I coffee chatted way too many members to count when I applied so, really, don't be afraid to talk to me)! I'm super excited to meet you all!! :)"
+            ],
             linkedin: 'https://www.linkedin.com/in/alexander-manes/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/alex.png'),
@@ -13,7 +15,10 @@ let memberInfo = {
         {
             name: 'David Kwon',
             title: 'VP Finance & Operations',
-            bio: [],
+            bio: [
+                "Hey! I'm Suraj, a senior studying Computer Science & Business. I joined Net Impact Spring 2021 and will be a Project Manager this semester. I've already been able to work on 3 impactful projects––international grant-making, electric vehicle charging, and healthcare impact spending programs.",
+                "In my free time, you'll find me in the gym, learning about cars, or trying to save my investment portfolio. If you'd like to chat, feel free to reach out :)"
+            ],
             linkedin: 'https://www.linkedin.com/in/daviddkwon/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/david.png'),
