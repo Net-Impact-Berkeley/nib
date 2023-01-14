@@ -17,7 +17,7 @@ let memberInfo = {
             title: 'VP Finance & Operations',
             bio: [
                 "Hey! I'm Suraj, a senior studying Computer Science & Business. I joined Net Impact Spring 2021 and will be a Project Manager this semester. I've already been able to work on 4 impactful projects––international grant-making, electric vehicle charging, and healthcare impact spending programs.",
-                "In my free time, you'll find me in the gym, learning about cars, or trying to save my investment portfolio. If you'd like to chat, feel free to reach out :)"
+                "In my free time, you'll fin me in the gym, learning about cars, or trying to save my investment portfolio. If you'd like to chat, feel free to reach out :)"
             ],
             linkedin: 'https://www.linkedin.com/in/daviddkwon/',
             calendly: "https://www.youtube.com/",
