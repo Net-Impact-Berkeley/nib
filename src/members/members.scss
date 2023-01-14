@@ -25,40 +25,20 @@
         background: rgba(0, 0, 0, 0.7);
         transition: opacity 500ms;
         z-index: 998;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
-
         display: flex;
 
         justify-content: center;
         align-items: center;
-<<<<<<< HEAD
     }
 
     .bioContainer {
         margin: 70px;
-=======
-    }
-
-    .bioContainer {
-        margin: 70px auto;
->>>>>>> 6efcf64 (modal working, playing around with styling)
-=======
-    }
-
-    .bioContainer {
-        margin: 70px;
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
         padding: 20px;
         background: #fff;
         opacity: 1;
         border-radius: 5px;
         width: 60%;
         height: 60%;
-<<<<<<< HEAD
-<<<<<<< HEAD
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -74,33 +54,6 @@
             .image {
                 width: 100%;
             }
-=======
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        transition: all 5s ease-in-out;
-=======
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
-        z-index: 999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .bioTitle {
-            padding: 20px;
-            width: 40%;
-            height: 95%;
-
-            text-align: center;
-    
-            .image {
-                width: 100%;
-            }
-<<<<<<< HEAD
-    
->>>>>>> 6efcf64 (modal working, playing around with styling)
-=======
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
             .name {
                 font-size: 25px;
             }
@@ -110,16 +63,11 @@
         }
 
         .bioContent {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
             padding: 20px;
             padding-right: 10px;
             width: 60%;
             height: 100%;
 
-<<<<<<< HEAD
             .close {
                 width: 50px;
                 float: right;
@@ -135,27 +83,10 @@
             .links {
                 display: flex;
                 gap: 10px;
-=======
+            }
+
             .close {
                 right: 10%;
->>>>>>> 6efcf64 (modal working, playing around with styling)
-=======
-            .close {
-                width: 50px;
-                float: right;
-                background-color: transparent;
-                border: none;
-                text-align: right;
-            }
-
-            .icon {
-                width: 30px;
-            }
-
-            .links {
-                display: flex;
-                gap: 10px;
->>>>>>> 6c2e6ab (working window, just need to clean up transitions and relative resizing)
             }
         }
     }
