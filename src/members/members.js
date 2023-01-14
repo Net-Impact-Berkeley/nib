@@ -5,6 +5,7 @@ import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Button from '../components/button';
+import React, {useState} from 'react';
 
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
@@ -20,11 +21,31 @@ const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
 
+const Modal = ({show, person}) => {
+    const toggleDisplay = show ? "memberBio show" : "memberBio hide";
+  
+    return (
+      <div className={toggleDisplay}>
+        <h1>{person.name}</h1>
+      </div>
+    );
+};
+
 const Members = () => {
     document.title = 'NIB | Members';
 
-    let execList = memberInfo.execList.map((person) => <Member isExec {...person} key={person.name} />);
-    let memberList = memberInfo.memberList.map((person) => <Member {...person} key={person.name} />);
+    const [showModal, setShowModal] = useState(false);
+    const [modalInfo, setModalInfo] = useState(null);
+
+    const handleClick = (person) => {
+        setShowModal(!showModal);
+        setModalInfo(person);
+    }
+
+    let execList = memberInfo.execList.map((person) => <Member isExec={true} person={person} key={person.name} handleClick={handleClick}/>);
+    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
+
+    
 
     return (
         <section className="membersPage">
@@ -59,6 +80,7 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Executive Board</h2>
+                    {/* <Modal show={showModal} person={modalInfo}></Modal> */}
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>
