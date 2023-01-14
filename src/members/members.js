@@ -21,11 +21,9 @@ const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
 
-const Modal = ({show, person}) => {
-    const toggleDisplay = show ? "memberBio show" : "memberBio hide";
-  
+const Modal = ({person}) => {
     return (
-      <div className={toggleDisplay}>
+      <div className={"memberBio show"}>
         <h1>{person.name}</h1>
       </div>
     );
@@ -80,7 +78,7 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Executive Board</h2>
-                    {/* <Modal show={showModal} person={modalInfo}></Modal> */}
+                    {showModal ? <Modal person={modalInfo}></Modal> : null}
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>
