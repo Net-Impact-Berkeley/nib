@@ -22,7 +22,7 @@ import calendlyImage from '../img/calendly.png';
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
-
+<<<<<<< HEAD
 const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin} = person;
     
@@ -45,6 +45,14 @@ const Modal = ({toggleShow, person}) => {
                 </div>
             </div>
         </div> 
+=======
+
+const Modal = ({person}) => {
+    return (
+      <div className={"memberBio show"}>
+        <h1>{person.name}</h1>
+      </div>
+>>>>>>> cdb5e8e (clicking on member toggles modal)
     );
 };
 
@@ -60,7 +68,7 @@ const Members = () => {
     }
 
     let execList = memberInfo.execList.map((person) => <Member isExec={true} person={person} key={person.name} handleClick={handleClick}/>);
-    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);    
+    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
 
     return (
         <section className="membersPage">
