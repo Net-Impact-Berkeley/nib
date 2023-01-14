@@ -16,16 +16,31 @@ import imageRight from './img/splash-right.png';
 import photo1 from './img/carousel/photo1.jpg';
 import photo2 from './img/carousel/photo2.jpg';
 import photo3 from './img/carousel/photo3.jpg';
+import linkedInImage from '../img/linkedin.png';
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
 
-const Modal = ({person}) => {
+const Modal = ({toggleShow, person}) => {
+    const {name, image, sillyImage, title, linkedin} = person;
+    
     return (
-      <div className={"memberBio show"}>
-        <h1>{person.name}</h1>
-      </div>
+        <div className='overlay'>
+            <div className='bioContainer'>
+                <p onClick={() => toggleShow(person)}>X</p>
+                <div className='bioTitle'>
+                    <img src={image} className="image" alt={name} />
+                    <h4 className='name'>{name}</h4>
+                    <p className='title'>{title}</p>
+                </div>
+                <div className='bioContent'>
+                    <p>really fat biography of things lol keep talking fill this up woohoo</p>
+                    <p><a href={linkedin} target="_blank" rel="noopener noreferrer"><img src={linkedInImage} className="icon" alt="LinkedIn icon" /></a></p>
+                </div>
+                
+            </div>
+        </div> 
     );
 };
 
@@ -41,9 +56,7 @@ const Members = () => {
     }
 
     let execList = memberInfo.execList.map((person) => <Member isExec={true} person={person} key={person.name} handleClick={handleClick}/>);
-    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
-
-    
+    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);    
 
     return (
         <section className="membersPage">
@@ -78,7 +91,8 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Executive Board</h2>
-                    {showModal ? <Modal person={modalInfo}></Modal> : null}
+                    {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
+                    {/* move Modal to end to cover whole page*/}
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>

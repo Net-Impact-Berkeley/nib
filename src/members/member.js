@@ -3,16 +3,6 @@ import linkedInImage from '../img/linkedin.png';
 
 const Member = ({person, isExec, handleClick}) => {
   const {name, image, sillyImage, title, linkedin} = person;
-
-  // const memberData = {
-  //   name: name,
-  //   image: image,
-  //   sillyImage: sillyImage,
-  //   title: title,
-  //   linkedin: linkedin,
-  //   bio: "insert bio param",
-  //   calendly: "insert calendly param"
-  // }
   
   return (
     <div onClick={() => {handleClick(person)}} className={isExec ? "memberProfile execProfile" : "memberProfile"}>
