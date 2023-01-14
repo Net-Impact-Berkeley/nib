@@ -1,7 +1,7 @@
 let memberInfo = {
     execList: [
         {
-            name: 'Alexander Manes',
+            name: 'Heather Yuan',
             title: 'President',
             linkedin: 'https://www.linkedin.com/in/alexander-manes/',
             image: require('../img/individuals/alex.png'),
