@@ -10,7 +10,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/alexander-manes/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/alex.png'),
-            sillyImage: require('../img/fun/alex.png')
+            sillyImage: require('../img/fun/alex.png'),
+            isDM: true
         },
         {
             name: 'David Kwon',
@@ -22,7 +23,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/daviddkwon/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/david.png'),
-            sillyImage: require('../img/fun/david.png')
+            sillyImage: require('../img/fun/david.png'),
+            isDM: true
         },
         {
             name: 'Aanika Shah',
@@ -31,7 +33,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/aanika-shah/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/aanika.png'),
-            sillyImage: require('../img/fun/aanika.png')
+            sillyImage: require('../img/fun/aanika.png'),
+            isDM: true
         },
         {
             name: 'Edward Yang',
@@ -40,16 +43,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/edwardryang/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/edward.png'),
-            sillyImage: require('../img/fun/edward.png')
-        },
-        {
-            name: 'Kelly Han',
-            title: 'Co-VP Consulting',
-            bio: [],
-            linkedin: 'https://www.linkedin.com/in/kellyjalinhan/',
-            calendly: "https://www.youtube.com/",
-            image: require('../img/individuals/kelly.png'),
-            sillyImage: require('../img/fun/kelly.png')
+            sillyImage: require('../img/fun/edward.png'),
+            isDM: true
         },
         {
             name: 'Adam Ng',
@@ -58,10 +53,11 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/adamngberkeley/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/adam.png'),
-            sillyImage: require('../img/fun/adam.png')
+            sillyImage: require('../img/fun/adam.png'),
+            isDM: true
         },
     ],
-    memberList: [
+    pmList: [
         {
             name: 'Emersyn Lyon',
             title: 'Project Manager',
@@ -69,7 +65,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/emersyn-lyon/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/emersyn.png'),
-            sillyImage: require('../img/fun/emersyn.png')
+            sillyImage: require('../img/fun/emersyn.png'),
+            isDM: true
         },
         {
             name: 'Ivan Penev',
@@ -78,7 +75,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/ivan-penev/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/ivan.png'),
-            sillyImage: require('../img/fun/ivan.png')
+            sillyImage: require('../img/fun/ivan.png'),
+            isDM: true
         },
         {
             name: 'Varsha Nekkanti',
@@ -87,7 +85,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/varshanekkanti/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/varsha.png'),
-            sillyImage: require('../img/fun/varsha.png')
+            sillyImage: require('../img/fun/varsha.png'),
+            isDM: true
         },
         {
             name: 'Basant Apurva',
@@ -96,7 +95,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/basant-apurva/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/basant.png'),
-            sillyImage: require('../img/fun/basant.png')
+            sillyImage: require('../img/fun/basant.png'),
+            isDM: true
         },
         {
             name: 'Helen Rhee',
@@ -105,8 +105,11 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/helen-rhee/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/helen.png'),
-            sillyImage: require('../img/fun/helen.png')
-        },
+            sillyImage: require('../img/fun/helen.png'),
+            isDM: true
+        }
+    ],
+    memberList: [
         {
             name: 'Gary Liu',
             title: 'Senior Associate',
@@ -114,7 +117,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/liugary/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/gary.png'),
-            sillyImage: require('../img/fun/gary.png')
+            sillyImage: require('../img/fun/gary.png'),
+            isDM: false
         },
         {
             name: 'Brandon Qin',
@@ -123,7 +127,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/brandonqin/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/brandon.png'),
-            sillyImage: require('../img/fun/brandon.png')
+            sillyImage: require('../img/fun/brandon.png'),
+            isDM: false
         },
         {
             name: 'Abi Srikant',
@@ -132,7 +137,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/abinaya-srikant/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/abinaya.png'),
-            sillyImage: require('../img/fun/abi.png')
+            sillyImage: require('../img/fun/abi.png'),
+            isDM: false
         },
         {
             name: 'Agrima Sharma',
@@ -141,7 +147,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/agrima.jpeg'),
-            sillyImage: require('../img/fun/agrima.png')
+            sillyImage: require('../img/fun/agrima.png'),
+            isDM: false
         },
         {
             name: 'Evan Mallah',
@@ -150,7 +157,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/evan-mallah/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/evan.png'),
-            sillyImage: require('../img/fun/evan.png')
+            sillyImage: require('../img/fun/evan.png'),
+            isDM: false
         },
         {
             name: 'Austin Sun',
@@ -159,7 +167,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/austinjsun/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/austin.png'),
-            sillyImage: require('../img/fun/austin.png')
+            sillyImage: require('../img/fun/austin.png'),
+            isDM: false
         },
         {
             name: 'Makena Barkus',
@@ -168,7 +177,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/makenabarkus/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/makena.png'),
-            sillyImage: require('../img/fun/makena.png')
+            sillyImage: require('../img/fun/makena.png'),
+            isDM: false
         },
         {
             name: 'Elisabeth Wing',
@@ -177,7 +187,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/elisabeth-wing/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/elisabeth.png'),
-            sillyImage: require('../img/fun/elisabeth.png')
+            sillyImage: require('../img/fun/elisabeth.png'),
+            isDM: false
         },
         {
             name: 'Haikun Liu',
@@ -186,7 +197,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/haikunliu/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/haikun.png'),
-            sillyImage: require('../img/fun/haikun.png')
+            sillyImage: require('../img/fun/haikun.png'),
+            isDM: false
         },
         {
             name: 'Laeticia Yang',
@@ -195,7 +207,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/laeticia-yang-84aa2415b/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/laeticia.png'),
-            sillyImage: require('../img/fun/laeticia.png')
+            sillyImage: require('../img/fun/laeticia.png'),
+            isDM: false
         },
         {
             name: 'Tsadiku Obolu',
@@ -204,7 +217,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/tobolu/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/tsadi.png'),
-            sillyImage: require('../img/fun/tsadi.png')
+            sillyImage: require('../img/fun/tsadi.png'),
+            isDM: false
         },
         {
             name: 'Megha Jain',
@@ -213,7 +227,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/meghajainberkeley/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/megha.png'),
-            sillyImage: require('../img/fun/megha.png')
+            sillyImage: require('../img/fun/megha.png'),
+            isDM: false
         },
         {
             name: 'Stuti Upadhyay',
@@ -222,7 +237,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/stuti-upadhyay/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/stuti.png'),
-            sillyImage: require('../img/fun/stuti.png')
+            sillyImage: require('../img/fun/stuti.png'),
+            isDM: false
         },
         {
             name: 'Mingjie Zhong',
@@ -231,7 +247,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/mingjiez/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/mingjie.png'),
-            sillyImage: require('../img/fun/mingjie.png')
+            sillyImage: require('../img/fun/mingjie.png'),
+            isDM: false
         },
         {
             name: 'Quinn Guenther',
@@ -240,7 +257,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/quinn-guenther-861811194/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/quinn.jpeg'),
-            sillyImage: require('../img/fun/quinn.png')
+            sillyImage: require('../img/fun/quinn.png'),
+            isDM: false
         },
         {
             name: 'Adhiv Dhar',
@@ -250,7 +268,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/adhivd/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/adhiv.png'),
-            sillyImage: require('../img/fun/adhiv.png')
+            sillyImage: require('../img/fun/adhiv.png'),
+            isDM: false
         },
         {
             name: 'Ashutosh Bajpai',
@@ -259,7 +278,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/ashutosh-bajpai-94b489131/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/ashu.png'),
-            sillyImage: require('../img/fun/ashu.png')
+            sillyImage: require('../img/fun/ashu.png'),
+            isDM: false
         },
         {
             name: 'Jasdeep Hundal',
@@ -268,7 +288,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/jasdeep-singh-hundal-aab090171/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/jasdeep.png'),
-            sillyImage: require('../img/fun/jasdeep.png')
+            sillyImage: require('../img/fun/jasdeep.png'),
+            isDM: false
         },
         {
             name: 'Jennifer Lu',
@@ -277,7 +298,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/jenniferzlu/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/jen.png'),
-            sillyImage: require('../img/fun/jen.png')
+            sillyImage: require('../img/fun/jen.png'),
+            isDM: false
         },
         {
             name: 'Mahesh Murag',
@@ -286,7 +308,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/maheshmurag/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/mahesh.png'),
-            sillyImage: require('../img/fun/mahesh.png')
+            sillyImage: require('../img/fun/mahesh.png'),
+            isDM: false
         },
         {
             name: 'Shalini Haupt',
@@ -295,7 +318,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/shalini-haupt-935857177/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/shalini.png'),
-            sillyImage: require('../img/fun/shalini.png')
+            sillyImage: require('../img/fun/shalini.png'),
+            isDM: false
         },
         {
             name: 'Shikha Patel',
@@ -305,7 +329,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/shikhapatel99/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/shikha.png'),
-            sillyImage: require('../img/fun/shikha.png')
+            sillyImage: require('../img/fun/shikha.png'),
+            isDM: false
         },
         {
             name: 'Saam Zahedian',
@@ -315,7 +340,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/saam-zahedian/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/saam.png'),
-            sillyImage: require('../img/fun/saam.png')
+            sillyImage: require('../img/fun/saam.png'),
+            isDM: false
         },
         {
             name: 'Arth Vidyarthi',
@@ -324,7 +350,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/arth-vid/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/arth.png'),
-            sillyImage: require('../img/fun/arth.png')
+            sillyImage: require('../img/fun/arth.png'),
+            isDM: false
         },
         {
             name: 'Emily Chien',
@@ -333,7 +360,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/emily-chien-9b9040188/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/emily.png'),
-            sillyImage: require('../img/fun/emily.png')
+            sillyImage: require('../img/fun/emily.png'),
+            isDM: false
         },
         {
             name: 'Suyash Jaju',
@@ -342,7 +370,8 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/suyash-jaju/',
             calendly: "https://www.youtube.com/",
             image: require('../img/individuals/suyash.png'),
-            sillyImage: require('../img/fun/suyash.png')
+            sillyImage: require('../img/fun/suyash.png'),
+            isDM: false
         },
 
     ]

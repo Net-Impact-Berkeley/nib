@@ -23,7 +23,7 @@ const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
 const Modal = ({toggleShow, person}) => {
-    const {name, image, bio, calendly, title, linkedin} = person;
+    const {name, image, bio, calendly, title, linkedin, isDM} = person;
     
     return (
         <div className='overlay'>
@@ -37,10 +37,9 @@ const Modal = ({toggleShow, person}) => {
                     <button className='close' onClick={() => toggleShow(person)}>X</button>
                     {bio.map(paragraph => <p>{paragraph}</p>)}
                     <div className='links'>
-                        <p><a href={calendly} target="_blank" rel="noopener noreferrer"><img src={calendlyImage} className="icon" alt="Calendly icon" /></a></p>
+                        {!isDM ? <p><a href={calendly} target="_blank" rel="noopener noreferrer"><img src={calendlyImage} className="icon" alt="Calendly icon" /></a></p> : null}
                         <p><a href={linkedin} target="_blank" rel="noopener noreferrer"><img src={linkedInImage} className="icon" alt="LinkedIn icon" /></a></p>
                     </div>
-                    
                 </div>
             </div>
         </div> 
@@ -58,7 +57,8 @@ const Members = () => {
         setModalInfo(person);
     }
 
-    let execList = memberInfo.execList.map((person) => <Member isExec={true} person={person} key={person.name} handleClick={handleClick}/>);
+    let execList = memberInfo.execList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
+    let pmList = memberInfo.pmList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
     let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
 
     return (
@@ -82,6 +82,7 @@ const Members = () => {
             <svg className="splashWave wave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" />
             </svg>
+            {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
                 <section className= "showOnMobile tapQueue">
                     <section className= "abiTest">
@@ -90,10 +91,11 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Executive Board</h2>
-                    {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
-                    {/* move Modal to end to cover whole page*/}
                     <div>{execList}</div>
+                    <h2>Project Managers</h2>
+                    <div>{pmList}</div>
                     <h2>Members</h2>
+                    <p>Schedule a coffee chat with our members through their Calendly link!</p>
                     <div>{memberList}</div>
                 </section>
             </section>
