@@ -5,6 +5,7 @@ import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Button from '../components/button';
+import React, {useState} from 'react';
 
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
@@ -15,16 +16,50 @@ import imageRight from './img/splash-right.png';
 import photo1 from './img/carousel/photo1.jpg';
 import photo2 from './img/carousel/photo2.jpg';
 import photo3 from './img/carousel/photo3.jpg';
+import linkedInImage from '../img/linkedin.png';
+import calendlyImage from '../img/calendly.png';
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
 }
+const Modal = ({toggleShow, person}) => {
+    const {name, image, bio, calendly, title, linkedin} = person;
+    
+    return (
+        <div className='overlay'>
+            <div className='bioContainer'>
+                <div className='bioTitle'>
+                    <img src={image} className="image" alt={name} />
+                    <h4 className='name'>{name}</h4>
+                    <p className='title'>{title}</p>
+                </div>
+                <div className='bioContent'>
+                    <button className='close' onClick={() => toggleShow(person)}>X</button>
+                    {bio.map(paragraph => <p>{paragraph}</p>)}
+                    <div className='links'>
+                        <p><a href={calendly} target="_blank" rel="noopener noreferrer"><img src={calendlyImage} className="icon" alt="Calendly icon" /></a></p>
+                        <p><a href={linkedin} target="_blank" rel="noopener noreferrer"><img src={linkedInImage} className="icon" alt="LinkedIn icon" /></a></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+    );
+};
 
 const Members = () => {
     document.title = 'NIB | Members';
 
-    let execList = memberInfo.execList.map((person) => <Member isExec {...person} key={person.name} />);
-    let memberList = memberInfo.memberList.map((person) => <Member {...person} key={person.name} />);
+    const [showModal, setShowModal] = useState(false);
+    const [modalInfo, setModalInfo] = useState(null);
+
+    const handleClick = (person) => {
+        setShowModal(!showModal);
+        setModalInfo(person);
+    }
+
+    let execList = memberInfo.execList.map((person) => <Member isExec={true} person={person} key={person.name} handleClick={handleClick}/>);
+    let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
 
     return (
         <section className="membersPage">
@@ -44,10 +79,6 @@ const Members = () => {
             <svg width="599" className="splashWaveRight hideOnMobile" viewBox="0 0 599 569" xmlns="http://www.w3.org/2000/svg">
                 <path d="M369.721 545.557C428.721 566.057 599.221 568.057 599.221 568.057V5.55713C599.221 5.55713 500.221 -6.94641 466.721 5.55713C433.221 18.0607 413.221 48.0571 340.721 85.0571C268.221 122.057 192.221 46.5571 105.721 52.5571C19.2207 58.5571 -39.2793 117.057 31.7207 206.057C102.721 295.057 296.721 244.557 326.721 307.557C356.721 370.557 264.721 360.557 261.221 425.057C257.721 489.557 310.721 525.057 369.721 545.557Z" />
             </svg>
-            <section className="container nibVideo">
-                <p>Want to see some of our members’ favorite memories in NIB? Watch this video!</p>
-                <iframe title="Net Impact Video" width="840" height="472" src="https://www.youtube.com/embed/of6Uh9WxdyA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </section>
             <svg className="splashWave wave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" />
             </svg>
@@ -59,6 +90,8 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Executive Board</h2>
+                    {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
+                    {/* move Modal to end to cover whole page*/}
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>

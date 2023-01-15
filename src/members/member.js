@@ -1,9 +1,11 @@
 import './member.scss';
 import linkedInImage from '../img/linkedin.png';
 
-const Member = ({isExec, name, image, sillyImage, title, linkedin}) => {
+const Member = ({person, isExec, handleClick}) => {
+  const {name, image, sillyImage, title, linkedin} = person;
+  
   return (
-    <div className={isExec ? "memberProfile execProfile" : "memberProfile"}>
+    <div onClick={() => {handleClick(person)}} className={isExec ? "memberProfile execProfile" : "memberProfile"}>
       <img src={image} className="memberImage" alt={name} />
       <img src={sillyImage} className="memberSillyImage" alt={name} />
       <div className="name">
