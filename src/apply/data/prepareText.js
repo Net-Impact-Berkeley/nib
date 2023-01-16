@@ -1,5 +1,4 @@
-let prepareTypeInfo = [
-    {
+let prepareTypeInfo = [{
         img: require('../img/prepareSection/attend.svg'),
         alt: "Icon of a person behind a screen",
         title: "Attend a Net Impact Event",
@@ -9,7 +8,7 @@ let prepareTypeInfo = [
         img: require('../img/prepareSection/meet.svg'),
         alt: "Icon of 2 chat bubbles",
         title: "Take Initiative, Reach Out!",
-        description: "We're on Zoom during the day from January 19th to 23rd. Ask our members about their experiences and time in NIB!"
+        description: "We're tabling during the day from January 17th to 26th. Ask our members about their experiences and time in NIB!"
     },
     {
         img: require('../img/prepareSection/case.svg'),
