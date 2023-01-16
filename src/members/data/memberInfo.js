@@ -1,59 +1,65 @@
 let memberInfo = {
     execList: [
         {
-            name: 'Heather Yuan',
+            name: 'Brandon Qin',
             title: 'President',
             bio: [
-                "Hello! My name is Heather Yuan, and I'm a junior from Seattle studying Computer Science and Business. I joined Net Impact during the fall of my sophomore year and will be a Senior Associate this semester. In past projects, I've worked with a sustainable apparel company to optimize their ESG strategy as well as an international girl's education non-profit to help boost their revenue by monetizing their curriculum offerings.", 
-                "I'm interested in entering the tech space as either a software engineer or product manager, but, growing up as a dancer, my heart still hopes to connect back to the entertainment industry somehow. In my free time, I love dancing, cooking, and lifting. Please feel free to reach out to chat about anything (I coffee chatted way too many members to count when I applied so, really, don't be afraid to talk to me)! I'm super excited to meet you all!! :)"
+                "Hey I’m Brandon, and I'm a senior studying Business, Data Science, and Entrepreneurship. I joined NIB my freshman fall semester so NIB has been my first, oldest, and favorite family on campus. There's really no other organization that invigorates the same warmness, closeness, and love that exists here at NIB. I can't speak enough about how much this club as given me personally, professionally, and beyond, and it's a honor and pleasure to be able to give back and have you potentially join our family here :). I'm passionate about education accessibility, having lived and worked in Nepal with elementary schools there previous to coming into Berkeley, and continuing that passion through working with clients like GoDaddy, Riot Games, and Salesforce here in NIB. ", 
+                "Outside of NIB I direct choreography for an all-male hip hop and bhangra fusion dance team on campus called UCB Zahanat, served as the president for the Collegiate Business Association, and served as the national president for Product Space. In my free time, I enjoy making Spotify playlists, cooking good food, studying poker strategy, and learning new songs (painfully) on my electric guitar!"
             ],
-            linkedin: 'https://www.linkedin.com/in/alexander-manes/',
-            calendly: "https://www.youtube.com/",
+            linkedin: 'https://www.linkedin.com/in/brandonqin/',
             image: require('../img/individuals/alex.png'),
-            sillyImage: require('../img/fun/alex.png'),
+            sillyImage: require('../img/funny/brandon.png'),
             isDM: true
         },
         {
-            name: 'David Kwon',
+            name: 'Tobin Thannickal',
             title: 'VP Finance & Operations',
             bio: [
-                "Hey! I'm Suraj, a senior studying Computer Science & Business. I joined Net Impact Spring 2021 and will be a Project Manager this semester. I've already been able to work on 4 impactful projects––international grant-making, electric vehicle charging, and healthcare impact spending programs.",
-                "In my free time, you'll fin me in the gym, learning about cars, or trying to save my investment portfolio. If you'd like to chat, feel free to reach out :)"
+                "Hey! My name is Tobin, and I’m a junior studying Business Administration. I joined Net Impact my sophomore spring, and they weren’t lying when they said nibfam is the best fam.",
+                "This past summer, I worked at a software focused private equity firm called Diversis Capital, and I am interested in pursuing a career in finance. I’m originally from Los Angeles so always been a fan of the Lakers, hot chicken, and thrifting. Feel free to add some time on Calendly."
             ],
-            linkedin: 'https://www.linkedin.com/in/daviddkwon/',
-            calendly: "https://www.youtube.com/",
+            linkedin: 'https://www.linkedin.com/in/tobin-thannickal',
             image: require('../img/individuals/david.png'),
-            sillyImage: require('../img/fun/david.png'),
+            sillyImage: require('../img/fun/tobin.jpg'),
             isDM: true
         },
         {
-            name: 'Aanika Shah',
+            name: 'Varun Nair',
             title: 'VP Associate Development',
-            bio: [],
-            linkedin: 'https://www.linkedin.com/in/aanika-shah/',
-            calendly: "https://www.youtube.com/",
+            bio: [
+                "Hey! I'm Varun, an international student who is a junior studying EECS. I joined Net Impact spring of my freshman year. In the past, I've worked on diversifying sustainable products for AutoDesk, developed ways to reduce systemic inequality for energy in California, created market entry strategies and distribution channels for a girls education non-profit and led my own project aiding the largest renewable energy developers in North America to create a financial model to ease their land leasing process.",
+                "I'm interested in renewable energy, education and technology. In the past I've worked at several start-ups as an operations lead, software engineer, and UI/UX designer and see myself exploring entrepreneurship or VC as a career path in the near future  In my free time I love to read about start-ups and tech, travel, sing, watch Netflix and follow F1. Feel free to reach out to chat about anything! :)"
+
+            ],
+            linkedin: 'https://www.linkedin.com/in/varun-nair-berkeley/',
             image: require('../img/individuals/aanika.png'),
-            sillyImage: require('../img/fun/aanika.png'),
+            sillyImage: require('../img/fun/varun.JPG'),
             isDM: true
         },
         {
-            name: 'Edward Yang',
+            name: 'Kavi Dolasia',
             title: 'VP External Affairs',
-            bio: [],
-            linkedin: 'https://www.linkedin.com/in/edwardryang/',
-            calendly: "https://www.youtube.com/",
+            bio: [
+                "Hi! I’m Kavi and I’m a junior studying Business and Economics. I joined Net Impact Berkeley during my Freshman Spring and it has been the best decision I’ve made in college!",
+                "In the past, I have worked with Salesforce on impact management and evaluation, as well as a Canadian apparel company on pre-IPO ESG strategies. This past semester, I led a project with the Bill & Melinda Gates Foundation focused on global health product procurement in Sub-Saharan Africa. I will be pursuing a career in finance in the future.",
+                "Please feel free to message me for any questions about Net Impact Berkeley or the recruitment process!"
+        ],
+            linkedin: 'https://www.linkedin.com/in/kavidolasia/',
             image: require('../img/individuals/edward.png'),
-            sillyImage: require('../img/fun/edward.png'),
+            sillyImage: require('../img/fun/kavi.jpg'),
             isDM: true
         },
         {
-            name: 'Adam Ng',
-            title: 'Co-VP Consulting',
-            bio: [],
-            linkedin: 'https://www.linkedin.com/in/adamngberkeley/',
-            calendly: "https://www.youtube.com/",
+            name: 'Stuti Upadhyay',
+            title: 'VP Consulting',
+            bio: [
+                "Hello! My name is Stuti, and I'm a junior studying Public Health and Business Administration with a minor in Data Science. I first joined NIB in my fall semester of Freshman year, and this is my sixth semester in the club. In the past, I've worked and led projects related to refugees, electrification, education technology, and healthcare.",
+                "This past summer, I worked at Roche as a PM Intern. Previously, I've worked in various other pharma and healthcare startup companies. I'd love to talk about soccer/running, TV shows (Ted Lasso, Pysch, Brooklyn 99, most things on Netflix), healthcare, women's empowerment, and having no cool hobbies. Looking forward to meeting you!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/stuti-upadhyay',
             image: require('../img/individuals/adam.png'),
-            sillyImage: require('../img/fun/adam.png'),
+            sillyImage: require('../img/fun/stuti.png'),
             isDM: true
         },
     ],
