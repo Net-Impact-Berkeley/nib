@@ -84,6 +84,7 @@ const Members = () => {
             </svg>
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
+                <h4 className='description'>Click on our members to learn more and set up a time to coffee chat!</h4>
                 <section className= "showOnMobile tapQueue">
                     <section className= "abiTest">
                         <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>
@@ -95,7 +96,6 @@ const Members = () => {
                     <h2>Project Managers</h2>
                     <div>{pmList}</div>
                     <h2>Members</h2>
-                    <p>Schedule a coffee chat with our members through their Calendly link!</p>
                     <div>{memberList}</div>
                 </section>
             </section>
