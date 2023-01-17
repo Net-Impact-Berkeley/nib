@@ -21,7 +21,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/tobin-thannickal',
             image: require('../img/individuals/david.png'),
-            sillyImage: require('../img/fun/tobin.jpg'),
+            sillyImage: require('../img/funny/tobin.jpg'),
             isDM: true
         },
         {
@@ -34,7 +34,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/varun-nair-berkeley/',
             image: require('../img/individuals/aanika.png'),
-            sillyImage: require('../img/fun/varun.JPG'),
+            sillyImage: require('../img/funny/varun.JPG'),
             isDM: true
         },
         {
@@ -47,7 +47,7 @@ let memberInfo = {
         ],
             linkedin: 'https://www.linkedin.com/in/kavidolasia/',
             image: require('../img/individuals/edward.png'),
-            sillyImage: require('../img/fun/kavi.jpg'),
+            sillyImage: require('../img/funny/kavi.jpg'),
             isDM: true
         },
         {
@@ -59,7 +59,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/stuti-upadhyay',
             image: require('../img/individuals/adam.png'),
-            sillyImage: require('../img/fun/stuti.png'),
+            sillyImage: require('../img/funny/stuti.png'),
             isDM: true
         },
     ],
