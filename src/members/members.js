@@ -85,6 +85,7 @@ const Members = () => {
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
                 <h4 className='description'>Click on our members to learn more and set up a time to coffee chat!</h4>
+                <h4 className='description'>Please limit to 3 coffee chats.</h4>
                 <section className= "showOnMobile tapQueue">
                     <section className= "abiTest">
                         <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>
@@ -93,9 +94,8 @@ const Members = () => {
                 <section className="container">
                     <h2>Executive Board</h2>
                     <div>{execList}</div>
-                    <h2>Project Managers</h2>
-                    <div>{pmList}</div>
                     <h2>Members</h2>
+                    <div>{pmList}</div>
                     <div>{memberList}</div>
                 </section>
             </section>
