@@ -5,10 +5,10 @@ import 'home/home.scss';
 import 'projects/projects.scss';
 
 import nibLogo from 'img/nib-logo-new.png';
-import heroBlob1 from './img/shapes/blob1.png';
-import heroBlob2 from './img/shapes/blob2.png';
-import secondSection1 from './img/hillpic.png';
-import secondSection2 from './img/niblets.png';
+import heroBlob1 from './img/shapes/beach.png';
+import heroBlob2 from './img/shapes/group.png';
+import secondSection1 from './img/exec.png';
+import secondSection2 from './img/railroad.png';
 import membersSectionImage from './img/whoarewe.png';
 import SpectrumSection from './spectrumSection';
 import pastClients from './data/pastClientsHighlights';
@@ -38,8 +38,8 @@ const Home = () => {
                     <path d="M89.6851 32.0176C93.2985 41.7664 81.203 57.1611 65.3926 66.226C49.4787 75.321 29.9208 77.9597 17.5121 70.9377C5.10338 63.9157 0.0150779 47.236 0.413986 32.1847C0.916331 17.1033 6.9738 3.68343 15.7691 0.956559C24.5289 -1.70698 35.9586 6.28935 51.3346 12.3391C66.7462 18.3254 86.0361 22.3321 89.6851 32.0176Z" />
                 </svg>
 
-                <img src={heroBlob1} className="seniors" alt="NIB seniors relaxing on a hill" />
-                <img src={heroBlob2} className="hideOnMobile emgajen" alt="3 NIB members posing" />
+                <img src={heroBlob1} className="beach" alt="NIB members chilling on the beach" />
+                <img src={heroBlob2} className="hideOnMobile group" alt="NIB members posing" />
             </div>
         </section>
         <svg className="wave" viewBox="0 0 1440 195" xmlns="http://www.fw3.org/2000/svg">
@@ -60,8 +60,8 @@ const Home = () => {
                     <path d="M145.25 82.5374C141.263 98.6358 127.069 109.343 113.339 122.396C99.542 135.4 86.1404 150.7 72.3693 150.659C58.7165 150.601 44.6437 135.269 34.4311 117.019C24.2185 98.7687 17.8833 77.7183 26.4059 69.1078C34.8608 60.4468 58.2412 64.2762 79.2265 58.7354C100.161 53.2623 118.633 38.3686 130.894 41.7093C143.205 44.9822 149.356 66.4218 145.25 82.5374Z" />
                 </svg>
 
-                <img src={secondSection1} className="niblets" alt="Young NIB members" />
-                <img src={secondSection2} className="hillpic" alt="NIB members chilling on a hill" />
+                <img src={secondSection1} className="exec" alt="Fall 2022 Exec" />
+                <img src={secondSection2} className="railroad" alt="NIB members posing on a railroad" />
             </div>
             <div className="container">
                 <div></div>
