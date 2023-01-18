@@ -5,7 +5,7 @@
 
 let Timeline = [{
         date: "January 17th - 26th, 10am - 5pm PST",
-        title: "Virtual Tabling",
+        title: "Tabling",
         description: "Drop by Sproul and Memorial Glade to learn more about our people, projects, and impact! Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
         link: "#",
     },
@@ -13,7 +13,7 @@ let Timeline = [{
         date: "January 17th - 26th, 8am - 6pm PST",
         title: "Coffee Chats",
         description: "Sign up for a 20 minute chat with one of our members anytime to meet someone from our community.",
-        link: "#https://nib.berkeley.edu/members",
+        link: "https://nib.berkeley.edu/members",
         linkText: "Meet our Members",
     },
     {
@@ -25,8 +25,6 @@ let Timeline = [{
         date: "Wednesday, January 25, 8-10 PM PST",
         title: "Info Session #2 + Case Workshop",
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
-        link: "https://youtu.be/PL09CWYrjsA",
-        linkText: "Zoom Recording",
     },
     {
         date: "Thursday, January 26, 8-10 PM PST",
@@ -35,9 +33,9 @@ let Timeline = [{
     },
     {
         date: "Friday, January 27, 1 PM PST",
-        title: "Applications Due!",
+        title: "Applications Due",
         description: "Our application consists of a resume drop and a few short answer questions. Please submit your application by 1 PM on Friday if you'd like to apply!",
-        link: "#https://airtable.com/shrVUgAG7OtyduOd2",
+        link: "https://airtable.com/shrVUgAG7OtyduOd2",
         linkText: "Application"
     },
     {
