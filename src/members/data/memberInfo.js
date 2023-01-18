@@ -455,8 +455,6 @@ let memberInfo = {
             image: require('../img/prof/eshan.png'),
             isDM: false
         },
-l
-
     ]
 } 
 
