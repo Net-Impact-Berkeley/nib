@@ -151,7 +151,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/edwardtak012/',
             calendly: "https://calendly.com/etak/coffee-chats",
             image: require('../img/prof/eddie.jpg'),
-            sillyImage: require('../img/funny/edward.png'),
+            sillyImage: require('../img/funny/eddy.png'),
             isDM: false
         },
         {
@@ -455,8 +455,6 @@ let memberInfo = {
             image: require('../img/prof/eshan.jpg'),
             isDM: false
         },
-l
-
     ]
 } 
 
