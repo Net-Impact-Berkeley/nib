@@ -144,8 +144,8 @@ const Apply = () => {
                <img src={require("./img/timelinePhotos/photo4.jpg")} alt="" />
                <img src={require("./img/timelinePhotos/photo5.jpg")} alt="" />
                <img src={require("./img/timelinePhotos/photo6.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo9.png")} alt="" />
-               <img src={require("./img/timelinePhotos/photo8.png")} alt="" />
+               <img src={require("./img/timelinePhotos/photo9.JPG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo8.jpg")} alt="" />
            </div>
            <div className="timelineContainer">
                <ul className="timeline">
