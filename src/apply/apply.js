@@ -75,17 +75,17 @@ const Apply = () => {
                    <Arrow />
                    <div className="item">
                        <img src={chat} alt="chat icon" />
-                       <h4>Virtual Tabling</h4>
-                       <p>Tuesday, 1/19 - Saturday, 1/23</p>
+                       <h4>Tabling</h4>
+                       <p>Tuesday, 1/17 - Thursday, 1/26</p>
                        <ul>
-                           <li>From January 19 - 23 anytime 10am-5pm, come say hi on Zoom!</li>
+                           <li>From January 17 - 26 anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
                            <li>Sign up for a 1:1 with a NIB member sometime January 25th - 28th.</li>
                        </ul>
                    </div>
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 1/26 - Thursday, 1/28</p>
+                       <p>Tuesday, 1/24 - Thursday, 1/26</p>
                        <ul>
                            <li>Tuesday: Infosession #1</li>
                            <li>Wednesday: Infosession #2 + Case Workshop</li>
@@ -95,10 +95,10 @@ const Apply = () => {
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 1/29 - Tuesday 2/2</p>
+                       <p>Friday 1/27 - Tuesday 1/31</p>
                        <ul>
-                           <li>Apps are due at NOON on January 29th.</li>
-                           {/* Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a> */}
+                           <li>Apps are due at 1PM on January 27th.</li>
+                           Apply <a className="underline-magical" href="https://airtable.com/shrVUgAG7OtyduOd2" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
@@ -139,7 +139,7 @@ const Apply = () => {
            <h1>Timeline</h1>
            <div className="timelinePhotos">
                <img src={require("./img/timelinePhotos/photo1.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo2.jpg")} alt="" />
+               {/* <img src={require("./img/timelinePhotos/photo2.jpg")} alt="" /> */}
                <img src={require("./img/timelinePhotos/photo3.jpg")} alt="" />
                <img src={require("./img/timelinePhotos/photo4.jpg")} alt="" />
                <img src={require("./img/timelinePhotos/photo5.jpg")} alt="" />
