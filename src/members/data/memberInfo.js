@@ -367,6 +367,31 @@ let memberInfo = {
             isDM: false
         },
         {
+            name: 'Laeticia Yang',
+            title: 'Senior Advisor',
+            bio: [
+                'Hey everyone! My name is Laeticia, and I\'m a senior studying Data Science & Business Administration. I joined Net Impact my sophomore fall semester and have since been able to do some incredibly impactful work and meet some of my favorite people in the world. I\'ve gotten the chance to work on projects ranging from the intersection of girls education and climate change to corporate social impact initiatives. In my free time, I love playing ukulele, painting, exploring nature (I really love redwood trees), and going to great lengths to see a pretty view. I also laugh at pretty much everything so if you ever want to feel good about being funny, come chat with me! Super excited to meet you all!',
+            ],
+            linkedin: 'https://www.linkedin.com/in/laeticia-yang/',
+            calendly: "https://calendly.com/laeticiayang/nib-coffee-chat",
+            image: require('../img/prof/laeticia.png'),
+            sillyImage: require('../img/funny/laeticia.png'),
+            isDM: false
+        },
+        {
+            name: 'Matthew Kang',
+            title: 'Senior Advisor',
+            bio: [
+                'Hi everyone! My name is Matthew, and I\'m a junior studying Mechanical Engineering and Business. I first joined NIB during my Freshman spring semester, and have worked on projects that span ESG analysis, education technology, and product strategy serving underprivileged communities.',
+                'During my free time, I’m always looking for new things to do. I enjoy competing in Spartan races, listening to indie artists, and enduring the pain of being a Knicks fan. If you ever want to learn more about my experience in NIB, why I get hives in the ocean, or just want to chat feel free to reach out.'
+            ],
+            linkedin: 'https://www.linkedin.com/in/mattkangg/',
+            calendly: "https://calendly.com/mattkangg/15min",
+            image: require('../img/prof/matt.png'),
+            sillyImage: require('../img/funny/matt.png'),
+            isDM: false
+        },
+        {
             name: 'Sejal Goel',
             title: 'Senior Advisor',
             bio: [
