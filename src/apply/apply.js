@@ -129,8 +129,25 @@ const Apply = () => {
                        buttonText="Case Interview Demo"
                        external
                    />
+                   <Button
+                       link="https://www.netimpactberkeley.org/_files/ugd/7349c5_aed0f4abfbcf4fb48d4b9763d25aa028.pdf"
+                       buttonText="Case in Point Guide"
+                       external
+                   />
+                   <Button
+                       link="https://www.netimpactberkeley.org/_files/ugd/7349c5_36e1153ac96449fd9e1dce237df545c4.pdf"
+                       buttonText="MBB Case Book"
+                       external
+                   />
                </div>
            </section>
+           {/* <div className='caseDemo'>
+                <div>
+                    <h1>Case Demonstration</h1>
+                    <p>Watch this case interview demonstration from our VP of Consulting, Evan Mallah, to see how our interview case process works. </p>
+                </div>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> 
+           </div> */}
        </section>
        <svg className="endWave" viewBox="0 0 1440 264" fill="none" xmlns="http://www.w3.org/2000/svg">
            <path d="M1440 264V0.0714111H-1C-1 0.0714111 1440 0.0714111 1440 264Z" />
