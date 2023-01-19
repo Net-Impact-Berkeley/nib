@@ -4,6 +4,7 @@ import TimelineItem from './TimelineItem';
 import Timeline from './data/timeline';
 import prepareTypeInfo from './data/prepareText';
 import ProjectType from '../components/ProjectType';
+import CallToAction from 'components/callToAction';
 
 
 import blob1 from './img/shapes/photo1.png';
@@ -79,7 +80,8 @@ const Apply = () => {
                        <p>Tuesday, 1/17 - Thursday, 1/26</p>
                        <ul>
                            <li>From January 17 - 26 anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
-                           <li>Sign up for a 1:1 with a NIB member sometime January 25th - 28th.</li>
+                           {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
+                           <li>Fill out our <a className="underline-magical" href="https://airtable.com/shr4rHfs2zBGWg4Lm" target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
                    </div>
                    <div className="item">
@@ -97,7 +99,7 @@ const Apply = () => {
                        <h4>Applications and Interviews</h4>
                        <p>Friday 1/27 - Tuesday 1/31</p>
                        <ul>
-                           <li>Apps are due at 1PM on January 27th.</li>
+                           <li>Applications are due at 1PM on January 27th.</li>
                            Apply <a className="underline-magical" href="https://airtable.com/shrVUgAG7OtyduOd2" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
@@ -156,8 +158,9 @@ const Apply = () => {
            </div>
        </section>
 
+       <CallToAction />
 
-       <section>
+       {/* <section>
            <svg viewBox="0 0 1440 239" fill="none" xmlns="http://www.w3.org/2000/svg" className="wave">
                <path d="M692.426 116.5C486.926 116.5 -2.07446 238.5 -2.07446 238.5H1440.93V0C1440.93 0 1408.43 183.5 1193.93 184.5C979.426 185.5 897.926 116.5 692.426 116.5Z" />
            </svg>
@@ -165,13 +168,13 @@ const Apply = () => {
                <div>
                    <h1>Ready to Join?</h1>
                    <Button
-                       link="https://airtable.com/shrygabTd2yQDaYfc"
+                       link="https://nib.berkeley.edu/apply"
                        buttonText="Interest Form"
                        external
                    />
                </div>
            </div>
-       </section>
+       </section> */}
    </section>
    );
 }
