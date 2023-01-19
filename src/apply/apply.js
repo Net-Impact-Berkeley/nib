@@ -21,8 +21,8 @@ import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
-   const interestForm = "https://airtable.com/shrygabTd2yQDaYfc";
-   const application = "https://airtable.com/shrWJ8NytLr5XGWWQ";
+   const interestForm = "https://airtable.com/shr4rHfs2zBGWg4Lm";
+   const application = "https://airtable.com/shrVUgAG7OtyduOd2";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -39,17 +39,17 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Interested in applying to Net Impact? Our application period is over for the semester, but feel free to look around to see what applying has looked like in the past!</p>
-                   {/* <Button
-                       link={this.interestForm}
+                   {/* <p>Interested in applying to Net Impact? Our application period is over for the semester, but feel free to look around to see what applying has looked like in the past!</p> */}
+                   <Button
+                       link={interestForm}
                        buttonText="Interest Form"
                        external
-                   /> */}
-                   {/* <Button
-                       link={this.application}
+                   />
+                   <Button
+                       link={application}
                        buttonText="Application"
                        external
-                   /> */}
+                   />
                </div>
            </div>
            <div className="right hideOnMobile">
