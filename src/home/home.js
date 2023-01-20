@@ -38,7 +38,7 @@ const Home = () => {
                     <path d="M89.6851 32.0176C93.2985 41.7664 81.203 57.1611 65.3926 66.226C49.4787 75.321 29.9208 77.9597 17.5121 70.9377C5.10338 63.9157 0.0150779 47.236 0.413986 32.1847C0.916331 17.1033 6.9738 3.68343 15.7691 0.956559C24.5289 -1.70698 35.9586 6.28935 51.3346 12.3391C66.7462 18.3254 86.0361 22.3321 89.6851 32.0176Z" />
                 </svg>
 
-                <img src={heroBlob1} className="googie" alt="NIB members doing the googie" />
+                <img src={heroBlob1} className="hideOnMobile googie" alt="NIB members doing the googie" />
                 <img src={heroBlob2} className="hideOnMobile group" alt="NIB members posing" />
             </div>
         </section>
