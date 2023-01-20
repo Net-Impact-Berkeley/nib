@@ -269,7 +269,7 @@ let memberInfo = {
 
             ],
             linkedin: 'https://www.linkedin.com/in/alexisrwright/',
-            calendly: "https://calendly.com/madelync-1/nib-coffee-chats",
+            calendly: "https://calendly.com/alexisrwright/nib-coffee-chats",
             image: require('../img/prof/alexis.png'),
             sillyImage: require('../img/funny/alexis.png'),
             isDM: false
