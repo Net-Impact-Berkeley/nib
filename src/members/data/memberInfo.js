@@ -282,7 +282,7 @@ let memberInfo = {
                 'In my free time I enjoy reading, playing sims, hiking (any good local hiking place recommendations?), listening to like every genre of music that exists, and playing tennis. Excited to meet everyone at recruitment!'
 
             ],
-            linkedin: 'www.linkedin.com/in/madelynchristensen',
+            linkedin: 'https://www.linkedin.com/in/madelynchristensen',
             calendly: "https://calendly.com/madelync-1/nib-coffee-chats",
             image: require('../img/prof/maddy.png'),
             sillyImage: require('../img/funny/maddy.png'),
@@ -412,7 +412,7 @@ let memberInfo = {
                 'Outside of NIB I love singing and cooking, and I am currently involved in research on campus. I cannot wait to meet you all at our recruitment events this coming semester!'
             ],
             linkedin: 'https://www.linkedin.com/in/quinn-guenther/',
-            calendly: "calendly.com/quinn-guenther-23/",
+            calendly: "https://calendly.com/quinn-guenther-23/",
             image: require('../img/prof/quinn.png'),
             sillyImage: require('../img/funny/quinn.png'),
             isDM: false
