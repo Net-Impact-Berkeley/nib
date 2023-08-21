@@ -114,6 +114,8 @@ const Apply = () => {
                    })}
                </div>
                <div className="resources">
+                   <h4><b>Recruitment Resources</b></h4>
+                   <p>New to consulting? Click through our recruitment resources below to get started</p>
                    <Button
                        link="/nib-app-checklist.pdf"
                        buttonText="Recruiting Tips"
