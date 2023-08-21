@@ -15,11 +15,7 @@ let AlumniCompanies =
         href: 'https://www.bcg.com/',
         fileName: 'bcg.png'
     },
-    {
-        name: 'Apple',
-        href: 'https://www.apple.com/',
-        fileName: 'apple.png'
-    },
+    
     {
         name: 'Deloitte',
         href: 'https://www2.deloitte.com/us/en.html',
@@ -31,19 +27,39 @@ let AlumniCompanies =
         fileName: 'pwc.png'
     },
     {
+        name: 'EY Parthenon',
+        href: 'https://www.ey.com/en_us/strategy/about-ey-parthenon',
+        fileName: 'eyp.png'
+    },
+    {
+        name: 'Apple',
+        href: 'https://www.apple.com/',
+        fileName: 'apple.png'
+    },
+    {
         name: 'Google',
         href: 'https://www.google.com/',
         fileName: 'google.png'
     },
     {
-        name: 'Facebook',
-        href: 'https://www.facebook.com/',
-        fileName: 'fb.png'
+        name: 'Meta',
+        href: 'https://about.meta.com/',
+        fileName: 'meta.png'
+    },
+    {
+        name: 'Salesforce',
+        href: 'https://www.salesforce.com/',
+        fileName: 'salesforce.png'
     },
     {
         name: 'LinkedIn',
         href: 'https://www.linkedin.com/',
         fileName: 'linkedin.png'
+    },
+    {
+        name: 'Amazon',
+        href: 'https://www.amazon.com/',
+        fileName: 'amazon.png'
     },
     {
         name: 'AirBnB',
@@ -56,9 +72,9 @@ let AlumniCompanies =
         fileName: 'slack.png'
     },
     {
-        name: 'Coursera',
-        href: 'https://www.coursera.org/',
-        fileName: 'coursera.png'
+        name: 'Scale',
+        href: 'https://scale.com/',
+        fileName: 'scale.png'
     },
     {
         name: 'Robinhood',
@@ -70,6 +86,16 @@ let AlumniCompanies =
         href: 'https://www.lyft.com/',
         fileName: 'lyft.png'
     },
+    {
+        name: 'Uber',
+        href: 'http://www.uber.com/',
+        fileName: 'uber.png'
+    },
+    {
+        name: 'Figma',
+        href: 'https://www.figma.com/',
+        fileName: 'figma.png'
+    },  
     {
         name: 'Tesla',
         href: 'https://www.tesla.com/',
@@ -91,6 +117,41 @@ let AlumniCompanies =
         fileName: 'tfa.png'
     },
     {
+        name: 'REDF',
+        href: 'http://www.redf.org/',
+        fileName: 'redf.png'
+    },
+    {
+        name: 'Blackstone',
+        href: 'https://www.blackstone.com/',
+        fileName: 'blackstone.png'
+    },
+    {
+        name: 'Goldman Sachs',
+        href: 'https://www.goldmansachs.com/',
+        fileName: 'goldman.png'
+    },
+    {
+        name: 'JP Morgan & Chase',
+        href: 'https://www.jpmorganchase.com/',
+        fileName: 'jp.png'
+    },
+    {
+        name: 'KKR',
+        href: 'https://www.kkr.com/',
+        fileName: 'kkr.png'
+    },
+    {
+        name: 'Centerview',
+        href: 'http://www.centerviewpartners.com/',
+        fileName: 'centerview1.png'
+    },
+    {
+        name: 'NASA',
+        href: 'https://www.nasa.gov/',
+        fileName: 'nasa.png'
+    },
+    {
         name: 'Harvard Business School',
         href: 'https://www.hbs.edu/Pages/default.aspx',
         fileName: 'hbs.png'
@@ -101,55 +162,27 @@ let AlumniCompanies =
         fileName: 'stanford.png'
     },
     {
-        name: 'UC San Francisco',
-        href: 'https://www.ucsf.edu/',
-        fileName: 'ucsf.png'
-    },
-    {
-        name: 'MasterClass',
-        href: 'https://www.masterclass.com/',
-        fileName: 'masterclass.png'
-    },
-    {
         name: 'Wharton',
         href: 'https://www.wharton.upenn.edu/',
         fileName: 'wharton.png'
     },
     {
-        name: 'NASA',
-        href: 'https://www.nasa.gov/',
-        fileName: 'nasa.png'
-    },
-    {
-        name: 'KKR',
-        href: 'https://www.kkr.com/',
-        fileName: 'kkr.png'
-    },
-    {
-        name: 'Oxford',
-        href: 'http://www.ox.ac.uk/',
-        fileName: 'oxford.png'
-    },
-    {
-        name: 'Centerview',
-        href: 'http://www.centerviewpartners.com/',
-        fileName: 'centerview1.png'
-    },
-    {
-        name: 'REDF',
-        href: 'http://www.redf.org/',
-        fileName: 'redf.png'
-    },
-    {
-        name: 'Uber',
-        href: 'http://www.uber.com/',
-        fileName: 'uber.png'
-    },
-    {
         name: 'Cambridge',
         href: 'https://www.cam.ac.uk/',
         fileName: 'cambridge.png'
-    }
+    },
+    {
+        name: 'Columbia Law',
+        href: 'http://www.ox.ac.uk/',
+        fileName: 'col_law.png'
+    },
+    {
+        name: 'UC San Francisco',
+        href: 'https://www.ucsf.edu/',
+        fileName: 'ucsf.png'
+    },
+    
+    
 ];
 
 export default AlumniCompanies;
