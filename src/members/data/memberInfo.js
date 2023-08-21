@@ -244,19 +244,19 @@ let memberInfo = {
             linkedin: 'http://linkedin.com/in/pranit-jain/',
             calendly: "https://calendly.com/pranitjain",
             image: require('../img/prof/pranit.png'),
-            sillyImage: require('../img/funny/logo.png'),
+            sillyImage: require('../img/funny/pranit.png'),
             isDM: false
         },
         {
-            name: 'Viviana Mercado', // Photos need to be added
+            name: 'Viviana Mercado', 
             title: 'Associate',
             bio: [
                 "Hi! I'm Viviana and I'm a junior from Long Beach, studying MCB. I joined NIB spring of my sophomore year and was able to work with Stryker on my first project where we conducted market research and optimized CSR practices in the med-tech industry. I am pre med and interested in the intersection of medicine and business so feel free to ask me about how NIB has helped me explore this niche!! Outside of NIB I love books, podcasts, fashion, anything neuroscience related, and yoga + running."
             ],
             linkedin: 'https://www.linkedin.com/in/vivianamerc',
             calendly: "https://calendly.com/vivianamercado/viviana-mercado-calendly",
-            image: require('../img/prof/logo.png'),
-            sillyImage: require('../img/funny/logo.png'),
+            image: require('../img/prof/viviana.png'),
+            sillyImage: require('../img/funny/viviana.png'),
             isDM: false
         },
         {
