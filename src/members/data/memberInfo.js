@@ -286,14 +286,14 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'Stuti Upadhyay', // Fa 23 Form needs to be submitted
+            name: 'Stuti Upadhyay', 
             title: 'Senior Advisor',
             bio: [
                 "Hello! My name is Stuti, and I'm a junior studying Public Health and Business Administration with a minor in Data Science. I first joined NIB in my fall semester of Freshman year, and this is my sixth semester in the club. In the past, I've worked and led projects related to refugees, electrification, education technology, and healthcare.",
                 "This past summer, I worked at Roche as a PM Intern. Previously, I've worked in various other pharma and healthcare startup companies. I'd love to talk about soccer/running, TV shows (Ted Lasso, Pysch, Brooklyn 99, most things on Netflix), healthcare, women's empowerment, and having no cool hobbies. Looking forward to meeting you!"
             ],
-            linkedin: '[LINKEDIN LINK]',
-            calendly: "[CALENDLY LINK]",
+            linkedin: 'https://www.linkedin.com/in/stuti-upadhyay/',
+            calendly: "https://calendly.com/stuti-j-upadhyay",
             image: require('../img/prof/stuti.png'),
             sillyImage: require('../img/funny/stuti.png'),
             isDM: false

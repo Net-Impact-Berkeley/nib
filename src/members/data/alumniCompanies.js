@@ -173,7 +173,7 @@ let AlumniCompanies =
     },
     {
         name: 'Columbia Law',
-        href: 'http://www.ox.ac.uk/',
+        href: 'https://www.law.columbia.edu/',
         fileName: 'col_law.png'
     },
     {
