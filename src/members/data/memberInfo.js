@@ -324,15 +324,15 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'Kavi Dolasia', // Fa 23 Form needs to be submitted
+            name: 'Kavi Dolasia', 
             title: 'Senior Advisor',
             bio: [
                 "Hi! I’m Kavi and I’m a junior studying Business and Economics. I joined Net Impact Berkeley during my Freshman Spring and it has been the best decision I’ve made in college!",
                 "In the past, I have worked with Salesforce on impact management and evaluation, as well as a Canadian apparel company on pre-IPO ESG strategies. This past semester, I led a project with the Bill & Melinda Gates Foundation focused on global health product procurement in Sub-Saharan Africa. I will be pursuing a career in finance in the future.",
                 "Please feel free to message me for any questions about Net Impact Berkeley or the recruitment process!"
             ],
-            linkedin: '[LINKEDIN LINK]',
-            calendly: "[CALENDLY LINK]",
+            linkedin: 'https://www.linkedin.com/in/kavidolasia/',
+            calendly: "https://calendly.com/kdolasia/kavi-nib-coffee-chat?month=2023-08",
             image: require('../img/prof/kavi.png'),
             sillyImage: require('../img/funny/kavi.png'),
             isDM: false
@@ -376,27 +376,27 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'Tobin Thannickal', // Calendly Link needs to be updated, does not work
+            name: 'Tobin Thannickal', 
             title: 'Senior Advisor',
             bio: [
                 "Hey! My name is Tobin, and I’m a senior studying Business Administration. I joined Net Impact my sophomore spring, and they weren’t lying when they said nibfam is the best fam.",
                 "This past summer, I worked as an Investment Banking Summer Analyst at Morgan Stanley, and previously at a software focused private equity firm called Diversis Capital. I’m originally from Los Angeles so always been a fan of the Lakers, hot chicken, and thrifting. Feel free to add some time on my Calendly."
             ],
             linkedin: 'https://www.linkedin.com/in/tobin-thannickal',
-            calendly: "calendly.com/tobinthannickal/nib-coffee-chats",
+            calendly: "https://calendly.com/tobinthannickal/nib-coffee-chats",
             image: require('../img/prof/tobin.png'),
             sillyImage: require('../img/funny/tobin.png'),
             isDM: false
         },
         {
-            name: 'Ojasvi Saxena', // Fa 23 Form needs to be submitted
+            name: 'Ojasvi Saxena', 
             title: 'Senior Advisor',
             bio: [
                 "Hi everyone! My name’s Ojasvi, and I’m a junior from Chicago studying Data Science, Economics, and American Studies! Joining NIB has been easily the best decision I‘ve made at Berkeley - I’ve met some of my best friends and learned a ton because of the club. Within NIB, I’ve worked on a large fashion company’s sustainability strategy, and competitive pricing analysis for a renewable energy developer.",
                 "In my free time, I love listening to music, especially exploring new genres and artists I haven’t heard before! Some of my favorites are Taylor Swift, Florence + The Machine, Machine Gun Kelly, Carly Simon, and The 502s. A perfect weekend to me would be spent driving down Highway 1 and seeing the ocean with my friends."
             ],
-            linkedin: '[LINKEDIN LINK]',
-            calendly: "[CALENDLY LINK]",
+            linkedin: 'https://www.linkedin.com/in/ojasvisaxena/',
+            calendly: "https://calendly.com/ojasvi-saxena/nib-coffee-chats",
             image: require('../img/prof/ojasvi.png'),
             sillyImage: require('../img/funny/ojasvi.png'),
             isDM: false

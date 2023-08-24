@@ -1,34 +1,35 @@
-import godaddy from '../../projects/img/pastClients/GoDaddy.png';
-import imperfect from '../../projects/img/pastClients/ImperfectFoods.png';
-import kuli from '../../projects/img/pastClients/KuliKuli.png';
-import larkin from '../../projects/img/pastClients/Larkin.png';
-import marin from '../../projects/img/pastClients/MarinFoodBank.png';
-import sierra from '../../projects/img/pastClients/SierraNevada.png';
+import bmgf from '../../projects/img/pastClients/bmgf.png';
+import patagonia from '../../projects/img/pastClients/patagonia.png';
+import lls from '../../projects/img/pastClients/lls.png';
+import amazon from '../../projects/img/pastClients/amazon.png';
+import airbus from '../../projects/img/pastClients/airbus.png';
+import salesforce from '../../projects/img/pastClients/salesforce.png';
 
 let pastClients = [
     {
-        img: larkin,
-        alt: "Larkin Youth Services logo",
+        img: bmgf,
+        alt: "Bill & Melinda Gates Foundation logo",
     },
     {
-        img: marin,
-        alt: "Marin County Food Bank logo",
+        img: patagonia,
+        alt: "Patagonia logo",
     },
     {
-        img: godaddy,
-        alt: "GoDaddy logo",
+        img: lls,
+        alt: "LLSlogo",
+    },
+    
+    {
+        img: amazon,
+        alt: "Amazon logo",
     },
     {
-        img: imperfect,
-        alt: "Imperfect Produce logo",
+        img: airbus,
+        alt: "Airbuslogo",
     },
     {
-        img: kuli,
-        alt: "Kuli Kuli logo",
-    },
-    {
-        img: sierra,
-        alt: "Sierra Nevada logo",
+        img: salesforce,
+        alt: "Salesforce logo",
     },
 ];
 
