@@ -45,6 +45,8 @@
         border-radius: 5px;
         width: 60%;
         min-height: 60%;
+        max-height: 60%;
+        overflow-y: auto;
         height: fit-content;
         z-index: 999;
         display: flex;
