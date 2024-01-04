@@ -22,7 +22,7 @@ import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
-   const interestForm = "https://airtable.com/appZJCBfhJN79Dc23/shryCqmih6Nbw3f1Q";
+   const interestForm = "https://airtable.com/appK6wRqibWMyzVyQ/shrEJ5ILKfM4PwVly";
    const application = "https://airtable.com/appZJCBfhJN79Dc23/shrs73X85oN1iDBX2";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
