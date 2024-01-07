@@ -7,7 +7,7 @@ let Timeline = [{
         date: "August 23rd - 31st, 8am - 4pm PST | Sproul/The Glade",
         title: "Tabling",
         description: "Drop by Sproul and Memorial Glade to learn more about our people, projects, and impact! Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
-        link: "https://airtable.com/appZJCBfhJN79Dc23/shryCqmih6Nbw3f1Q",
+        link: "https://airtable.com/appK6wRqibWMyzVyQ/shrEJ5ILKfM4PwVly",
         linkText: "Interest Form",
     },
     {

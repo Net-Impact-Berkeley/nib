@@ -81,7 +81,7 @@ const Apply = () => {
                        <ul>
                            <li>From August 23 - 31, anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
-                           <li>Fill out our <a className="underline-magical" href="https://airtable.com/appZJCBfhJN79Dc23/shryCqmih6Nbw3f1Q" target="_blank" rel="noopener noreferrer">interest form</a>!</li>
+                           <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
                    </div>
                    <div className="item">
