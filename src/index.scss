@@ -17,13 +17,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1 {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Lato', 'Source Serif Pro', serif;
+    font-size: 46px;
+    font-weight: 400;
     color: #000000;
     margin: 20px 0;
 }
@@ -81,7 +81,7 @@ section {
 
 .wave {
     position: relative;
-    top: 10px;
+    top: 5px;
     z-index: -1;
     width: 100%;
     fill: var(--light-color);

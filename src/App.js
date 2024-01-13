@@ -3,6 +3,7 @@ import About from './about';
 import Home from './home';
 import Apply from './apply';
 import Projects from './projects';
+import Impact from './impact'
 import Members from './members';
 import NotFound from './404';
 import FAQ from './faq';
@@ -43,6 +44,7 @@ const AppContents = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/apply" element={<Apply/>} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/impact" element={<Impact/>} />
         <Route path="/members" element={<Members/>} />
         <Route path="/faq" element={<FAQ/>} />
         <Route path="/checkin" element={<Redirecting/>} />
