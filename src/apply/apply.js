@@ -23,7 +23,7 @@ const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
    const interestForm = "https://airtable.com/appK6wRqibWMyzVyQ/shrEJ5ILKfM4PwVly";
-   const application = "https://airtable.com/appZJCBfhJN79Dc23/shrs73X85oN1iDBX2";
+   const application = "https://airtable.com/appK6wRqibWMyzVyQ/shr6XyxVzly3gHzAm";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -100,7 +100,7 @@ const Apply = () => {
                        <p>Friday 9/1 - Tuesday 9/5</p>
                        <ul>
                            <li>Applications are due at 1PM on September 1st.</li>
-                           Apply <a className="underline-magical" href="https://airtable.com/appZJCBfhJN79Dc23/shrs73X85oN1iDBX2" target="_blank" rel="noopener noreferrer"> here. </a>
+                           Apply <a className="underline-magical" href="https://airtable.com/appK6wRqibWMyzVyQ/shr6XyxVzly3gHzAm" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
