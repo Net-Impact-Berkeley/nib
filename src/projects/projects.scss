@@ -7,6 +7,7 @@
         display: grid;
         grid-template-columns: 5fr 5fr;
         grid-column-gap: 50px;
+        position: relative;
     }
 
     .splashWave {
@@ -42,10 +43,104 @@
         }
     }
 
+    .waveAnchor {
+        position: relative;
+        // background-color: red;
+        height: 10px;
+        top: 270px;
+
+    }
+
+    .backgroundWaves {
+        position: absolute;
+        
+
+        .thickblue {
+            position: absolute;
+            height: auto;
+            width: 120%;
+            right: 0%;
+            animation: moveAndFluctuateMedium 10s infinite; /* Adjust the duration of the animation */
+            animation-delay: -6.4s; /* Introduce a delay for a more spontaneous feel */
+
+        }
+
+        .thickblue2 {
+            position: absolute;
+            top: 10px;
+            height: auto;
+            width: 600%;
+            right: -50%;
+            margin: 0 auto;
+            animation: moveAndFluctuateLonger 18s infinite; /* Adjust the duration of the animation */
+            animation-delay: -12s; /* Introduce a delay for a more spontaneous feel */
+
+        }
+
+        .darkblue {
+            position: absolute;
+            height: auto;
+            width: 120%;
+            right: 0%;
+            animation: moveAndFluctuateMedium 16s infinite; /* Adjust the duration of the animation */
+            animation-delay: -4.4s; /* Introduce a delay for a more spontaneous feel */
+
+        }
+
+        .thinblue {
+            position: relative;
+            bottom: -10px;
+            height: auto;
+            right: 10%;
+            width: 120%;
+            margin: 0 auto;
+            animation: moveAndFluctuate 24s infinite; /* Adjust the duration of the animation */
+            animation-delay: -13s; /* Introduce a delay for a more spontaneous feel */
+
+        }
+
+        @keyframes moveAndFluctuate {
+            0%, 100% {
+              transform: translate(0, 0);
+            }
+            50% {
+              transform: translate(100px, 20px); /* Adjust the values for horizontal and vertical movement */
+            }
+        }
+
+        @keyframes moveAndFluctuateLonger {
+            0%, 100% {
+              transform: translate(0, 0);
+            }
+            50% {
+              transform: translate(800px, 5px); /* Adjust the values for horizontal and vertical movement */
+            }
+        }
+
+        @keyframes moveAndFluctuateMedium {
+            0%, 100% {
+              transform: translate(0, 0);
+            }
+            50% {
+              transform: translate(100px, 15px); /* Adjust the values for horizontal and vertical movement */
+            }
+        }
+          
+          .thinblue {
+          }
+          
+          .wave-path {
+            transition: transform 0.5s ease; /* Optional: add smooth transition between animations */
+          }
+          
+          
+    }
+
     .projectSpectrumSection {
         margin-top: 100px;
         img {
-            width: 100%;
+            display: inline-block;
+            width: 90px;
         }
 
         p {
@@ -53,7 +148,179 @@
             margin-top: 50px;
             margin-bottom: 50px;
         }
+
+        .clientTypes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .clientTypeBox {
+            border-radius: 12px;
+            border: 1px solid #E6E6E6;
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+            backdrop-filter: blur(4px);
+            margin: 25px;
+            width: 100%;
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.8);
+                transform: translateY(-5px);
+                box-shadow: 0 13px 27px -5px rgba(50,50,93,.3), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+                cursor: pointer;
+                    /* Adjust the rotation and translation values based on your preference */
+
+                .arrow {
+                    img {
+                        transform: translateX(2px);
+
+                    }
+                }
+            }
+
+            
+
+            h2 {
+                color: #333;
+                text-align: center;
+                font-family: Lato;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin: 10px 0 30px 0px;
+                text-align: center;
+            }
+
+            b {
+                font-weight: 700;
+                color: #1B67B1;
+            }
+
+            p {
+                color: #000;
+                font-family: Lato;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-align: center;
+                margin: 40px 0 10px 0;
+
+                .arrow {
+                    img {
+                        padding-left: 3px;
+                        width: 13px;
+                        transition: 0.5s all ease;
+                    }
+                }
+            }
+
+            .clientLogos {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                justify-items: center;
+                width: 100%;
+                grid-gap: 10px; /* Adjust the gap between images as needed */
+            }
+
+            .full-width {
+                grid-column: span 2; /* Span 2 columns for the third item */
+                grid-row: 2; /* Place it in the second row */
+              }
+        }
+
     }
+}
+
+.breakdownModal {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 650px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: auto;
+
+    .topSection {
+        padding: 20px 60px;
+        background-color: #F1FEFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            color: #111;
+            font-family: Lato;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.18px;
+        }
+
+        p {
+            color: #333;
+            font-family: Lato;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.1px;
+        }
+
+        img {
+            height: 90px;
+        }
+    }
+
+    .projectHeader {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-column-gap: 30px;
+        padding: 10px 40px;
+
+
+        img {
+            width: 80px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #000;
+            font-family: Lato;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.135px;
+        }
+    }
+
+    .projectDescription {
+        padding: 0px 40px 5px 40px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    &:focus-visible {
+        outline: none !important;
+    }
+}
+
+.MuiModal-root .css-79ws1d-MuiModal-root {
+    overflow: scroll !important;
 }
 
 @media (min-width: 1100px) {

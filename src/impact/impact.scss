@@ -38,10 +38,17 @@
         background-color: var(--light-color);
 
         p {
-            line-height: 26px;
+            color: #000;
+            font-family: Lato;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 149.682%; /* 29.936px */
+            letter-spacing: -0.1px;
         }
 
         .left {
+            padding-right: 50px;
             .smallText {
                 display: block;
                 margin-top: 30px;
@@ -54,10 +61,52 @@
                 img {
                     height: 28px;
                     display: inline;
+                    position: relative;
+                    left: 11px;
+                    top: 7px;
+                    transition: 0.1s all ease;
+                    opacity: 0.7;
+
+                    &:hover {
+                        opacity: 0.85;
+                    }
                 }
             }
 
             
+        }
+
+        .right {
+
+            .scholarText {
+                position: relative;
+                left: 30px;
+                padding-bottom: 15px;
+            }
+
+            h2 {
+                color: #1B67B1;
+                font-family: Avenir;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                margin: 0;
+            }
+            h3 {
+                color: #000;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 149.682%; /* 29.936px */
+                letter-spacing: -0.1px;
+                margin: 0;
+            }
+            img {
+                width: 480px;
+                margin: 0 auto;
+            }
         }
         
 
@@ -97,7 +146,7 @@
                 align-items: flex-start;
                 gap: 20px;
 
-                img {
+                .cnha {
                     display: inline-block;
                     width: 140px;
                 }
@@ -119,6 +168,7 @@
         text-align: center;
         background-color: var(--light-color);
         padding-top: 1px;
+        padding-bottom: 140px;
         
         .diversityNumbers {
             display: grid;
@@ -137,6 +187,11 @@
                     border: 2px solid #5EC3EF;
                     background: #FFF;
                     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+                    transition: transform 1s ease; /* Add a smooth transition effect */
+                    perspective: 1000px; /* Set the perspective for the 3D effect */
+                    transform-style: preserve-3d; /* Preserve the 3D transformations for child elements */
+                    transform-origin: center bottom; /* Set the origin for rotation */
+                  
                     
 
                     font-family: Lato;
@@ -161,6 +216,56 @@
 
         .diversityGraphic {
             height: 290px;
+            position: relative;
+
+            img {
+                opacity: 0.99;
+                // transition: transform 2s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                // animation: floatAnimation 5s infinite alternate ease-in-out;
+
+                // &:hover {
+                //     transform: translate(10px, 10px);
+
+                // }
+            }
+
+            .blobs {
+                position: relative;
+                display: block;
+                width: 100%;
+                bottom: 410px;
+                
+            }
+
+            .div1 {
+                position: absolute;
+                top: 38px;
+                left: 11%;
+                width: 220px;
+            }
+
+            .div2 {
+                position: absolute;
+                top: 130px;
+                left: -3.4%;
+                width: 250px;
+            }
+
+            .div3 {
+                position: absolute;
+                top: 169px;
+                right: 0%;
+                width: 200px;
+            }
+
+            .div4 {
+                position: absolute;
+                top: 60px;
+                right: 11%;
+                width: 210px;
+            }
+
         }
 
         .earthGraphic {
@@ -212,7 +317,7 @@
         position: relative;
         text-align: center;
         z-index: 10;
-        padding: 120px 0 240px 0;
+        padding: 70px 0 240px 0;
         margin-bottom: -250px;
 
 
@@ -242,11 +347,11 @@
     }
 
 }
-
+ 
 @media (min-width: 1100px) {
     .impactPage {
         .scholarshipSection {
-            padding: 100px 0;
+            padding: 100px 0 70px 0;
 
             .grid {
                 display: flex;

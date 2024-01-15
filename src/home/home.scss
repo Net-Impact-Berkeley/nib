@@ -15,56 +15,95 @@
 
     .splash {
         margin: 0 auto;
-        padding: 100px 0;
+        padding: 150px 0 200px 0;
         position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        .left {
-           
+        .container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+            h1 {
+                color: #000;
+                text-align: center;
+                font-family: Lato;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 113.182%; /* 54.327px */
+                letter-spacing: -0.24px;
+                margin-bottom: 0;
+            }
+
             p {
-                font-size: 22px;
-                line-height: 150%;    
+                color: #212121;
+                font-family: Lato;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 173.682%; /* 41.684px */
+                letter-spacing: -0.12px;
+                margin-top: 10px;
+            }
+
+        .blobs {
+            position: relative;
+            // display: block;
+            margin: 0;
+            width: 100%;
+            z-index: -10;
+            bottom: 140px;
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            img {
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, 0%);
+            }
+            
+            .darkblueWave {
+                top: 10px;
+            }
+
+            .lightblueWave {
+                
+            }
+            
+            .splashBlob1 {
+                width: 355px;
+                left: 28%;
+                top: -340px;
+            }
+
+            .splashBlob2 {
+                width: 355px;
+                right: 0%;
+                top: -340px;
+            }
+
+            .splashBlob3 {
+                width: 550px;
+                right: -5%;
+                top: -70px;
+            }
+
+            .splashBlob4 {
+                width: 385px;
+                left: 26%;
+                top: -10px;
             }
         }
-
-        .right {
-            overflow: hidden;
-            display: block;
-
-            .bigBlob {
-                position: absolute;
-                z-index: -1000;
-                height: 500px;
-                right: 0px;
-                top: 100px;
-            }
-
-            .miniBlob {
-                position: absolute;
-                z-index: -1000;
-                right: 700px;
-                top: 400px;
-            }
-
-            .group {
-                position: absolute;
-                width: 382.87px;
-                height: 382.49px;
-                right: 300px;
-                top: 50px;
-            }
-
-            .googie {
-                position: absolute;
-                width: 355.89px;
-                height: 355.54px;
-                right: 100px;
-                top: 290px;
-            }
-        }
-
-        a {
-            text-decoration: none;
-        }
+           
     }
 
     .inspired {
@@ -211,23 +250,6 @@
         h1 {
             font-size: 3rem;
             line-height: 113.18%;
-        }
-
-        .splash {
-            h1 {
-                margin: 20px 0;
-            }
-            .container {
-                display: grid;
-                grid-template-columns: 2fr 2fr;
-                grid-column-gap: 40px;
-            }
-
-            .right {
-                text-align: right;
-                margin-bottom: 100px;
-                z-index: 1001;
-            }
         }
 
         .inspired {

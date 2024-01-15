@@ -1,14 +1,56 @@
 import React from 'react';
-import './projects.scss';
+
 import CallToAction from '../components/callToAction';
 import ProjectType from '../components/ProjectType';
+import ProjectBreakdown from './projectBreakdown';
+
 import ProjectHeroImage from './img/projectsHero2.png';
 import ClientSpectrumNew from './img/ClientSpectrum.png';
 import projectTypeInfo from './data/ProjectTypesText';
 import clients from './data/clients';
+import clientBreakdownsInfo from './data/clientBreakdowns';
+
 import ClientImage from './clientImage';
 
+
+import ikea from './img/clients/ikea.png';
+import salesforce from './img/clients/salesforce.png';
+import bestbuy from './img/clients/bestbuy.png';
+import amazon from './img/clients/amazon.png';
+import kaiser from './img/clients/kaiser.png';
+import clif from './img/clients/clif.png';
+import sce from './img/clients/sce.png';
+import heifer from './img/clients/heifer.png';
+import pattern from './img/clients/pattern.png';
+import lls from './img/clients/lls.png';
+import subject from './img/clients/subject.png';
+import bam from './img/clients/bam.png';
+
+import greyArrow from './img/grey-arrow.png';
+
+import Modal from '@mui/material/Modal';
+import Accordion from '@mui/material/Accordion';
+import AccordionActions from '@mui/material/AccordionActions';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
+import './projects.scss';
+
+
 const Projects = () => {
+    const [open, setOpen] = React.useState(false);
+const handleOpen = () => setOpen(true);
+const handleClose = () => setOpen(false);
+const [breakdownType, setBreakdownType] = React.useState(0);
+
+const openModalHandler = (type) => {
+    console.log("this is the type", type)
+    setBreakdownType(type);
+    handleOpen();
+}
+// profit, mission, nonprofit
+
     let projectTypes = projectTypeInfo.map((project) => {
         return <ProjectType {...project} key={project.title} />
     });
@@ -46,9 +88,63 @@ const Projects = () => {
                     </div>
                 </section>
             </section>
+            <div className="waveAnchor">
+                <div className="backgroundWaves">
+                <svg className="thickblue" xmlns="http://www.w3.org/2000/svg" width="1440" height="146" viewBox="0 0 1440 146" fill="none">
+                    <path d="M-1 2L79 7.3C159 13 319 23 479 50C639 77 799 119 959 135.3C1119 151 1279 141 1359 135.3L1439 130" stroke="#A9EAFF" stroke-width="3" stroke-linejoin="round" className="wave-path" />
+                </svg>
+                <svg className="darkblue" xmlns="http://www.w3.org/2000/svg" width="1440" height="135" viewBox="0 0 1440 135" fill="none">
+                <path d="M0 34L80 55.3C160 77 320 119 480 130C640 141 800 119 960 92.7C1120 66 1280 34 1360 18L1440 2" stroke="#1B67B1" stroke-width="4" className="wave-path" />
+                </svg>
+
+                <svg className="thinblue" xmlns="http://www.w3.org/2000/svg" width="1440" height="154" viewBox="0 0 1440 154" fill="none">
+                <path d="M-1 1L79 6.3C159 12 319 22 479 54.3C639 86 799 140 959 150.3C1119 161 1279 129 1359 113L1439 97" stroke="#D4FAFF" stroke-width="2" stroke-linejoin="round"
+                className="wave-path"/>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="11918" height="296" viewBox="0 0 11918 296" fill="none" className="thickblue2">
+                <path d="M1 193.217L199.6 165.193C398.2 137.169 795.4 81.1201 1192.6 62.3789C1589.8 44.3383 1987 61.8534 2384.2 109.144C2781.4 156.435 3178.6 229.999 3575.8 268.007C3973 305.314 4370.2 305.314 4767.4 249.266C5164.6 193.217 5561.8 81.1201 5959 43.8128C6356.2 5.80486 6753.4 44.3382 7150.6 71.8371C7547.8 100.387 7945 117.902 8342.2 109.144C8739.4 100.387 9136.6 61.8534 9533.8 34.3546C9931 5.80487 10328.2 -11.7103 10725.4 15.7885C11122.6 44.3382 11519.8 117.902 11718.4 155.91L11917 193.217" stroke="#1B67B1" stroke-width="3" className="wave-path" />
+                </svg>
+
+            
+                </div>
+            </div>
             <section className="container projectSpectrumSection">
                 <h1>Our Clients</h1>
-                <img className="hideOnMobile" src={ClientSpectrumNew} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
+                
+                <div className="clientTypes">
+                    <div className="clientTypeBox" onClick={() => openModalHandler(0)}>
+                        <h2><b>For-profit</b> companies</h2>
+                        <div className="clientLogos">
+                            <img src={salesforce} />
+                            <img src={bestbuy} />
+                            <img src={amazon} />
+                            <img src={kaiser} />
+                        </div>
+                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                    </div>
+                    <div className="clientTypeBox" onClick={() => openModalHandler(1)}>
+                        <h2><b>Mission-driven</b> companies</h2>
+                        <div className="clientLogos">
+                            <img src={clif} />
+                            <img src={sce} />
+                            <img src={heifer} />
+                            <img src={pattern} />
+                        </div>
+                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                    </div>
+                    <div className="clientTypeBox" onClick={() => openModalHandler(2)}>
+                        <h2><b>Social enterprises</b> & <b>nonprofits</b></h2>
+                        <div className="clientLogos">
+                            <img src={subject} />
+                            <img src={bam} />
+                            <img src={lls} className="full-width" />
+                            {/* <img src={ikea} /> */}
+                        </div>
+                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                    </div>
+                </div>
+
                 <p>We work with organizations of all kinds that are interested in contributing to a better, more sustainable world.
                 Whether it's for-profit corporations that allow us to deep dive into
                 one component of their programs, mission-driven corporations that continuously strive for solutions beyond the
@@ -60,6 +156,17 @@ const Projects = () => {
                 <div className="clientsSection showOnMobile">
                     {clientImagesMobile}
                 </div>
+
+                <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                >
+                    <ProjectBreakdown 
+                        breakdownType={breakdownType}
+                    />
+                </Modal>
             </section>
             <CallToAction />
         </section>

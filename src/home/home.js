@@ -12,6 +12,10 @@ import secondSection2 from './img/railroad.png';
 import membersSectionImage from './img/whoarewe.png';
 import SpectrumSection from './spectrumSection';
 import pastClients from './data/pastClientsHighlights';
+import splashBlob1 from './img/splashblob1.png';
+import splashBlob2 from './img/splashblob2.png';
+import splashBlob3 from './img/splashblob3.png';
+import splashBlob4 from './img/splashblob4.png';
 
 const Home = () => {
     document.title = 'NIB | Home';
@@ -21,25 +25,27 @@ const Home = () => {
         <section className="splash">
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
-                <span className="left">
                     <h1>Strategy Consulting Meets Social Good</h1>
                     <p>UC Berkeley's Social Impact Consulting Club</p>
                     <Button
                         link="/apply"
-                        buttonText="Join Us"
+                        buttonText="Apply Now"
+                        arrow
                     />
-                </span>
             </section>
-            <div className="right">
-                <svg className="bigBlob blob" width="650" height="572" viewBox="0 0 650 572" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M502.554 212.204C541.576 245.066 628.38 256.67 643.225 281.052C658.284 305.025 600.382 341.773 581.058 406.475C561.127 471.38 579.347 565.055 550.932 563.71C522.517 562.365 449.319 466.203 387.941 449.188C326.957 432.378 277.186 494.918 227.285 513.511C177.384 532.103 124.86 507.768 77.2651 467.309C29.8841 426.442 -12.5676 369.45 11.5662 323.365C35.0923 277.482 125.812 242.302 167.751 190.978C209.509 139.04 202.093 70.7509 226.505 34.6806C250.523 -1.59575 306.762 -5.44739 354.672 6.60652C402.582 18.6604 442.771 46.4181 457.91 86.5371C473.443 126.862 463.713 179.956 502.554 212.204Z" />
-                </svg>
-                <svg className="miniBlob blob" width="91" height="75" viewBox="0 0 91 75" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M89.6851 32.0176C93.2985 41.7664 81.203 57.1611 65.3926 66.226C49.4787 75.321 29.9208 77.9597 17.5121 70.9377C5.10338 63.9157 0.0150779 47.236 0.413986 32.1847C0.916331 17.1033 6.9738 3.68343 15.7691 0.956559C24.5289 -1.70698 35.9586 6.28935 51.3346 12.3391C66.7462 18.3254 86.0361 22.3321 89.6851 32.0176Z" />
-                </svg>
+            <div className="blobs">
 
-                <img src={heroBlob1} className="hideOnMobile googie" alt="NIB members doing the googie" />
-                <img src={heroBlob2} className="hideOnMobile group" alt="NIB members posing" />
+                 <svg xmlns="http://www.w3.org/2000/svg" width="756" height="509" viewBox="0 0 756 509" fill="none" className="lightblueWave">
+                    <path d="M532.505 505.624L532.489 505.627L532.473 505.63C522.682 507.546 511.413 505.715 498.801 501.69C487.073 497.948 474.466 492.408 461.113 486.541C460.121 486.105 459.125 485.668 458.126 485.229C429.394 472.621 397.404 459.034 365.385 460.503C334.94 461.889 304.78 472.07 274.422 482.318C272.867 482.842 271.312 483.367 269.757 483.891C237.682 494.694 205.273 505.111 171.268 505.584C102.401 506.535 29.1368 474.128 8.11303 413.295C-2.37497 382.947 2.89825 352.91 15.1658 321.257C21.3006 305.428 29.1545 289.27 37.6001 272.522C39.5195 268.716 41.4699 264.878 43.4369 261.008C50.1086 247.881 56.9703 234.38 63.4539 220.464L63.4597 220.451C68.2297 210.065 72.7759 199.738 77.226 189.629C88.2607 164.564 98.7042 140.841 110.502 120.885C127.035 92.9207 145.833 73.0803 171.823 67.5514C198.145 61.9519 228.741 65.9746 262.948 70.4722L263.741 70.5765C298.102 75.0937 335.836 79.9635 375.422 75.37L375.423 75.3698C410.992 71.2171 447.082 54.9945 482.612 39.0242C486.51 37.2721 490.401 35.5231 494.284 33.7933C533.801 16.1896 572.472 0.577769 609.815 2.69242C646.835 5.04212 682.779 25.1037 709.509 53.5884C736.244 82.0795 753.497 118.715 753.5 153.872C753.263 188.957 734.006 223.281 708.781 257.454C697.987 272.078 686.175 286.58 674.391 301.047C672.432 303.453 670.473 305.857 668.521 308.261C654.847 325.093 641.455 341.887 630.143 358.641C612.937 383.858 600.499 410.164 589.531 433.364C585.931 440.977 582.49 448.255 579.09 455.051C572.171 468.882 565.452 480.671 557.933 489.46C550.445 498.213 542.292 503.841 532.505 505.624Z" stroke="#5EC3EF" stroke-width="5"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="761" height="516" viewBox="0 0 761 516" fill="none" className="darkblueWave">
+  <path d="M615.897 3.22872C691.24 8.01966 758 75.0928 758 146.957C757.523 218.821 689.809 295.476 644.985 362.07C599.683 428.664 576.794 485.676 534.831 493.342C493.344 501.487 432.306 460.284 369.838 463.159C306.893 466.034 242.517 512.027 173.85 512.985C104.705 513.943 31.7463 469.387 10.2877 407.105C-11.1708 344.823 18.3943 264.814 51.7743 192.95C84.6775 121.086 121.395 57.8454 175.28 46.3472C229.165 34.8489 300.217 75.0928 378.422 65.9901C456.149 56.8873 540.076 -1.08312 615.897 3.22872Z" stroke="#1579BC" stroke-width="6"/>
+                </svg>
+                <img src={splashBlob1} className="splashBlob1" />
+                <img src={splashBlob2} className="splashBlob2" />
+                <img src={splashBlob3} className="splashBlob3" />
+                <img src={splashBlob4} className="splashBlob4" />
+
             </div>
         </section>
         <svg className="wave" viewBox="0 0 1440 195" xmlns="http://www.fw3.org/2000/svg">

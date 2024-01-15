@@ -28,21 +28,24 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className="nav">
-                <div className="container navbar">
-                <ul>
-                    <li>
-                        <Link to="/" className="logo">
-                            <img src={logo} alt="NIB logo"/>
-                        </Link>
-                    </li>
-                    <div className="right">
-                        <li><NavLink to={'/'} className="tab">HOME</NavLink></li>
-                        <li><NavLink to={'/about'} className="tab">ABOUT</NavLink></li>
-                        <li><NavLink to={'/members'} className="tab">MEMBERS</NavLink></li>
-                        <li><NavLink to={'/projects'} className="tab">PROJECTS</NavLink></li>
-                        <li><NavLink to={'/apply'} className="tab applyTab">APPLY</NavLink></li>
+                <div className="navbar">
+                    <div className="container" >
+                        <ul>
+                            <li>
+                                <Link to="/" className="logo">
+                                    <img src={logo} alt="NIB logo"/>
+                                </Link>
+                            </li>
+                            <div className="right">
+                                <li><NavLink to={'/'} className="tab">HOME</NavLink></li>
+                                <li><NavLink to={'/about'} className="tab">ABOUT</NavLink></li>
+                                <li><NavLink to={'/members'} className="tab">MEMBERS</NavLink></li>
+                                <li><NavLink to={'/projects'} className="tab">PROJECTS</NavLink></li>
+                                <li><NavLink to={'/impact'} className="tab">IMPACT</NavLink></li>
+                                <li><NavLink to={'/apply'} className="tab applyTab">APPLY</NavLink></li>
+                            </div>
+                        </ul>
                     </div>
-                </ul>
                 </div>
                 <div className="mobileNav">
                 <div className="burgerIcon">

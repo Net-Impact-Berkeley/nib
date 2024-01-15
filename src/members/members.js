@@ -5,7 +5,7 @@ import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Button from '../components/button';
-import React, {useState} from 'react';
+import React, {useState, useRef, useEffect } from 'react';
 
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
@@ -24,6 +24,8 @@ const AlumniCompany = ({name, href, fileName}) => {
 }
 const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin, isDM} = person;
+
+
     
     return (
         <div className='overlay'>
@@ -61,26 +63,103 @@ const Members = () => {
     let pmList = memberInfo.pmList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
     let memberList = memberInfo.memberList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
 
+    const containerRef1 = useRef(null);
+    const containerRef2 = useRef(null);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+  
+        // Apply the transform to move the carousels to the left based on the scroll position
+        const carousel1 = containerRef1.current;
+        const carousel2 = containerRef2.current;
+
+        // Adjust the initial position and direction for each carousel
+        carousel1.style.transform = `translateX(calc(-${scrollPosition}px - 200px))`; // Adjust as needed
+        carousel2.style.transform = `translateX(calc(-100% + ${scrollPosition}px + 200px))`;  // Adjust as needed
+      };
+
+       // Set the initial position of the second carousel on page load
+       const carousel2 = containerRef2.current;
+       carousel2.style.transform = `translateX(calc(-100% + 200px))`;  // Adjust as needed
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
     return (
-        <section className="membersPage">
+        <section className="membersPage" 
+        >
             <section className="membersHero">
-                <section className="container">
-                    <img src={imageLeft} alt="Collage of individual NIB members on Zoom" />
-                    <h1>Meet Us</h1>
-                    <img src={imageRight} alt="Collage of individual NIB members on Zoom" />
+                <section className="">
+                        <h1>Meet our members</h1>
+                    <div className="carousel-wrapper">
+                        <div class="photo-carousel"  id="carousel1" ref={containerRef1}>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                        </div>
+                        <div class="photo-carousel" id="carousel2" ref={containerRef2}>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
+                            </div>
+                            <div class="photo">
+                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </section>
-            <svg className="invertedWave showOnMobile" viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg">
-                <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" />
-            </svg>
-            <svg width="600" className="splashWaveLeft hideOnMobile" viewBox="0 0 600 569" xmlns="http://www.w3.org/2000/svg">
-                <path d="M229.5 22.5C170.5 2 0 0 0 0V562.5C0 562.5 99 575.004 132.5 562.5C166 549.996 186 520 258.5 483C331 446 407 521.5 493.5 515.5C580 509.5 638.5 451 567.5 362C496.5 273 302.5 323.5 272.5 260.5C242.5 197.5 334.5 207.5 338 143C341.5 78.5 288.5 43 229.5 22.5Z" />
-            </svg>
-            <svg width="599" className="splashWaveRight hideOnMobile" viewBox="0 0 599 569" xmlns="http://www.w3.org/2000/svg">
-                <path d="M369.721 545.557C428.721 566.057 599.221 568.057 599.221 568.057V5.55713C599.221 5.55713 500.221 -6.94641 466.721 5.55713C433.221 18.0607 413.221 48.0571 340.721 85.0571C268.221 122.057 192.221 46.5571 105.721 52.5571C19.2207 58.5571 -39.2793 117.057 31.7207 206.057C102.721 295.057 296.721 244.557 326.721 307.557C356.721 370.557 264.721 360.557 261.221 425.057C257.721 489.557 310.721 525.057 369.721 545.557Z" />
-            </svg>
-            <svg className="splashWave wave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="596" viewBox="0 0 1440 596" fill="none" className="memberSplashWave">
+            <path d="M765.968 439.5C660.541 528.5 463.178 538 0 596H1440V0C1391.2 57.8333 1278.61 183.1 1218.65 221.5C1143.71 269.5 1055.27 207.5 949.84 272.5C844.414 337.5 871.395 350.5 765.968 439.5Z" fill="#F0FCFE" />
             </svg>
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
