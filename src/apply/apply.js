@@ -35,12 +35,11 @@ const Apply = () => {
 
    return (
    <section className="applyPage">
-       <section className="hero">
-           <div className="container">
+       <section className="hero container">
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   {/* <p>Interested in applying to Net Impact? Our application period is over for the semester, but feel free to look around to see what applying has looked like in the past!</p> */}
+                   <p>Our application for Spring 2024 is now open! Scroll to learn more about our timeline and events</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
@@ -52,11 +51,10 @@ const Apply = () => {
                        external
                    />
                </div>
-           </div>
            <div className="right hideOnMobile">
-               <svg className="bigBlob" viewBox="0 0 550 572" fill="none" xmlns="http://www.w3.org/2000/svg">
-                   <path d="M502.554 212.204C541.576 245.066 628.38 256.67 643.225 281.052C658.284 305.025 600.382 341.773 581.058 406.475C561.127 471.38 579.347 565.055 550.932 563.71C522.517 562.365 449.319 466.203 387.941 449.188C326.957 432.378 277.186 494.918 227.285 513.511C177.384 532.103 124.86 507.768 77.2651 467.309C29.8841 426.442 -12.5676 369.45 11.5662 323.365C35.0923 277.482 125.812 242.302 167.751 190.978C209.509 139.04 202.093 70.7509 226.505 34.6806C250.523 -1.59575 306.762 -5.44739 354.672 6.60652C402.582 18.6604 442.771 46.4181 457.91 86.5371C473.443 126.862 463.713 179.956 502.554 212.204Z" />
-               </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
+                <path d="M468.196 199.22C504.878 230.111 586.476 241.019 600.431 263.938C614.587 286.475 560.157 321.018 541.992 381.841C523.257 442.853 540.384 530.91 513.673 529.646C486.962 528.381 418.154 437.986 360.457 421.991C303.13 406.19 256.344 464.979 209.435 482.457C162.527 499.934 113.153 477.059 68.4125 439.026C23.873 400.609 -16.0327 347.036 6.65372 303.714C28.7689 260.583 114.048 227.513 153.471 179.267C192.726 130.443 185.755 66.2499 208.702 32.3427C231.28 -1.75803 284.146 -5.37868 329.183 5.95234C374.22 17.2834 411.998 43.3764 426.229 81.0893C440.831 118.996 431.685 168.906 468.196 199.22Z" fill="#A9EAFF"/>
+            </svg>
 
 
                <img src={blob1} className="hideOnMobile blob1" alt="3 NIB members posing" />

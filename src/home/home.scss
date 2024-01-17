@@ -1,6 +1,6 @@
 .homePage {
     h1 {
-        font-family: 'Source Serif Pro', serif;
+        font-family: 'Lato', serif,'Source Serif Pro',;
     }
 
     p {
@@ -50,13 +50,14 @@
                 margin-top: 10px;
             }
 
-        .blobs {
+        .blobsSplash {
             position: relative;
             // display: block;
             margin: 0;
             width: 100%;
             z-index: -10;
             bottom: 140px;
+            animation: floatAnimation 15s ease-in-out infinite;
 
             svg {
                 position: absolute;
@@ -66,10 +67,86 @@
             }
 
             img {
+                
                 position: absolute;
                 top: 50%;
                 transform: translate(-50%, 0%);
+                // animation: floatAnimation 15s ease-in-out infinite;
+                transform-origin: center;
+                
             }
+
+            .topLeftWave {
+                left: -20%;
+                top: -700px;
+                animation: spin 100s linear infinite;
+                z-index: -100;
+            }
+
+            .lilblue {
+                left: 0%;
+                top: -100px;
+                // animation: floatAnimation 15s ease-in-out infinite;
+                transform-origin: center;
+
+            }
+
+            @keyframes floatAnimation {
+                0% {
+                  transform: translate(0, 0);
+                }
+                25% {
+                  transform: translate(2px, 1px);
+                }
+                50% {
+                  transform: translate(-1px, 2px);
+                }
+                75% {
+                  transform: translate(2px, -1px);
+                }
+                100% {
+                  transform: translate(0, 0);
+                }
+              }
+
+            .blgray {
+                left: 0%;
+                top: 300px;
+            }
+
+            .tlgray {
+                left: 99%;
+                top: -200px;
+            }
+
+            .tlbluecircle {
+                left: 80%;
+                top: -600px;
+                z-index: -100;
+                animation: spin 50s linear infinite;
+            }
+
+            @keyframes spin {
+                0% {
+                  transform: rotate(0deg);
+                }
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+            
+            .blgrayblob {
+                left: 99%;
+                top: 200px;
+                z-index: -120;
+            }
+
+            .blblueblob {
+                left: 110%;
+                top: 200px;
+                z-index: -110;
+            }
+
             
             .darkblueWave {
                 top: 10px;
@@ -86,7 +163,7 @@
             }
 
             .splashBlob2 {
-                width: 355px;
+                width: 345px;
                 right: 0%;
                 top: -340px;
             }
@@ -311,15 +388,57 @@
     .homePage {
         .splash {
             padding: 30px 0;
-            text-align: center;
+            position: relative;
+            bottom: 20px;
+                    
+
+            .mobileLogo {
+                width: 60%;
+            }
+
+            h1 {
+                margin: 10px 20px;
+                font-size: 38px;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 20px 20px;
+                line-height: 133.682%;
+            }
 
             .bigBlob, .miniBlob, .seniors {
                 display: none;
             }
 
             .emgajen {
-                width: 80%;
+                // width: 80%;
                 margin: 0 auto;
+            }
+
+            .blobsSplash {
+                backdrop-filter: blur(4px);
+
+                svg {
+                    display: none;
+                }
+
+                img {
+                    display: none;
+                }
+
+               
+                // .blblueblob {
+                //     display:flex !important;
+                //     left: 130%;
+                // }
+
+                // .topLeftWave {
+                //     display:flex !important;
+                //     left: -50%;
+                //     top: -450px;
+                //     opacity: 0.1;
+                // }
             }
         }
 

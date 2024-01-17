@@ -3,7 +3,7 @@ let clientBreakdownsInfo = [
         title: "For-profit client breakdowns",
         projects: [
             {
-                projectName: "Best Buy Foundation",
+                projectName: "Best Buy",
                 projectLogo: require("../img/clients/bestbuy.png"),
                 aboutClient: "Best Buy’s primary social impact initiative is their Teen Tech Center program which provides after-school environments for teens in underserved communities and provides access to technology and mentorship. At the time of this project, there were 41 Teen Tech Centers across the United States serving over 30,000 teens. Best Buy plans to build this network to 100 centers by 2025.",
                 ourWork: "Phase 1: Research Foundation Conducted literature reviews and case studies on teen leadership development and existing youth programs. Undertook internal interviews with Best Buy Foundation staff to understand the landscape. Established a robust foundation for the Teen Leadership Council program. Phase 2: Strategy Development. Crafted a comprehensive council program for the Teen Tech Center initiative. Considered key factors such as structure, adult-youth dynamics, incentives, and benefits. Created four user personas to guide strategy and explore various scenarios",

@@ -69,6 +69,7 @@ class NavBar extends React.Component {
                             <li><Link to={'/about'} className="tab" onClick={this.close}>ABOUT</Link></li>
                             <li><Link to={'/members'} className="tab" onClick={this.close}>MEMBERS</Link></li>
                             <li><Link to={'/projects'} className="tab" onClick={this.close}>PROJECTS</Link></li>
+                            <li><Link to={'/impact'} className="tab" onClick={this.close}>IMPACT</Link></li>
                             <li><Link to={'/apply'} className="tab" onClick={this.close}>APPLY</Link></li>
                         </ul>
                     </CSSTransition>

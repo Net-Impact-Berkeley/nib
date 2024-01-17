@@ -6,17 +6,17 @@
   color: white;
   text-decoration: none;
   display: inline-block;
-  transition: all 0.3s ease-out;
+  transition: all 0.1s ease-out;
 }
 
   .button:hover {
     background: var(--button-color-hover);
 
     .arrowRight {
-      img {
+
         transform: translateX(2px);
       }
-      }
+
      
   }
 
@@ -36,6 +36,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.12px;
+  transition: all 0.3s ease-out;
 
   &:hover {
     .arrowRight {

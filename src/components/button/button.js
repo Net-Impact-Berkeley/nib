@@ -8,7 +8,6 @@ const Button = ({link, buttonText, external, style, arrow}) => {
   
   
   let buttonStyle = "button";
-  console.log("ARROW", arrow)
 
   let arrowRight;
 

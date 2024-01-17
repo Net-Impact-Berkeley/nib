@@ -1,7 +1,6 @@
 .applyPage {
     .hero {
-        overflow-x: hidden; 
-        max-width: 100vw;
+ 
 
         .left {
             p {
@@ -10,24 +9,28 @@
             }
         }
 
+        .right {
+            z-index: -1;
+        }
+
         .blob1 {
             position: absolute;
             width: 250px;
-            top: 150px;
-        }
+            top: 20px;
+            }
     
         .blob2 {
             position: absolute;
             width: 250px;
-            top: 340px;
+            top: 210px;
         }
     
         .bigBlob {
             position: absolute;
             height: 600px;
-            top: 0px;
+            top: -100px;
             right: 0px;
-            z-index: -1;
+            z-index: -231;
             fill: var(--medium-color);
         }
 
@@ -112,8 +115,6 @@
 
     .preparationSection {
         background-color: var(--light-color);
-        margin-top: 50px;
-        padding-top: 50px;
         padding-bottom: 50px;
 
         .projectTypes {

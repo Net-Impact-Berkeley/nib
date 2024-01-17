@@ -5,6 +5,7 @@
         // align-items: center;
         // justify-content: center;
         text-align: center;
+        overflow-x: hidden;
 
         h1 {
             margin: 0 auto 50px auto;
@@ -14,7 +15,7 @@
         .carousel-wrapper {
             // transform: rotate(15deg);
             position: relative;
-            z-index: -50;
+            // z-index: -50;
         }
 
         .photo-carousel {
@@ -43,9 +44,10 @@
 
     .memberSplashWave {
         position: absolute;
-        top: 65px;
-        /* bottom: 20px; */
+        top: 100px;
+        left: 0;
         z-index: -100;
+        width: 100%;
     }
 
     .description {
@@ -247,6 +249,7 @@
 
 @media (min-width: 1100px) {
     .membersPage {
+
         .alumniSection {
             .grid {
                 display: grid;
@@ -273,6 +276,17 @@
 
 @media (max-width: 1100px) {
     .membersPage {
+
+        .photo-carousel {
+            // transform: translateX(0) !important;
+            // overflow-x: scroll;
+        }
+
+        #carousel2 {
+            // transform: translateX(600px);
+            // display: none;
+        }
+
         .membersHero {
             background-color: var(--light-color);
 

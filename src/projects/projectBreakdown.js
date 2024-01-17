@@ -64,7 +64,7 @@ function ProjectBreakdown(props) {
                                 <h1>{title}</h1>
                                 <p>Click on a client to learn about the project</p>
                             </div>
-                            <img src={nibLogo} />
+                            <img src={nibLogo} className="hideOnMobile"/>
                         </div>
                         <div className="breakdownCompanies">
                             {projects}

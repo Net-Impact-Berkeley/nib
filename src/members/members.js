@@ -5,8 +5,7 @@ import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Button from '../components/button';
-import React, {useState, useRef, useEffect } from 'react';
-
+import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
 import imageList from './data/carousel';
@@ -14,10 +13,20 @@ import imageList from './data/carousel';
 import imageLeft from './img/splash-left.png';
 import imageRight from './img/splash-right.png';
 import photo1 from './img/carousel/photo1.jpg';
+
+
+import p1 from './img/splash-carousel/photo1.jpg';
+
+
 import photo2 from './img/carousel/photo2.jpg';
 import photo3 from './img/carousel/photo3.jpg';
 import linkedInImage from '../img/linkedin.png';
 import calendlyImage from '../img/calendly.png';
+
+
+
+// Create a context to manage the imagesLoaded state
+const ImagesLoadedContext = createContext();
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
@@ -65,30 +74,110 @@ const Members = () => {
 
     const containerRef1 = useRef(null);
     const containerRef2 = useRef(null);
+    const [imagesLoaded, setImagesLoaded] = useState(false);
+
+    // useEffect(() => {
+    //     const handleImageLoad = () => {
+    //       // Check if all images have loaded
+    //       const allImages = document.querySelectorAll('.photo img');
+    //       const loadedImages = Array.from(allImages).every(img => img.complete);
+    
+    //       if (loadedImages) {
+    //         // All images have loaded, enable scrolling
+    //         setImagesLoaded(true);
+    //       }
+    //     };
+    
+    //     // Use window.onload for reliable image loading detection
+    //     window.onload = handleImageLoad;
+    
+    //     return () => {
+    //       window.onload = null; // Remove the event listener
+    //     };
+    //   }, []);
   
     useEffect(() => {
-      const handleScroll = () => {
-        const scrollPosition = window.scrollY;
-  
-        // Apply the transform to move the carousels to the left based on the scroll position
-        const carousel1 = containerRef1.current;
-        const carousel2 = containerRef2.current;
+        // if(imagesLoaded) {
+            const handleScroll = () => {
+                const scrollPosition = window.scrollY;
+          
+                // Apply the transform to move the carousels to the left based on the scroll position
+                const carousel1 = containerRef1.current;
+                const carousel2 = containerRef2.current;
+        
+                // Adjust the initial position and direction for each carousel
+                carousel1.style.transform = `translateX(calc(-${scrollPosition}px - 200px))`; // Adjust as needed
+        
+                if (window.innerWidth < 768) {
+                    carousel2.style.transform = `translateX(calc(-${Math.round(scrollPosition * 1.5)}px - 200px))`
+                }
+                else if(window.innerWidth > 1700) {
+                    console.log("window.innerWidth", window.innerWidth)
+                    carousel2.style.transform = `translateX(calc(-50% + ${scrollPosition}px + 200px))`; 
+                }
+                else {
+                    carousel2.style.transform = `translateX(calc(-100% + ${scrollPosition}px + 200px))`;  // Adjust as needed
+                }
+                
+              };
 
-        // Adjust the initial position and direction for each carousel
-        carousel1.style.transform = `translateX(calc(-${scrollPosition}px - 200px))`; // Adjust as needed
-        carousel2.style.transform = `translateX(calc(-100% + ${scrollPosition}px + 200px))`;  // Adjust as needed
-      };
 
        // Set the initial position of the second carousel on page load
        const carousel2 = containerRef2.current;
-       carousel2.style.transform = `translateX(calc(-100% + 200px))`;  // Adjust as needed
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
+
+       if (window.innerWidth < 768) {
+           carousel2.style.transform = `translateX(-200px)`
+       }
+       else if(window.innerWidth > 1700) {
+           carousel2.style.transform = `translateX(calc(-50% + 200px))`; 
+       }
+       else {
+           carousel2.style.transform = `translateX(calc(-100% + 200px))`;
+       }
+
+   //    carousel2.style.transform = `translateX(calc(-100% + 200px))`;  // Adjust as needed
+
+
+                
+      // Apply scroll handling only for non-mobile devices
+    // if (window.innerWidth > 768) {
+        window.addEventListener('scroll', handleScroll);
+        // }
+        // else {
+        //     // carousel1.style.transform = `translateX(0px))`;
+        //     // carousel2.style.transform = `translateX(0px))`;
+        // }
+      
+          return () => {
+            window.removeEventListener('scroll', handleScroll);
+          };
+        // }
+      
+
     }, []);
+
+    const photos1 = [];
+
+    for (let i = 1; i <= 12; i++) {
+      const photoImport = require(`./img/splash-carousel/photo${i}.jpg`)
+      console.log("photo", photoImport)
+      photos1.push(
+        <div className="photo" key={`photo${i}`}>
+          <img alt={`photo${i}`} src={photoImport} />
+        </div>
+      );
+    }
+
+    const photos2 = [];
+
+    for (let i = 13; i <= 27; i++) {
+      const photoImport = require(`./img/splash-carousel/photo${i}.jpg`);
+      photos2.push(
+        <div className="photo" key={`photo${i}`}>
+          <img alt={`photo${i}`} src={photoImport} />
+        </div>
+      );
+    }
 
     return (
         <section className="membersPage" 
@@ -96,71 +185,23 @@ const Members = () => {
             <section className="membersHero">
                 <section className="">
                         <h1>Meet our members</h1>
+                    <ImagesLoadedContext.Provider value={imagesLoaded}>
                     <div className="carousel-wrapper">
-                        <div class="photo-carousel"  id="carousel1" ref={containerRef1}>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
+                        <div className="photo-carousel"  id="carousel1" ref={containerRef1}>
+                            {photos1}
                         </div>
-                        <div class="photo-carousel" id="carousel2" ref={containerRef2}>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/10-3d64ee03c79ccfea99fef2552e88edab763129a2506d081f12fc32c8ee8a3f5e.jpg" />
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/9-4c0eb0c0f41ea554032633a6903ee27aaf2f7d3f7aa6dfba8f460dc66f924086.jpg" />    
-                            </div>
-                            <div class="photo">
-                                <img alt="" src="https://calblueprint.org/assets/about/8-8f8681eed1f992d82024a808d32b4b9ce274c90e6ad7c7d70a3ebe8199942f0f.jpg" />
-                            </div>
+                        <div className="photo-carousel" id="carousel2" ref={containerRef2}>
+                            {photos2}
                         </div>
                     </div>
+                    </ImagesLoadedContext.Provider>
                 </section>
             </section>
-            <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="596" viewBox="0 0 1440 596" fill="none" className="memberSplashWave">
-            <path d="M765.968 439.5C660.541 528.5 463.178 538 0 596H1440V0C1391.2 57.8333 1278.61 183.1 1218.65 221.5C1143.71 269.5 1055.27 207.5 949.84 272.5C844.414 337.5 871.395 350.5 765.968 439.5Z" fill="#F0FCFE" />
+            <svg class="memberSplashWave hideOnMobile wave" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE">
+            </path>
             </svg>
+          
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
                 <h4 className='description'>Click on our members to learn more and set up a time to coffee chat!</h4>
@@ -239,5 +280,9 @@ const Members = () => {
         </section>
     );
 }
+
+export const useImagesLoaded = () => {
+    return useContext(ImagesLoadedContext);
+  };
 
 export default Members;

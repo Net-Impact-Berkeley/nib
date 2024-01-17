@@ -159,7 +159,7 @@
         .clientTypeBox {
             border-radius: 12px;
             border: 1px solid #E6E6E6;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255, 0.8);
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
             backdrop-filter: blur(4px);
             margin: 25px;
@@ -172,7 +172,8 @@
 
 
             &:hover {
-                background: rgba(255, 255, 255, 0.8);
+                background: rgba(255, 255, 255, 0.88);
+                backdrop-filter: blur(5px);
                 transform: translateY(-5px);
                 box-shadow: 0 13px 27px -5px rgba(50,50,93,.3), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
                 cursor: pointer;
@@ -359,6 +360,11 @@
 
 @media (max-width: 1100px) {
     .projectsPage {
+        // overflow-x: hidden;
+
+        .hero {
+            grid-template-columns: 5fr;
+        }
         .projectTypes {
             text-align: center;
 
@@ -374,6 +380,26 @@
                     }
                 }
             }
+        }
+
+        .waveAnchor {
+            overflow-x: clip;
+        }
+
+        .projectSpectrumSection {
+
+            .clientTypes {
+                flex-direction: column;
+
+                .clientTypeBox {
+                    margin: 0;
+                    padding: 20px 0px;
+                    background: rgba(255, 255, 255, 0.9);
+                }
+            }
+
+
+            
         }
 
         .mobileTimeline {
@@ -397,5 +423,74 @@
             margin-bottom: 25px;
             vertical-align: middle;
         }
+
+        .backgroundWaves {
+            transform: rotate(131deg);
+            right: 0px;
+            position: relative;
+            right: 170px;
+            top: 320px;
+
+            .thickblue {
+                width: 400%;
+                right: 0%;
+
+            }
+
+            .darkblue {
+                position: absolute;
+                height: auto;
+                width: 500%;
+                right: 0%;
+            }
+
+            .thinblue {
+                position: relative;
+                bottom: -10px;
+                height: auto;
+                /* width: 400%; */
+                right: 150%;
+                width: 540%;
+            }
+
+            .thickblue2 {
+                position: absolute;
+                top: 10px;
+                height: auto;
+                width: 3000%;
+                right: -50%;
+            }
+    }
+
+   
+}
+
+.breakdownModal {
+    width: 90%;
+
+    .topSection {
+        padding: 15px 30px;
+
+        h1 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
+}
+}
+
+@media (min-width: 1440px) {
+    .projectsPage .waveAnchor {
+        top: 244px;
+    }
+
+    .backgroundWaves {
+        width: 100%;
     }
 }
