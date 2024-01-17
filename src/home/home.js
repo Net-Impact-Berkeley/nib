@@ -20,6 +20,19 @@ import splashBlob4 from './img/splashblob4.png';
 const Home = () => {
     document.title = 'NIB | Home';
 
+    useEffect(() => {
+        const blobs = document.querySelectorAll('.blobsSplash svg, .blobsSplash img');
+    
+        blobs.forEach((blob, index) => {
+          const delay = index * 50;
+    
+          setTimeout(() => {
+            blob.style.opacity = 1;
+            // blob.style.transform = `translateY(0) ${blob.style.transform || ''}`;
+          }, delay);
+        });
+      }, []);
+    
 
     return (
         <section className="homePage">

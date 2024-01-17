@@ -18,7 +18,7 @@ const Footer = () => {
                 <Link to="/">
                     <img alt="NIB logo" src={logo} className="footerImage" />
                 </Link>
-                <p className="copyrightText">Copyright Net Impact Berkeley, 2020.</p>
+                <p className="copyrightText">Copyright Net Impact Berkeley, 2024</p>
             </div>
             <div className="footerRight">
                 <div className="email">
@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="footerSection">
                     <FooterTitle text="Students" />
                     <FooterLink link="/apply" name="Join Us" />
-                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" className="footerLink" target="_blank" rel="noopener noreferrer">Application</a>
+                    <a href="https://airtable.com/appK6wRqibWMyzVyQ/shr6XyxVzly3gHzAm" className="footerLink" target="_blank" rel="noopener noreferrer">Application</a>
                     <FooterLink link="/faq" name="FAQs" />
                 </div>
                 {/* <div className="footerSection">

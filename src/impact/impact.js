@@ -39,7 +39,7 @@ const Impact = () => {
             <section className="hero container">
                 <div>
                     <h3>DEI + IMPACT</h3>
-                    <h1>Our commitment to diversity and inclusion</h1>
+                    <h1>Our commitment to Diversity and Inclusion</h1>
                     <p>Through our projects and services, Net Impact Berkeley is committed to diversity and inclusion as tenets of our club. <br />We carve out our impact in various ways, from focusing on diversity of our members to raising funds for URM change-makers.</p>
                 </div>
                 <div className="heroImage">
@@ -49,9 +49,9 @@ const Impact = () => {
 
             {/* <img src={blueWave} className="rightWave" /> */}
 
-            {/* <svg xmlns="http://www.w3.org/2000/svg" width="1094" height="999" className="rightWave" viewBox="0 0 1094 999" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1094" height="999" className="rightWave" viewBox="0 0 1094 999" fill="none">
                 <path d="M1080.73 71.1717C1123.72 126.023 1019.04 314.748 1000.35 485.809C982.593 656.871 1051.75 809.338 1009.7 902.307C966.704 994.345 813.427 1025.95 721.834 963.665C631.177 901.377 602.203 745.19 483.507 652.222C364.811 560.184 155.456 531.364 61.9947 409.576C-32.4016 287.787 -10.9054 73.031 107.791 18.1798C226.487 -35.7417 442.384 70.242 646.13 84.1872C848.942 97.2028 1038.67 17.2502 1080.73 71.1717Z" stroke="#64C3EF" stroke-width="5"/>
-            </svg> */}
+            </svg>
 
 
 <svg class="wave" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" className="hideOnMobile wave"><path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"></path></svg>

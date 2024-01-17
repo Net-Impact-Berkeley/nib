@@ -29,7 +29,7 @@
             position: absolute;
             height: 600px;
             top: -100px;
-            right: 0px;
+            right: -60px;
             z-index: -231;
             fill: var(--medium-color);
         }
@@ -254,11 +254,11 @@
 
 @media (min-width: 1300px) {
     .blob1 {
-        right: 350px;
+        right: 290px;
     }
 
     .blob2 {
-        right: 190px;
+        right: 130px;
     }
 
     .bigBlob {

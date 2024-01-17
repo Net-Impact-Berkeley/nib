@@ -7,6 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import bestbuy from './img/clients/bestbuy.png';
 import clientBreakdownsInfo from './data/clientBreakdowns';
 import nibLogo from './img/niblogo.png';
+import Button from '../components/button';
 
 
 function ProjectBreakdown(props) {
@@ -27,6 +28,14 @@ function ProjectBreakdown(props) {
         const formattedAboutClient = project.aboutClient.replace(/\n/g, '<br /><br />');
         const formattedOurWork = project.ourWork.replace(/\n/g, '<br /><br />');
         const formattedImpact = project.impact.replace(/\n/g, '<br /><br />');
+        let buttons;
+
+        if(project.links) {
+            console.log("we made it!")
+            buttons = project.links.map((info) => {
+                return <Button link={info.link} buttonText={info.text} external style="light" arrow />
+            });
+        }
 
         return (
             <Accordion key={props.breakdownType}>
@@ -49,6 +58,7 @@ function ProjectBreakdown(props) {
                             <p dangerouslySetInnerHTML={createMarkup(formattedOurWork)} />
                             <h3>IMPACT</h3>
                             <p dangerouslySetInnerHTML={createMarkup(formattedImpact)} />
+                            {buttons}
                     </div>
                     </AccordionDetails>
                 </Accordion>

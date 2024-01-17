@@ -75,9 +75,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={chat} alt="chat icon" />
                        <h4>Tabling</h4>
-                       <p>Wednesday, 8/23 - Thursday, 8/31</p>
+                       <p>Tuesday, 1/16 – Thursday, 1/25</p>
                        <ul>
-                           <li>From August 23 - 31, anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
+                           <li>From January 16th - 25th, anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
                            <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
@@ -85,7 +85,7 @@ const Apply = () => {
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 8/29 - Thursday, 8/31</p>
+                       <p>Tuesday, 1/23 - Thursday, 1/25</p>
                        <ul>
                            <li>Tuesday: Infosession #1</li>
                            <li>Wednesday: Infosession #2 + Case Workshop</li>
@@ -95,9 +95,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 9/1 - Tuesday 9/5</p>
+                       <p>Friday 1/26 - Tuesday 1/30</p>
                        <ul>
-                           <li>Applications are due at 1PM on September 1st.</li>
+                           <li>Applications are due at 1PM on January 26th.</li>
                            Apply <a className="underline-magical" href="https://airtable.com/appK6wRqibWMyzVyQ/shr6XyxVzly3gHzAm" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>

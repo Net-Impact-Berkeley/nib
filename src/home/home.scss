@@ -59,6 +59,13 @@
             bottom: 140px;
             animation: floatAnimation 15s ease-in-out infinite;
 
+            svg, img {
+                opacity: 0;
+                transform-origin: center;
+                transform: translateY(-50px);
+                transition: opacity 0.5s
+            }
+
             svg {
                 position: absolute;
                 top: 50%;
@@ -76,6 +83,8 @@
                 
             }
 
+            
+
             .topLeftWave {
                 left: -20%;
                 top: -700px;
@@ -84,9 +93,9 @@
             }
 
             .lilblue {
-                left: 0%;
-                top: -100px;
-                // animation: floatAnimation 15s ease-in-out infinite;
+                left: -3%;
+                top: -220px;
+                animation: floatAnimation 7s ease-in-out infinite;
                 transform-origin: center;
 
             }

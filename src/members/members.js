@@ -184,7 +184,7 @@ const Members = () => {
         >
             <section className="membersHero">
                 <section className="">
-                        <h1>Meet our members</h1>
+                        <h1>Meet Our Members</h1>
                     <ImagesLoadedContext.Provider value={imagesLoaded}>
                     <div className="carousel-wrapper">
                         <div className="photo-carousel"  id="carousel1" ref={containerRef1}>
