@@ -63,7 +63,7 @@ const openModalHandler = (type) => {
 
     document.title = 'NIB | Projects';
     return (
-        <section className="projectsPage">
+        <section className="projectsPage" id="projectsPageEaster">
             <section className="hero container">
                 <div className="left">
                     <h3>PROJECTS</h3>

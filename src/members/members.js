@@ -34,7 +34,6 @@ const AlumniCompany = ({name, href, fileName}) => {
 const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin, isDM} = person;
 
-
     
     return (
         <div className='overlay'>

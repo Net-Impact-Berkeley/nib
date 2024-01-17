@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './about.scss';
 import CallToAction from '../components/callToAction';
 import aboutPhoto from './img/about-header.png';
@@ -12,6 +12,22 @@ import cultureData from './data/culture';
 
 const About = () => {
     document.title = 'NIB | About';
+
+
+    useEffect(() => {
+        const blobs = document.querySelectorAll('.hero');
+    
+        blobs.forEach((blob, index) => {
+          const delay = index * 50;
+    
+          setTimeout(() => {
+            blob.style.opacity = 1;
+            blob.style.transform = `translateY(0) ${blob.style.transform || ''}`;
+          }, delay);
+        });
+      }, []);
+    
+
     return (
         <section className="aboutPage">
             <section className="hero container">

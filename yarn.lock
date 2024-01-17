@@ -1310,6 +1310,13 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fireworks-js/react@^2.10.7":
+  version "2.10.7"
+  resolved "https://registry.npmjs.org/@fireworks-js/react/-/react-2.10.7.tgz"
+  integrity sha512-hxfEB0vRUX7nNznhc5SEw0W8jamgF32oUiMvd5c8dOAFZgkidF8qylRw/V1Xp6In1QsjUQXnv/gvOKCe2o8JOg==
+  dependencies:
+    fireworks-js "2.10.7"
+
 "@floating-ui/core@^1.5.3":
   version "1.5.3"
   resolved "https://registry.npmjs.org/@floating-ui/core/-/core-1.5.3.tgz"
@@ -2180,7 +2187,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.0 || ^18.0.0":
+"@types/react@*", "@types/react@^17.0.0 || ^18.0.0", "@types/react@>=16.8.0":
   version "18.2.47"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.2.47.tgz"
   integrity sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==
@@ -4623,6 +4630,11 @@ find-up@^5.0.0:
   dependencies:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
+
+fireworks-js@2.10.7:
+  version "2.10.7"
+  resolved "https://registry.npmjs.org/fireworks-js/-/fireworks-js-2.10.7.tgz"
+  integrity sha512-FyRNiqlgu9ZeFCjfN0UiGUlj5dUWNYLyFaWN/Q8sOMf0E+KGA4dMROaBZpCtym85fChgCspoa3jHoLTRZiy74A==
 
 fizzy-ui-utils@^2.0.7:
   version "2.0.7"
@@ -7558,6 +7570,11 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+
+react-fireworks@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/react-fireworks/-/react-fireworks-1.0.4.tgz"
+  integrity sha512-jj1a+HTicB4pR6g2lqhVyAox0GTE0TOrZK2XaJFRYOwltgQWeYErZxnvU9+zH/blY+Hpmu9IKyb39OD3KcCMJw==
 
 react-flickity-component@^4.0.0:
   version "4.0.0"
