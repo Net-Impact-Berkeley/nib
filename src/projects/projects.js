@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import CallToAction from '../components/callToAction';
 import ProjectType from '../components/ProjectType';
@@ -60,6 +60,20 @@ const openModalHandler = (type) => {
     });
 
     let clientImagesMobile = clientImages.slice(0, 12);
+
+    useEffect(() => {
+        const blobs = document.querySelectorAll('.hero');
+    
+        blobs.forEach((blob, index) => {
+          const delay = index * 50;
+    
+          setTimeout(() => {
+            blob.style.opacity = 1;
+            blob.style.transform = `translateY(0) ${blob.style.transform || ''}`;
+          }, delay);
+        });
+      }, []);
+
 
     document.title = 'NIB | Projects';
     return (

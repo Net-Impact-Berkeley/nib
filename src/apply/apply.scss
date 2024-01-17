@@ -1,6 +1,10 @@
 .applyPage {
     .hero {
- 
+        
+        opacity: 0;
+        // transform: translateY(-50px);
+        transition: opacity 0.5s;
+        z-index: -1;
 
         .left {
             p {
@@ -158,6 +162,10 @@
             padding: 30px;
             gap: 30px;
         }
+    }
+
+    .how {
+        padding-top: 20px;
     }
 
     .timelineSection {

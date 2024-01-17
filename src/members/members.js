@@ -35,6 +35,7 @@ const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin, isDM} = person;
 
     
+    
     return (
         <div className='overlay'>
             <div className='bioContainer'>
@@ -66,6 +67,18 @@ const Members = () => {
         setShowModal(!showModal);
         setModalInfo(person);
     }
+
+    useEffect(() => {
+        const blobs = document.querySelectorAll('.membersHero');
+    
+        blobs.forEach((blob, index) => {
+          const delay = index * 50;
+    
+          setTimeout(() => {
+            blob.style.opacity = 1;
+          }, delay);
+        });
+      }, []);
 
     let execList = memberInfo.execList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);
     let pmList = memberInfo.pmList.map((person) => <Member person={person} key={person.name} handleClick={handleClick}/>);

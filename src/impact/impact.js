@@ -34,6 +34,19 @@ import ImageHoverEffect from '../components/ImageHoverEffect';
 const Impact = () => {
     document.title = 'NIB | Impact';
 
+    useEffect(() => {
+        const blobs = document.querySelectorAll('.hero');
+    
+        blobs.forEach((blob, index) => {
+          const delay = index * 50;
+    
+          setTimeout(() => {
+            blob.style.opacity = 1;
+            blob.style.transform = `translateY(0) ${blob.style.transform || ''}`;
+          }, delay);
+        });
+      }, []);
+
     return (
         <section className="impactPage">
             <section className="hero container">
@@ -63,7 +76,7 @@ const Impact = () => {
                         In Spring 2023, we launched the Net Impact Berkeley Social Impact Scholarship, which offered 3 $1,000 scholarships to support future social impact change-makers in their college journey.
                         </p>
                         <p>
-                        In Spring 2023, we launched the Net Impact Berkeley Social Impact Scholarship, some other sentence here.
+                        High school seniors from all over the country submitted essays around what impact means to them
                         </p>
                         <Button link="https://www.bold.org/scholarships/net-impact-berkeley-social-impact-scholarship/" buttonText="Learn More" external style="light" arrow />
                         <span className="smallText">

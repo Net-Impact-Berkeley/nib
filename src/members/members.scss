@@ -7,6 +7,9 @@
         text-align: center;
         overflow-x: hidden;
 
+        opacity: 0;
+        transition: opacity 0.5s;
+
 
         h1 {
             margin: 0 auto 50px auto;

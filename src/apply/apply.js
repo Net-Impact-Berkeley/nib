@@ -1,3 +1,5 @@
+import React, {useEffect} from 'react';
+
 import Button from '../components/button';
 import './apply.scss';
 import TimelineItem from './TimelineItem';
@@ -31,6 +33,19 @@ const Apply = () => {
 
 
    document.title = 'NIB | Apply';
+
+   useEffect(() => {
+    const blobs = document.querySelectorAll('.hero');
+
+    blobs.forEach((blob, index) => {
+      const delay = index * 50;
+
+      setTimeout(() => {
+        blob.style.opacity = 1;
+        blob.style.transform = `translateY(0) ${blob.style.transform || ''}`;
+      }, delay);
+    });
+  }, []);
 
 
    return (
@@ -104,7 +119,7 @@ const Apply = () => {
                    </div>
                </div>
            </section>
-           <section className="container">
+           <section className="container how">
                <h1>How Should I Prepare?</h1>
                <div className="flex projectTypes">
                    {prepareTypeInfo.map((project) => {
