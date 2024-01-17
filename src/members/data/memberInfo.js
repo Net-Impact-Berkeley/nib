@@ -180,7 +180,7 @@ let memberInfo = {
         linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
         calendly: "https://calendly.com/napimk/nib-coffee-chat",
         image: require('../img/prof/ice.jpeg'),
-        sillyImage: require('../img/prof/ice.jpeg'),
+        sillyImage: require('../img/funny/ice.jpg'),
         isDM: false
     },
     {
@@ -289,19 +289,19 @@ let memberInfo = {
         sillyImage: require('../img/funny/jana.png'),
         isDM: false
     },
-    {
-        name: 'Jessica Yang', 
-        title: 'Senior Advisor',
-        bio: [
-            "Hi! I'm Jess, a senior from Colorado studying Business. I joined Net Impact fall of my sophomore year and am a senior advisor this semester. In the past, I've worked on projects relating to sustainable fashion, clean energy, and equitable access to technology for youth.",
-            "I'm interested in the intersection of environmental conservation and finance. This past summer I gained experience in investment banking and plan on pursuing it as a career in the future. In my free time, I love to be outdoors whether thats backpacking, hammocking, or skiing. Feel free to reach out to chat about anything!"
-        ],
-        linkedin: 'https://www.linkedin.com/in/jessica-yang-jy/',
-        calendly: "https://calendly.com/jessicayang9/nib-coffee-chats",
-        image: require('../img/prof/jess.png'),
-        sillyImage: require('../img/funny/jess.png'),
-        isDM: false
-    },
+    // {
+    //     name: 'Jessica Yang', 
+    //     title: 'Senior Advisor',
+    //     bio: [
+    //         "Hi! I'm Jess, a senior from Colorado studying Business. I joined Net Impact fall of my sophomore year and am a senior advisor this semester. In the past, I've worked on projects relating to sustainable fashion, clean energy, and equitable access to technology for youth.",
+    //         "I'm interested in the intersection of environmental conservation and finance. This past summer I gained experience in investment banking and plan on pursuing it as a career in the future. In my free time, I love to be outdoors whether thats backpacking, hammocking, or skiing. Feel free to reach out to chat about anything!"
+    //     ],
+    //     linkedin: 'https://www.linkedin.com/in/jessica-yang-jy/',
+    //     calendly: "https://calendly.com/jessicayang9/nib-coffee-chats",
+    //     image: require('../img/prof/jess.png'),
+    //     sillyImage: require('../img/funny/jess.png'),
+    //     isDM: false
+    // },
     {
         name: 'Justin Byers',
         title: 'Senior Advisor',
@@ -357,7 +357,7 @@ let memberInfo = {
     },
     {
         name: 'Matthew Kang',
-        title: 'VP External Affairs',
+        title: 'Senior Advisor',
         bio: [ 
             "Hi everyone I’m Matthew, and I'm a senior studying Mechanical Engineering and Business Administration. I joined NIB my freshman spring so NIB has been my first family on campus. In my four years at Cal, I have never seen an organization as warm as NIB's.",
             "I'm passionate about education accessibility + mental health awareness working in both spaces previous to coming to Berkeley. I have also continued to pursue both passions having led a NIB project for a leading EdTech start-up and speaking as a panelist for the Y4Y Summit organized by the creators of The Social Dilemma documentary.", 
@@ -462,18 +462,18 @@ let memberInfo = {
     sillyImage: require('../img/funny/lucky.png'),
     isDM: false
 },
-{
-    name: 'Ryan Jang',
-    title: 'VP Consulting',
-    bio: [
-        "Hi! My name is Ryan and I'm a senior from South Korea studying Environmental Economics and Policy. I joined Net Impact during the first semester of my junior year, and I'm so grateful for all the amazing experiences and people I've met so far. In the past I've worked on a project to make an impact in the space of tech accessibility as well as a project to understand global health product procurement in Africa.",
-        "I love all kinds of sports and really love meeting new and interesting people (everyone at Berkeley is). Come find me at an event or at tabling to learn more about NIB literally changed my life!"
-    ],
-    linkedin: 'https://www.linkedin.com/in/ryaneusukjang/',
-    image: require('../img/prof/ryan.png'),
-    sillyImage: require('../img/funny/ryan.png'),
-    isDM: false
-},
+// {
+//     name: 'Ryan Jang',
+//     title: 'VP Consulting',
+//     bio: [
+//         "Hi! My name is Ryan and I'm a senior from South Korea studying Environmental Economics and Policy. I joined Net Impact during the first semester of my junior year, and I'm so grateful for all the amazing experiences and people I've met so far. In the past I've worked on a project to make an impact in the space of tech accessibility as well as a project to understand global health product procurement in Africa.",
+//         "I love all kinds of sports and really love meeting new and interesting people (everyone at Berkeley is). Come find me at an event or at tabling to learn more about NIB literally changed my life!"
+//     ],
+//     linkedin: 'https://www.linkedin.com/in/ryaneusukjang/',
+//     image: require('../img/prof/ryan.png'),
+//     sillyImage: require('../img/funny/ryan.png'),
+//     isDM: false
+// },
 {
     name: 'Sejal Goel',
     title: 'Senior Advisor',
@@ -514,19 +514,19 @@ let memberInfo = {
     sillyImage: require('../img/funny/tsadi.png'),
     isDM: false
 },
-{
-    name: 'Tobin Thannickal', 
-    title: 'Senior Advisor',
-    bio: [
-        "Hey! My name is Tobin, and I’m a senior studying Business Administration. I joined Net Impact my sophomore spring, and they weren’t lying when they said nibfam is the best fam.",
-        "This past summer, I worked as an Investment Banking Summer Analyst at Morgan Stanley, and previously at a software focused private equity firm called Diversis Capital. I’m originally from Los Angeles so always been a fan of the Lakers, hot chicken, and thrifting. Feel free to add some time on my Calendly."
-    ],
-    linkedin: 'https://www.linkedin.com/in/tobin-thannickal',
-    calendly: "https://calendly.com/tobinthannickal/nib-coffee-chats",
-    image: require('../img/prof/tobin.png'),
-    sillyImage: require('../img/funny/tobin.png'),
-    isDM: false
-}, 
+// {
+//     name: 'Tobin Thannickal', 
+//     title: 'Senior Advisor',
+//     bio: [
+//         "Hey! My name is Tobin, and I’m a senior studying Business Administration. I joined Net Impact my sophomore spring, and they weren’t lying when they said nibfam is the best fam.",
+//         "This past summer, I worked as an Investment Banking Summer Analyst at Morgan Stanley, and previously at a software focused private equity firm called Diversis Capital. I’m originally from Los Angeles so always been a fan of the Lakers, hot chicken, and thrifting. Feel free to add some time on my Calendly."
+//     ],
+//     linkedin: 'https://www.linkedin.com/in/tobin-thannickal',
+//     calendly: "https://calendly.com/tobinthannickal/nib-coffee-chats",
+//     image: require('../img/prof/tobin.png'),
+//     sillyImage: require('../img/funny/tobin.png'),
+//     isDM: false
+// }, 
         {
             name: 'Varun Nair',
             title:  'Senior Advisor',

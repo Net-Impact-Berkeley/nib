@@ -49,7 +49,7 @@ const Impact = () => {
 
             {/* <img src={blueWave} className="rightWave" /> */}
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="1094" height="999" className="rightWave" viewBox="0 0 1094 999" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1094" height="999" className="rightWave hideOnMobile" viewBox="0 0 1094 999" fill="none">
                 <path d="M1080.73 71.1717C1123.72 126.023 1019.04 314.748 1000.35 485.809C982.593 656.871 1051.75 809.338 1009.7 902.307C966.704 994.345 813.427 1025.95 721.834 963.665C631.177 901.377 602.203 745.19 483.507 652.222C364.811 560.184 155.456 531.364 61.9947 409.576C-32.4016 287.787 -10.9054 73.031 107.791 18.1798C226.487 -35.7417 442.384 70.242 646.13 84.1872C848.942 97.2028 1038.67 17.2502 1080.73 71.1717Z" stroke="#64C3EF" stroke-width="5"/>
             </svg>
 
