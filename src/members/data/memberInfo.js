@@ -51,7 +51,7 @@ let memberInfo = {
         },
         {
             name: 'Vincent Nguyen',
-            title: 'VP Consulting',
+            title: 'VP Associate Development',
             bio: [
                 "Hello! My name is Vincent. I am from Orange County and am a junior studying Psychology & Theater. NIB has been such a great opportunity for me to grow professionally by providing opportunities to work with a national non-profit healthcare organization, a biotech startup, and a global food non-profit aiming to alleviate world hunger. What makes the club special to me is that I get to see my work have a tangible impact on the world. Additionally, the community is like no other. I still keep in contact with our alumni, and I've met many amazing individuals in this club who have supported me through my highs, lows, and everything in between.",
                 "I'm a first-gen college student, dancer, and play table tennis, tennis, and pickleball. If you have an interest in any of these, let's chat!"
