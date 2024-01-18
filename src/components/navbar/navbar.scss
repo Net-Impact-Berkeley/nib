@@ -13,6 +13,7 @@
     font-size: 15px;
     text-align: left;
     position: relative;
+    z-index: 1000;
 
 
     ul {
@@ -55,6 +56,7 @@
         width: 82%;
         height: 87px;
         max-width: 1250px;
+        z-index: 1000;
 
         .container {
             padding-left: 0 !important;
