@@ -8,7 +8,7 @@ let memberInfo = {
                 "Outside of enjoying my spotlight in the NIB hall of fame (jokes, but we should make it happen) I enjoy dance and watching standup. I'm beyond excited to meet y'all throughout recruitment. Cheers :)"
             ],
             linkedin: 'https://www.linkedin.com/in/shekharmrigank',
-            image: require('../img/prof/mrigank.png'),
+            image: require('../img/prof/mrigank.jpg'),
             sillyImage: require('../img/funny/mrigank.png'),
             isDM: true
         },
@@ -21,7 +21,7 @@ let memberInfo = {
             ],
             linkedin: 'https://linkedin.com/in/nikith-vangala',
             calendly: "https://calendly.com/nikith-vangala/nib-coffee-chats",
-            image: require('../img/prof/nikith.png'),
+            image: require('../img/prof/nikith.jpg'),
             sillyImage: require('../img/funny/nikith.png'),
             isDM: true
         },
@@ -33,7 +33,7 @@ let memberInfo = {
                 "In my free time I enjoy writing music, playing guitar and keeping active!"
             ],
             linkedin: 'https://www.linkedin.com/in/aaliyahpondor/',
-            image: require('../img/prof/aaliyah.png'),
+            image: require('../img/prof/aaliyah.jpg'),
             sillyImage: require('../img/funny/aaliyah.png'),
             isDM: true
         },
@@ -45,7 +45,7 @@ let memberInfo = {
                 "Professionally, I will be spending the upcoming summer working as a Program Management Intern at Microsoft. After graduation, I hope to pursue a career in consulting or tech. My interests include following sports (NBA, MLB, NFL, EPL, Tennis), watching K-dramas, and grinding to Gold in League. If you see me around, please tell me a good joke lol"
             ],
             linkedin: 'https://www.linkedin.com/in/edwardtak012/',
-            image: require('../img/prof/eddie.png'),
+            image: require('../img/prof/eddie.jpg'),
             sillyImage: require('../img/funny/eddie.png'),
             isDM: true
         },
@@ -57,7 +57,7 @@ let memberInfo = {
                 "I'm a first-gen college student, dancer, and play table tennis, tennis, and pickleball. If you have an interest in any of these, let's chat!"
             ],
             linkedin: 'https://www.linkedin.com/in/vincentnguyen25/',
-            image: require('../img/prof/vincent.png'),
+            image: require('../img/prof/vincent.jpg'),
             sillyImage: require('../img/funny/vincent.png'),
             isDM: true
         },
@@ -72,7 +72,7 @@ let memberInfo = {
                 "Outside of consulting, I am interested in human rights, environmental justice, African development, and Timothée Chalamet. I am also involved in on-campus research. In my free time, I love shopping, hiking, and traveling. Feel free to reach out and chat, and I look forward to meeting you!"
             ],
             linkedin: 'www.linkedin.com/in/breanna-pearlman-637119251',
-            image: require('../img/prof/breanna.png'),
+            image: require('../img/prof/breanna.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
             isDM: true
         },
@@ -84,7 +84,7 @@ let memberInfo = {
                 "In my free time, I like working out, reading, and trying new dishes. I'm always trying to become a better cook (on a budget), so if you have new recipes, hit me up. Sign up for a coffee chat with me if you are interested in video games, the Huberman Lab podcast, food, Suits (the show), or just want to learn more about NIB!"
             ],
             linkedin: 'www.linkedin.com/in/charleszgu',
-            image: require('../img/prof/charlie.png'),
+            image: require('../img/prof/charlie.jpg'),
             sillyImage: require('../img/funny/charlie.png'),
             isDM: true
         },
@@ -108,7 +108,7 @@ let memberInfo = {
                 "In my free time I enjoy reading, board games, hiking, grabbing boba with friends, listening to practically every genre of music that exists, and playing tennis."
             ],
             linkedin: 'www.linkedin.com/in/madelynchristensen',
-            image: require('../img/prof/maddy.png'),
+            image: require('../img/prof/madelyn.jpeg'),
             sillyImage: require('../img/funny/maddy.png'),
             isDM: true
         },
@@ -154,7 +154,7 @@ let memberInfo = {
             ],
             linkedin: 'www.linkedin.com/in/hunter-valencia-42216424b',
             calendly: "https://calendly.com/sunwardloki/30-minute-chat",
-            image: require('../img/prof/hunter.png'),
+            image: require('../img/prof/hunter.jpg'),
             sillyImage: require('../img/funny/hunter.png'),
             isDM: false
         },
@@ -179,7 +179,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
         calendly: "https://calendly.com/napimk/nib-coffee-chat",
-        image: require('../img/prof/ice.jpeg'),
+        image: require('../img/prof/ice.jpg'),
         sillyImage: require('../img/funny/ice.jpg'),
         isDM: false
     },
@@ -246,7 +246,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/aditya-pattani-719b51205/',
         calendly: 'https://calendly.com/adityapattani',
-        image: require('../img/prof/adi.png'),
+        image: require('../img/prof/adi.jpg'),
         sillyImage: require('../img/funny/adi.png'),
         isDM: false
     },
@@ -259,7 +259,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/alexisrwright/',
         calendly: "https://calendly.com/alexisrwright",
-        image: require('../img/prof/alexis.png'),
+        image: require('../img/prof/alexis.jpg'),
         sillyImage: require('../img/funny/alexis.png'),
         isDM: false
     },
@@ -272,7 +272,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/heatheryuan/',
         calendly: "https://calendly.com/heather-yuan/nib-coffee-chat",
-        image: require('../img/prof/heather.png'),
+        image: require('../img/prof/heather.jpg'),
         sillyImage: require('../img/funny/heather.png'),
         isDM: false
     },
@@ -285,7 +285,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/jana-zaki-68bb65202/',
         calendly: "https://calendly.com/janazaki/coffee-chat",
-        image: require('../img/prof/jana.png'),
+        image: require('../img/prof/jana.jpg'),
         sillyImage: require('../img/funny/jana.png'),
         isDM: false
     },
@@ -311,7 +311,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/justinabyers/',
         calendly: "https://calendly.com/justin-byers-1/nib-coffee-chat",
-        image: require('../img/prof/justin.png'),
+        image: require('../img/prof/justin.jpg'),
         sillyImage: require('../img/funny/justin.png'),
         isDM: false
     },
@@ -325,7 +325,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/kavidolasia/',
         calendly: "https://calendly.com/kdolasia",
-        image: require('../img/prof/kavi.png'),
+        image: require('../img/prof/kavi.jpg'),
         sillyImage: require('../img/funny/kavi.png'),
         isDM: false
     },
@@ -366,7 +366,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/mattkangg/',
         calendly: "https://calendly.com/mattkangg/30min",
-        image: require('../img/prof/matt.png'),
+        image: require('../img/prof/matt.jpg'),
         sillyImage: require('../img/funny/matt.png'),
         isDM: false
     },
@@ -391,7 +391,7 @@ let memberInfo = {
         ],
         linkedin: 'https://www.linkedin.com/in/mia-chou-2454a4187/',
         calendly: 'https://calendly.com/miachou/30min?back=1&month=2024-01',
-        image: require('../img/prof/mia.png'),
+        image: require('../img/prof/mia.jpg'),
         sillyImage: require('../img/funny/mia.png'),
         isDM: false
     },
@@ -484,7 +484,7 @@ let memberInfo = {
     ],
     linkedin: 'https://www.linkedin.com/in/sejalgoel/',
     calendly: "https://calendly.com/sejal_goel/nib-coffee-chats",
-    image: require('../img/prof/sejal.png'),
+    image: require('../img/prof/sejal.jpg'),
     sillyImage: require('../img/funny/sejal.png'),
     isDM: false
 },
@@ -497,7 +497,7 @@ let memberInfo = {
     ],
     linkedin: 'https://www.linkedin.com/in/stuti-upadhyay/',
     calendly: "https://calendly.com/stuti-j-upadhyay",
-    image: require('../img/prof/stuti.png'),
+    image: require('../img/prof/stuti.jpg'),
     sillyImage: require('../img/funny/stuti.png'),
     isDM: false
 },
@@ -510,7 +510,7 @@ let memberInfo = {
     ],
     linkedin: 'https://www.linkedin.com/in/tobolu',
     calendly: "https://calendly.com/tobolu/nib-coffee-chat",
-    image: require('../img/prof/tsadi.png'),
+    image: require('../img/prof/tsadi.jpg'),
     sillyImage: require('../img/funny/tsadi.png'),
     isDM: false
 },
@@ -548,7 +548,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/wenhan-xi-842440149/',
             calendly: "https://calendly.com/xiwenhan",
-            image: require('../img/prof/han.png'),
+            image: require('../img/prof/han.jpg'),
             sillyImage: require('../img/funny/han.png'),
             isDM: false
         },
