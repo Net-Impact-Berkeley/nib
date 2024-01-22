@@ -377,7 +377,7 @@ let memberInfo = {
             "Hey! I'm Megha, a senior from Los Angeles studying Computer Science + Business. I joined NIB my first semester of college and have cherished every moment since 💙 In my free time, I read/write about climate tech, build fun things, and meticulously rank Bay Area restaurants in my master spreadsheet. Feel free to sign up for a coffee chat!"
         ],
         linkedin: 'https://www.linkedin.com/in/meghamjain/',
-        calendly: "https://calendly.com/meghaja1n/nib-coffee-chat",
+        calendly: "https://calendly.com/meghaja1n/nib-coffee-chats",
         image: require('../img/prof/megha.png'),
         sillyImage: require('../img/funny/megha.png'),
         isDM: false
@@ -535,6 +535,7 @@ let memberInfo = {
                 "I'm interested in renewable energy, education, and technology. This past semester I worked as a SWE Intern at Coinbase within their security team to build sustainable development practices. In the past I've worked at several start-ups as an operations lead, software engineer, and UI/UX designer, and see myself exploring entrepreneurship or VC as a career path in the near future In my free time I love to read about start-ups and tech, travel, sing, watch Netflix and follow F1. Feel free to reach out to chat about anything! :)"
             ],
             linkedin: 'https://www.linkedin.com/in/varun-nair-berkeley/',
+            calendly: "https://calendly.com/varun_nair/coffee-chat-with-varun-nib?month=2024-01",
             image: require('../img/prof/varun.png'),
             sillyImage: require('../img/funny/varun.png'),
             isDM: false
