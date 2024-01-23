@@ -71,7 +71,7 @@ let memberInfo = {
                 "Hi! I’m Breanna, and I’m a sophomore studying Global Studies and Society & Environment with a minor in History. I joined NIB my freshman spring, and it has been the best decision I’ve made! In my short time in NIB so far I have already made such amazing memories and met some of my closest friends. Within NIB, I’ve worked on social impact initiative ideation for a leading energy bar company and food safety testing implementation for the Global Alliance for Improved Nutrition.",
                 "Outside of consulting, I am interested in human rights, environmental justice, African development, and Timothée Chalamet. I am also involved in on-campus research. In my free time, I love shopping, hiking, and traveling. Feel free to reach out and chat, and I look forward to meeting you!"
             ],
-            linkedin: 'www.linkedin.com/in/breanna-pearlman-637119251',
+            linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
             image: require('../img/prof/breanna.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
             isDM: true
@@ -83,7 +83,7 @@ let memberInfo = {
                 "Hey! My name's Charlie, and I'm a second-year majoring in Business + Electrical Engineering & Computer Science. I joined NIB during my freshman fall semester, and I've loved every moment of it. Nowhere else will you find the opportunity to work on such unique projects, gain in-person presentation experience, and meet talented and driven people. NIB is the most supportive group of people I've ever met <3",
                 "In my free time, I like working out, reading, and trying new dishes. I'm always trying to become a better cook (on a budget), so if you have new recipes, hit me up. Sign up for a coffee chat with me if you are interested in video games, the Huberman Lab podcast, food, Suits (the show), or just want to learn more about NIB!"
             ],
-            linkedin: 'www.linkedin.com/in/charleszgu',
+            linkedin: 'https://www.linkedin.com/in/charleszgu/',
             image: require('../img/prof/charlie.jpg'),
             sillyImage: require('../img/funny/charlie.png'),
             isDM: true
@@ -107,7 +107,7 @@ let memberInfo = {
                 "Hi everyone! My name is Madelyn, and I am currently studying cognitive science and computer science. Being a part of Net Impact has been such an enriching experience, both through the skills I have acquired from workshops and team projects, as well as just getting the chance to be a part of such a fun and kind group of people. Most of my projects in NIB have focused on the healthcare industry, which is an impact area I’ve always been passionate about. During my time in NIB, I have had the opportunity to work on a project that focused on vaccine and pharmaceutical procurement within trading blocs in Africa. I've also branched out further in the healthcare industry and worked for a med tech company on bringing sustainability into the medical technology space, as well as a project focused around understanding the feasibility in increasing access to food safety tests to regions around the world. Through these projects, NIB has helped me improve the quality of my research, writing, and public speaking skills.",
                 "In my free time I enjoy reading, board games, hiking, grabbing boba with friends, listening to practically every genre of music that exists, and playing tennis."
             ],
-            linkedin: 'www.linkedin.com/in/madelynchristensen',
+            linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
             image: require('../img/prof/madelyn.jpeg'),
             sillyImage: require('../img/funny/maddy.png'),
             isDM: true
@@ -152,8 +152,8 @@ let memberInfo = {
                 "Hi everyone! My name is Hunter, I\'m a rising Sophomore studying Political Science. I joined Net Impact my Freshman Fall, and it\'s been an incredible year of working with the team. I especially loved how Net Impact integrated my major in Poli Sci with fields like healthcare and business.",
                 "This club has created so many core memories that have shaped who I am. If you have any questions (or want to talk about Volleyball), I'd love to hear from you!"
             ],
-            linkedin: 'www.linkedin.com/in/hunter-valencia-42216424b',
-            calendly: "https://calendly.com/sunwardloki/30-minute-chat",
+            linkedin: 'https://www.linkedin.com/in/hunter-valencia-42216424b',
+            calendly: "https://calendly.com/sunwardloki/nib-coffee-chat",
             image: require('../img/prof/hunter.jpg'),
             sillyImage: require('../img/funny/hunter.png'),
             isDM: false
@@ -191,7 +191,7 @@ let memberInfo = {
             "Outside of consulting, I am very passionate about women's health issues including menstrual equity, maternal and child health, and representation in women's health. In my free time, you can find me at the gym, playing volleyball, or at the beach!! I'd be more than happy to talk about NIB, the new member experience, or even balancing NIB with other commitments. Feel free to reach out! "
         ],
         linkedin: 'https://www.linkedin.com/in/jasmine-mah-a23434235/',
-        calendly: "https://calendly.com/d/3k5-tfg-6r5/nib-coffee-chat",
+        calendly: "https://calendly.com/jasminemah/nib-coffee-chatss",
         image: require('../img/prof/jasmine.jpg'),
         sillyImage: require('../img/funny/jasmine.jpg'),
         isDM: false
@@ -216,7 +216,7 @@ let memberInfo = {
             "Hi! I'm Mariah, a first year intending to major in Business Administration. I joined NIB my freshman fall semester and will be a returning associate this fall.  On my past project team, we guided a regenerative non-profit down the best strategy to launch their new educational product!",
             "Beyond NIB, I am interested in DEI initiatives, specifically increasing representation of women of color in professional spaces. Currently, I intern in Cal Athletics in the communications branch and worked as a sports journalist for underrepresented Bay Area athletes. In my free time I love learning new hairstyles, EATING, going to the gym, shopping, and watching movies. Feel free to reach out! "
         ],
-        linkedin: 'www.linkedin.com/in/mariah-branscomb',
+        linkedin: 'https://www.linkedin.com/in/mariah-branscomb',
         calendly: "https://calendly.com/mariahbranscomb/nib-coffee-chat",
         image: require('../img/prof/mariah.jpg'),
         sillyImage: require('../img/funny/mariah.jpg'),
