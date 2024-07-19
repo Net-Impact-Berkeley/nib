@@ -44,7 +44,7 @@ let clientBreakdownsInfo = [
             },
             {
                 projectName: "SCE",
-                projectLogo: require("../img/clients/sce.png"),
+                projectLogo: require("../img/clients/SCE.png"),
                 aboutClient: "Southern California Edison (SCE), the largest subsidiary of Edison International, is the primary electric utility company for much of Southern California.",
                 ourWork: "Our project had two phases: \n 1. Supported EV charging in apartment buildings, which is a notoriously hard problem because landlords don't have enough incentives to install it. \n 2. We also researched how natural gas pipe workers could be re-employed once we converted from natural gas to electricity.",
                 impact: "We put together research to be taken to the state government so that SCE could get incentives for electrification and decarbonization."
