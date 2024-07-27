@@ -231,7 +231,7 @@ const Members = () => {
                     <div>{memberList}</div>
                 </section>
             </section>
-            <section className="advisor">
+             { /*<section className="advisor">
                 <section className="grid container">
                     <div>
                         <img src={require('./img/azb.jpg')} alt="Alex Budak" />
@@ -254,7 +254,7 @@ const Members = () => {
                         </span>
                     </div>
                 </section>
-            </section>
+            </section> */ }
             <section className="carousel hideOnMobile">
                 <section className="container">
                     <div className="carouselView">

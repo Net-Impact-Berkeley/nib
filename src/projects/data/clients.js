@@ -29,7 +29,7 @@ let clients = [
     },
     {
         link: '',
-        img: require("../img/clients/sce.png" )
+        img: require("../img/clients/SCE.png" )
     },
     {
         link: '',

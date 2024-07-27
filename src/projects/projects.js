@@ -19,7 +19,7 @@ import bestbuy from './img/clients/bestbuy.png';
 import amazon from './img/clients/amazon.png';
 import kaiser from './img/clients/kaiser.png';
 import clif from './img/clients/clif.png';
-import sce from './img/clients/sce.png';
+import sce from './img/clients/SCE.png';
 import heifer from './img/clients/heifer.png';
 import pattern from './img/clients/pattern.png';
 import lls from './img/clients/lls.png';
