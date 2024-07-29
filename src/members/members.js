@@ -231,30 +231,6 @@ const Members = () => {
                     <div>{memberList}</div>
                 </section>
             </section>
-             { /*<section className="advisor">
-                <section className="grid container">
-                    <div>
-                        <img src={require('./img/azb.jpg')} alt="Alex Budak" />
-                    </div>
-                    <div className="verticallyCenter">
-                        <h2>Faculty Advisor</h2>
-                        <p>Professor Alex Budak is a lecturer at Berkeley 
-                        Haas specializing in leadership, change, and social entrepreneurship. He 
-                        co-founded and now advises the social enterprise <a href="https://startsomegood.com/" target="_blank">startsomegood.com</a> and is 
-                        the creator and instructor of UC Berkeley's "Becoming a Changemaker" course. 
-                        Professor Budak is also a member of the World Economic Forum's Expert Network 
-                        for Social Innovation and serves as Executive Director of the Berkeley Haas 
-                        Global Access Program.</p>
-                        <span>
-                            <Button
-                                link="https://alexbudak.com/about"
-                                buttonText="Learn more"
-                                external
-                            />
-                        </span>
-                    </div>
-                </section>
-            </section> */ }
             <section className="carousel hideOnMobile">
                 <section className="container">
                     <div className="carouselView">
