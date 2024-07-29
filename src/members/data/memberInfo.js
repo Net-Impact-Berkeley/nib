@@ -106,7 +106,7 @@ let memberInfo = {
         },
         {
             name: 'Wenhan Xi', 
-            title: 'Senior Advisor',
+            title: 'Project Manager',
             bio: [
                 "Hi there! I’m Han, and I’m a sophomore studying econ and data science. I joined Net Impact freshman fall and it's here in NIB that I've found a home. So far, I've had the opportunity to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. I've been driven to grow in many dimensions in a supportive family who I've come to love deeply.",
                 "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is not my forté…). I’m super excited to meet you through recruitment this spring!"
@@ -298,7 +298,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/aaliyahpondor/',
             image: require('../img/prof/aaliyah.jpg'),
             sillyImage: require('../img/funny/aaliyah.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Edward Tak', 
@@ -310,7 +310,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/edwardtak012/',
             image: require('../img/prof/eddie.jpg'),
             sillyImage: require('../img/funny/eddie.png'),
-            isDM: true
+            isDM: false
         }, 
         {
             name: 'Breanna Pearlman', 
@@ -322,7 +322,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
             image: require('../img/prof/breanna.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Charlie Gu', 
@@ -334,7 +334,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/charleszgu/',
             image: require('../img/prof/charlie.jpg'),
             sillyImage: require('../img/funny/charlie.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Madelyn Christensen',
@@ -346,7 +346,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
             image: require('../img/prof/madelyn.jpeg'),
             sillyImage: require('../img/funny/maddy.png'),
-            isDM: true
+            isDM: false
         },
         
         {
@@ -359,7 +359,7 @@ let memberInfo = {
             calendly: "https://calendly.com/vivianamercado/viviana-mercado-calendly",
             image: require('../img/prof/viviana.png'),
             sillyImage: require('../img/funny/viviana.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Srijani Sarkar', 
