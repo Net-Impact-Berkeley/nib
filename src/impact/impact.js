@@ -117,7 +117,7 @@ const Impact = () => {
             </section>
             <section className="diversitySection">
                 <div className="container">
-                <h1>Diversity in our org</h1>
+                <h1>Organizational Diversity</h1>
                 <div className="diversityNumbers">
                     <div className="num">
                         <div className="numBox">11 languages

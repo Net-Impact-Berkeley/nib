@@ -82,11 +82,10 @@ let memberInfo = {
             name: 'Grace Hu', 
             title: 'Project Manager',
             bio: [
-                "Hey! I’m Grace, a second year from Shanghai studying Political Economy and Economics with minors in Public Policy and Data Science. I joined NIB my sophomore fall and this is the best decision I made in my college experience. I’ve had the wonderful opportunity to work with a multinational corporation to enhance its food sustainability program in the past semester. NIB will always amaze you with how nice and supportive the #NIBFAM could be, and I have gained so many invaluable memories and experienced so much growth in my time with NIB thus far.",
-                "As a first-generation college student, I’m happy to talk about my journey if you are one too. In my free time, I enjoy playing piano (tho I hated it until I no longer HAVE TO), watching musicals, having random debates and discussions on philosophical topics, and giving 100% for the classes I like (and sleeping through the rest)"
+                "Hey! I’m Grace, a 3rd year from Shanghai studying Political Economy and Economics with minors in Public Policy and Data Science. I joined NIB in Fall '23, and it’s been the best decision I've ever made. I've had the wonderful opportunity to work with a multinational corporation to enhance its food sustainability program, as well as with a climate-tech startup to help develop its sales and growth strategy.",
+                "As a first-generation college student, I’m deeply passionate about poverty alleviation and global development. Outside of NIB, I’m heavily involved in on-campus social science research, enjoy spontaneous midnight drives, spend too much time in Moffitt & too much money on food, and proudly do my own haircuts."
             ],
             linkedin: 'https://www.linkedin.com/in/gracexyhu/',
-            calendly: "https://calendly.com/grace_hu/nib-coffee-chat-sp24",
             image: require('../img/prof/grace.jpg'),
             sillyImage: require('../img/funny/grace.jpg'),
             isDM: true
@@ -95,9 +94,8 @@ let memberInfo = {
             name: 'Keya Pardasani', 
             title: 'Project Manager',
             bio: [
-                "Hi everyone! I'm Keya, a junior from the Bay Area studying Environmental Economics and Policy. I joined NIB my second semester sophomore year, and it's been the best decision of my time in college! This past semester, I worked on a project with Heifer International, and I'm so excited for future projects and opportunities.",
-                "Outside of NIB, I love thrifting, hiking, and yoga! I'm also always down to talk about some good books or movies. And also, feel free to message me about NIB!",
-                "Keya is studying abroad Spring 2024."
+                "Hi everyone! I'm Keya, a senior from the Bay Area studying Environmental Economics and Policy. I joined NIB my second semester sophomore year, and it's been the best decision of my time in college! This past semester, I studied abroad, but my past projects in previous semesters with NIB were with Heifer International and Kiss the Ground.",
+                "Outside of NIB, I love thrifting, hiking, and yoga! I'm also always down to talk about some good books or movies. And also, feel free to message me about NIB!"
             ],
             linkedin: 'https://www.linkedin.com/in/keya-pardasani-aaa8981b1/',
             image: require('../img/prof/keya.png'),
@@ -108,8 +106,8 @@ let memberInfo = {
             name: 'Wenhan Xi', 
             title: 'Project Manager',
             bio: [
-                "Hi there! I’m Han, and I’m a sophomore studying econ and data science. I joined Net Impact freshman fall and it's here in NIB that I've found a home. So far, I've had the opportunity to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. I've been driven to grow in many dimensions in a supportive family who I've come to love deeply.",
-                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is not my forté…). I’m super excited to meet you through recruitment this spring!"
+                "Hi there! I’m Han, and I’m a Junior studying econ and data science. I joined Net Impact freshman fall and it's here in NIB that I've found a home. So far, I've had the opportunity to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. I've been driven to grow in many dimensions in a supportive family who I've come to love deeply.",
+                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is not my forté…). I’m super excited to meet you through recruitment this fall!"
             ],
             linkedin: 'https://www.linkedin.com/in/wenhan-xi-842440149/',
             calendly: "https://calendly.com/xiwenhan",
@@ -147,15 +145,16 @@ let memberInfo = {
 
     memberList: [
         {
-            name: 'ETHAN FOOOOOONG', 
+            name: 'Ethan Foong', 
             title: 'Senior Associate',
             bio: [
-                "Hi! I'm Srijani, a current sophomore studying Cognitive Science and MEB. I joined the NIB family last fall and will be a Senior Associate this upcoming semester. I am interested in ESG and CSR initiatives in business and had the opportunity to work with a TurtleTree, an innovator in the Biotech space, for my most recent project. Outside of NIB, I am a member of PhiDE, a pre medical fraternity. I also love to lift, paint, and play basketball and lacrosse. Feel free to sign up for a coffee chat with me, I'd love to get to know you!"
+                "What's up everyone! My name's Ethan, and I'm a third-year from Los Angeles studying Data Science and Operations Research (ORMS). I joined NIB during my sophomore spring semester, and it has been a blast to be a part of this dedicated and lively community! In my college experience thus far, I can confidently accredit NIB for the vast amounts of hearty laughs, long-lasting memories, and invaluable skills I have gained here at Berkeley.", 
+                "As a climate-tech enthusiast, I was extremely fortunate last semester to have had the opportunity to work with Climeworks, a Carbon-Dioxide Removal startup, where we analyzed and integrated prospective company partnerships into Climeworks' sales process using ESG metrics. In my free time, I enjoy keeping in shape through running, tennis, and surfing on the weekends. As a jazz band kid, I love jamming out on the keys with my friends and listening to groovy music anywhere from RnB to House, so feel free to drop me a song rec or two! Finally, I am perpetually exploring new boba spots and food in general so if any of this sounds interesting, don't hesitate to reach out and I'm looking forward to chatting with you :D" 
             ],
-            linkedin: 'https://www.linkedin.com/in/srijani-sarkar-035016200/',
-            calendly: "https://calendly.com/srijanisarkar/nib-coffee-chats",
+            linkedin: 'https://www.linkedin.com/in/ethanfoong/',
+            calendly: "https://calendly.com/ethanfoong-berkeley/nib-chatz",
             image: require('../img/prof/ethan.png'),
-            sillyImage: require('../img/funny/srijani.jpeg'),
+            sillyImage: require('../img/funny/ethan.png'),
             isDM: false
         },
         {
@@ -225,29 +224,30 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'DIANE SHIH', 
+            name: 'Diane Shih', 
             title: 'Associate',
             bio: [
-                "What’s the word y’all my name is Malik Mbugua, and I’m a second-year majoring in Political Economy with a concentration in Technology/Data Science.I joined NIB during my sophomore fall semester from South Central Los Angeles, and I’m currently a Returning Associate this semester. So far, I’ve been able to work with TurtleTree in aiding in the launch of new biomedical innovations.",
-                "Aside from this, I have a love for social impact, specifically dealing with homelessness and youth outreach which I do with non-profits I’ve helped as a co-founder in Berkley and LA. If you want to talk about social impact, anime, basketball, music, or anything else random, feel free to tap in!"
+                "Hi! I'm Diane, and I'm a sophomore studying Business and Data Science. I joined NIB during my freshman spring semester and have truly loved every second! NIB is such an incredible, passionate, and supportive community, and I've felt so very lucky to be a part of it. Last semester, I worked with a plagiarism detection company to analyze how AI impacts global education.",
+                "I'm super passionate about financial education, neurodiversity, and environmental sustainability, and NIB has helped me further these passions through the unique, genuine, and impactful work that we do. In my free time, I like to play piano, go to viewpoints, collect pins, and try new foods! Feel free to reach out if you want to to talk about any and all things music, terrible puns/dad jokes, travel (yet having no sense of direction), film photography, questions about NIB, or really anything you want!"
             ],
-            linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-            calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
+            linkedin: 'https://www.linkedin.com/in/diane-shih',
+            calendly: "https://calendly.com/dgshih-berkeley/nib-coffee-chat",
             image: require('../img/prof/dgshih.jpg'),
-            sillyImage: require('../img/funny/malik.jpg'),
+            sillyImage: require('../img/funny/dgshih.png'),
             isDM: false
         },
         {
-            name: 'MANDY PHAM', 
+            name: 'Mandy Pham', 
             title: 'Associate', 
             bio: [
-                "What’s the word y’all my name is Malik Mbugua, and I’m a second-year majoring in Political Economy with a concentration in Technology/Data Science.I joined NIB during my sophomore fall semester from South Central Los Angeles, and I’m currently a Returning Associate this semester. So far, I’ve been able to work with TurtleTree in aiding in the launch of new biomedical innovations.",
-                "Aside from this, I have a love for social impact, specifically dealing with homelessness and youth outreach which I do with non-profits I’ve helped as a co-founder in Berkley and LA. If you want to talk about social impact, anime, basketball, music, or anything else random, feel free to tap in!"
+                "Hii!! I’m a sophomore studying EECS and joined NIB last semester. In NIB, I focused on natural source sustainability in the social impact sector. NIB has greatly impacted my life, from academic support to the amazing people I've met. Being part of this community has made my freshman experience truly memorable.",
+                "Outside of consulting, I’m involved in a dance company and enjoy swimming, hiking, working out, and wrestling. I have a range of interests and have recently taken up cooking!",
+                "I’m enthusiastic about making and exploring jewelry, trying new foods, browsing Facebook Marketplace, and discovering new music. If you ever need a hand or some advice, feel free to reach out!"
             ],
-            linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-            calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
-            image: require('../img/prof/malik.jpg'),
-            sillyImage: require('../img/funny/malik.jpg'),
+            linkedin: 'https://www.linkedin.com/in/phamandy24/',
+            calendly: "https://calendly.com/tpmandy24/nib-coffee-chat",
+            image: require('../img/prof/mandy.png'),
+            sillyImage: require('../img/funny/mandy.jpeg'),
             isDM: false
         },
         {
@@ -264,29 +264,29 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'FRANCES RICH', 
+            name: 'Frances Rich', 
             title: 'Associate',
             bio: [
-                "What’s the word y’all my name is Malik Mbugua, and I’m a second-year majoring in Political Economy with a concentration in Technology/Data Science.I joined NIB during my sophomore fall semester from South Central Los Angeles, and I’m currently a Returning Associate this semester. So far, I’ve been able to work with TurtleTree in aiding in the launch of new biomedical innovations.",
-                "Aside from this, I have a love for social impact, specifically dealing with homelessness and youth outreach which I do with non-profits I’ve helped as a co-founder in Berkley and LA. If you want to talk about social impact, anime, basketball, music, or anything else random, feel free to tap in!"
+                "Hi! My name is Frances and I'm an incoming sophomore studying History and Political Economics. I joined NIB my freshman spring semester and had an absolute blast getting to know all of the amazing and driven people that make up this club! NIBFam is so real and this organization has been nothing but welcoming and motivating. Last semester I worked with an AI detection software to ideate new marketing strategies via UI and UX design.",
+                "Outside of NIB I am interested anything historical fiction (Books, TV, Movies) and love to go to coffee shops and yap with my friends. I am a retired dancer looking to come out of retirement this year and look forward to meeting you!"
             ],
-            linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-            calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
+            linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
+            calendly: "https://calendly.com/francesroserich-berkeley",
             image: require('../img/prof/frances.png'),
-            sillyImage: require('../img/funny/malik.jpg'),
+            sillyImage: require('../img/funny/frances.png'),
             isDM: false
         },
         {
-            name: 'WILLIAM LITTLE',
+            name: 'William Little',
             title: 'Associate',
             bio: [
-                "What’s the word y’all my name is Malik Mbugua, and I’m a second-year majoring in Political Economy with a concentration in Technology/Data Science.I joined NIB during my sophomore fall semester from South Central Los Angeles, and I’m currently a Returning Associate this semester. So far, I’ve been able to work with TurtleTree in aiding in the launch of new biomedical innovations.",
-                "Aside from this, I have a love for social impact, specifically dealing with homelessness and youth outreach which I do with non-profits I’ve helped as a co-founder in Berkley and LA. If you want to talk about social impact, anime, basketball, music, or anything else random, feel free to tap in!"
+                "Hey! I'm Will, a junior from Sacramento, California, studying aerospace engineering. I joined Net Impact in Spring 2024 and am currently a Returning Associate this semester. Last semester, I worked with Diageo, where I helped create a machine-learning algorithm to optimize water usage in their beverage production process.",
+                "I'm interested in improving diversity in STEM, technology, engineering, and program and product management. In the past, I've worked at NASA as a Systems Engineering intern for over a year. I love to play basketball, cook, and binge-watch superhero movies in my free time. Feel free to reach out to chat about anything!"
             ],
-            linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-            calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
+            linkedin: 'https://www.linkedin.com/in/williamalexlittle/',
+            calendly: "https://calendly.com/william-little-berkeley/nib-coffee-chats?month=2024-08&date=2024-08-30",
             image: require('../img/prof/will.png'),
-            sillyImage: require('../img/funny/malik.jpg'),
+            sillyImage: require('../img/funny/will.png'),
             isDM: false
         },
         {
@@ -341,10 +341,13 @@ let memberInfo = {
             name: 'Madelyn Christensen',
             title: 'Senior Advisor',
             bio: [
-                "Hi everyone! My name is Madelyn, and I am currently studying cognitive science and computer science. Being a part of Net Impact has been such an enriching experience, both through the skills I have acquired from workshops and team projects, as well as just getting the chance to be a part of such a fun and kind group of people. Most of my projects in NIB have focused on the healthcare industry, which is an impact area I’ve always been passionate about. During my time in NIB, I have had the opportunity to work on a project that focused on vaccine and pharmaceutical procurement within trading blocs in Africa. I've also branched out further in the healthcare industry and worked for a med tech company on bringing sustainability into the medical technology space, as well as a project focused around understanding the feasibility in increasing access to food safety tests to regions around the world. Through these projects, NIB has helped me improve the quality of my research, writing, and public speaking skills.",
-                "In my free time I enjoy reading, board games, hiking, grabbing boba with friends, listening to practically every genre of music that exists, and playing tennis."
+                "Hi everyone! My name is Madelyn, and I am a junior studying Cognitive Science and Data science. Being a part of Net Impact Berkeley has been such an enriching experience, both through the skills I have acquired from workshops and team projects, as well as just getting the chance to be a part of such a fun and kind group of people. Most of my projects in NIB have focused on the healthcare industry, which is an impact area I’ve always been passionate about. This last semester I had the chance to lead a project related to AI and its usage in education through services such as ChatGPT, which I'd also love to chat about!",
+                "During my time in NIB, I have also had the opportunity to work on a project that focused on vaccine and pharmaceutical procurement within trading blocs in Africa. I've also branched out further in the healthcare industry and worked for a med tech company on bringing sustainability into the medical technology space, as well as a project focused around understanding the feasibility in increasing access to food safety tests to regions around the world. Through these projects, NIB has helped me improve the quality of my research, writing, and public speaking skills.",
+                "In my free time I enjoy reading, board games, hiking, grabbing boba with friends, listening to practically every genre of music that exists, and playing tennis.",
+                "NIB is a wonderful community of kind, passionate, driven, and social people. I'm a huge believer in NIB-Fam, and am so excited to meet our newest set of applicants and connect :)"
             ],
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
+            calendly: 'https://calendly.com/madelync-1/nib-fall-2024-coffee-chats',
             image: require('../img/prof/madelyn.jpeg'),
             sillyImage: require('../img/funny/maddy.png'),
             isDM: false
@@ -416,11 +419,11 @@ let memberInfo = {
             name: 'Mia Chou',
             title: 'Senior Advisor',
             bio: [
-                "Hi there! I'm Mia, a junior from Santa Barbara studying Industrial Engineering and Business and will be a senior advisor this upcoming semester. I joined Net Impact fall of my freshman year and it’s one of the best decisions I’ve made. Throughout my time in NIB I've had the opportunity to work on amazing projects such as building a go-to-market strategy for girl's education curriculum and research on corporate training needs for a regenerative agriculture nonprofit. My projects have allowed me to learn, grow, and most importantly meet some of my closest friends! (and housemate) NIB has truly become my family.",
-                "Outside of school and NIB, some of my favorite things include trying new recipes and restaurants, running half marathons and playing tennis, listening to podcasts and audiobooks, and being overly excited about picnics and sunsets. I’m excited to meet you all!"
+                "Hi there! I'm Mia, a senior from Santa Barbara studying Industrial Engineering and Business and will be a senior advisor this upcoming semester. I joined Net Impact fall of my freshman year and it’s one of the best decisions I’ve made. Throughout my time in NIB I've had the opportunity to work on amazing projects on girl's education, vaccine procurement in Africa, and regenerative agriculture. My projects have allowed me to learn, grow, and most importantly meet some of my closest friends! NIB has truly become my family.",
+                "Outside of school and NIB, some of my favorite things include running half marathons, playing sports (tennis, pickleball, volleyball), trying new recipes and restaurants, hiking and camping, and obsessing over picnics and sunsets. I’m excited to meet you all!"
             ],
             linkedin: 'https://www.linkedin.com/in/mia-chou-2454a4187/',
-            calendly: 'https://calendly.com/miachou/30min?back=1&month=2024-01',
+            calendly: 'https://calendly.com/miachou/nib-coffee-chats',
             image: require('../img/prof/mia.jpg'),
             sillyImage: require('../img/funny/mia.png'),
             isDM: false
