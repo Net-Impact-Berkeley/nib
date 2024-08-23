@@ -72,12 +72,12 @@ const About = () => {
                     </div>
 
                     <div>
-                        <h2>13+</h2>
+                        <h2>14+</h2>
                         <p>Years of Experience</p>
                     </div>
 
                     <div>
-                        <h2>160+</h2>
+                        <h2>170+</h2>
                         <p>Net Impact Berkeley Alumni</p>
                     </div>
 
@@ -118,7 +118,7 @@ const About = () => {
                             <br/>
                             As a part of this global community, we are able to leverage the minds of industry experts and professionals in our 
                             project work, attend national events and collaborate across our 300 chapters. </p>
-                            <Button link="https://www.netimpact.org/home" buttonText="Learn About Net Impact Central" external />
+                            <Button link="https://www.netimpact.org/" buttonText="Learn About Net Impact Central" external />
                         </div>
                     </div>
                 </div>

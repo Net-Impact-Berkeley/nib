@@ -144,6 +144,7 @@ let memberInfo = {
             isDM: true
         },
     ],
+
     memberList: [
         {
             name: 'ETHAN FOOOOOONG', 
@@ -153,7 +154,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/srijani-sarkar-035016200/',
             calendly: "https://calendly.com/srijanisarkar/nib-coffee-chats",
-            image: require('../img/prof/srijani.jpg'),
+            image: require('../img/prof/ethan.png'),
             sillyImage: require('../img/funny/srijani.jpeg'),
             isDM: false
         },
@@ -232,7 +233,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
             calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
-            image: require('../img/prof/malik.jpg'),
+            image: require('../img/prof/dgshih.jpg'),
             sillyImage: require('../img/funny/malik.jpg'),
             isDM: false
         },
@@ -271,7 +272,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
             calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
-            image: require('../img/prof/malik.jpg'),
+            image: require('../img/prof/frances.png'),
             sillyImage: require('../img/funny/malik.jpg'),
             isDM: false
         },
@@ -284,7 +285,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/malik-mbugua?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
             calendly: "https://calendly.com/mmbugua-1/nib-coffee-chat",
-            image: require('../img/prof/malik.jpg'),
+            image: require('../img/prof/will.png'),
             sillyImage: require('../img/funny/malik.jpg'),
             isDM: false
         },

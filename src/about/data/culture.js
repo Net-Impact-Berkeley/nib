@@ -9,44 +9,44 @@ import image8 from '../img/culture8.png';
 
 let cultureData = [
     {
-        description: "Olivia and Abi enjoying coffee together. Several times a semester, members of NIB get matched together and enjoy a \"buddy brunch\" hangout.",
+        description: "The Spring 2024 NIBlet class supporting Mandy at her Main Stacks exhibition performance (she killed it!)",
         imageLink: image1,
-        alt: "2 members enjoying coffee together",
+        alt: "Group of NIB members after a performance",
     },
     {
-        description: "Our Fall 2019 Niblet class participated in the Basic Needs cooking competition. Here's Gary doing his best Salt Bae impression.",
+        description: "NIB members ran the Golden Gate Half Marathon together in Fall 2023!",
         imageLink: image2,
-        alt: "1 NIB member throwing salt onto his food at a food competition",
+        alt: "4 NIB members after a race",
     },
     {
-        description: "The wonderful “Women in NIB” enjoying brunch at one of the semester’s frequent socials.",
+        description: "Team Kiss the Ground enjoying pumpkin spice lattes on an early morning picnic.",
         imageLink: image3,
-        alt: "A bunch of women in Net Impact gathered",
+        alt: "A project team sitting on grass enjoying coffee",
     },
     {
-        description: "Varsha and fresh alum Naomi enjoying boba (a timeless nib pastime)",
+        description: "The fearless players of Nu Iota Beta, NIB's IM Soccer Team, after their season finale in Spring 2024 (with some special alumni guests!).",
         imageLink: image4,
-        alt: "2 members getting boba",
+        alt: "A team after a soccer match",
     },
     {
-        description: "Edward congratulating Adhiv on a spectacular victory after a Super Smash Bros. Ultimate session.",
+        description: "Annual photoshoot for our outgoing seniors! We miss you class of 2024 </3",
         imageLink: image5,
-        alt: "1 member showering another NIB member with coins after playing video games",
+        alt: "NIB seniors laughing and smiling together while posing for a picture",
     },
     {
-        description: "NIB members at one of our infosessions excited to welcome applicants!",
+        description: "NIB members dressing up for the wild west while celebrating Jasmine's birthday!",
         imageLink: image6,
-        alt: "4 members posed in front of a whiteboard saying Welcome to NIB during a past infosession",
+        alt: "Group of NIB members dressed in western clothing smiling for a picture",
     },
     {
-        description: "Every semester our project teams have fun team socials. Here, a team hiked the Berkeley Fire Trails and enjoyed a nice brunch.",
+        description: "Srijani and Jasmine having a great time at our annual summer retreat! This past summer, we went to Shaver Lake for a relaxing weekend.",
         imageLink: image7,
         alt: "4 members on a project team enjoying lunch in the woods",
     },
     {
-        description: "Good times and vibes at the beach!",
+        description: "Some of our members tabling and greeting potential applicants at Sproul Plaza! Check us out on your way to class :)",
         imageLink: image8,
-        alt: "NIB members at the beach",
+        alt: "Members posing at the NIB table",
     },
 ];
 
