@@ -8,7 +8,7 @@ let prepareTypeInfo = [{
         img: require('../img/prepareSection/meet.png'),
         alt: "Icon of 2 chat bubbles",
         title: "Take Initiative, Reach Out!",
-        description: "We're tabling during the day from January 16th to 25th on Memorial Glade and Sproul. Stop by to ask our members about their experiences and time in NIB!"
+        description: "We're tabling during the day from August 28th to September 5th on Memorial Glade and Sproul. Stop by to ask our members about their experiences and time in NIB!"
     },
     {
         img: require('../img/prepareSection/case.png'),
