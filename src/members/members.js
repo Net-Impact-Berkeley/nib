@@ -224,7 +224,7 @@ const Members = () => {
                     </section>
                 </section>
                 <section className="container">
-                    <h2>Executive Board</h2>
+                    <h2>TEST Board</h2>
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{pmList}</div>
