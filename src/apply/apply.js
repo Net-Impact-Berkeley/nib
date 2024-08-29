@@ -25,7 +25,7 @@ const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
    const interestForm = "https://airtable.com/appZNUaqLhwW38hJf/shrzmMZkOfJ0uMPyR";
-   const application = "https://airtable.com/appZNUaqLhwW38hJf/shrzmMZkOfJ0uMPyR";
+   const application = "https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -54,7 +54,7 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Spring 2024 is now open! Scroll to learn more about our timeline and events</p>
+                   <p>Our application for Fall 2024 is now open! Scroll to learn more about our timeline and events</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
