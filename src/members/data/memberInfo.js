@@ -199,7 +199,7 @@ let memberInfo = {
         },
         {
             name: 'Mehul Nair', 
-            title: 'Senior Advisor',
+            title: 'Senior Associate',
             bio: [
                 "Hey everyone! I'm Mehul and I'm a sophomore currently studying Nuclear Engineering and Materials Science. I joined NIB last semester and I've had a blast! I'm very passionate about climate sustainability and worked on a regenerative agriculture project last semester. My favorite area to work in is product and interface design and strategies",
                 "Outside of NIB I like to try new food, go on late-night drives with friends and watch soccer. I'm also involved in multiple research projects from high-powered magnetics to algorithms for cancer therapy! If you want to know more about my experience at NIB or just chat, feel free to contact me at mehulnair@berkeley.edu."

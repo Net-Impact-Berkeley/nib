@@ -113,7 +113,7 @@ const Apply = () => {
                        <p>Friday 9/06 - Tuesday 9/10</p>
                        <ul>
                            <li>Applications are due at 1PM on September 6th.</li>
-                           Apply <a className="underline-magical" href="https://airtable.com/appK6wRqibWMyzVyQ/shr6XyxVzly3gHzAm" target="_blank" rel="noopener noreferrer"> here. </a>
+                           Apply <a className="underline-magical" href="https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
