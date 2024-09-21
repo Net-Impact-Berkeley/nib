@@ -132,7 +132,7 @@ let memberInfo = {
                 "Outside of NIB, you'll probably find me trying to meditate, daydreaming about the beach, or losing at poker. Either way, I'd love nothing more than to chat with you – hit me up!"
             ],
             linkedin: 'http://linkedin.com/in/pranit-jain/',
-            image: require('../img/prof/pranit.png'),
+            image: require('../img/prof/pranit.jpg'),
             sillyImage: require('../img/funny/pranit.png'),
             isDM: true
         },
@@ -275,10 +275,11 @@ let memberInfo = {
             name: 'Aaliyah Pondor',
             title: 'Senior Advisor',
             bio: [
-                "Hey everyone! I’m Aaliyah, a Junior from Mauritius studying Business Administration and Environmental Economics and Policy. I joined NIB my spring freshmen year and it’s been the best decision I’ve made so far! From the tight-knit community to the inspiring projects I’ve been on, NIB has shaped my college experience so far! I’ve worked on an ESG project with a tech company and devising a financial model for renewable energy land conversion.",
+                "Hey everyone! I’m Aaliyah, a senior from Mauritius studying Business Administration and Environmental Economics and Policy. I joined NIB my spring freshmen year and it’s been the best decision I’ve made so far! From the tight-knit community to the inspiring projects I’ve been on, NIB has shaped my college experience so far! I’ve worked on an ESG project with a tech company and devising a financial model for renewable energy land conversion.",
                 "In my free time I enjoy writing music, playing guitar and keeping active!"
             ],
             linkedin: 'https://www.linkedin.com/in/aaliyahpondor/',
+            calendly: 'https://calendly.com/aaliyahpondor0706/net-impact-coffee-chat',
             image: require('../img/prof/aaliyah.jpg'),
             sillyImage: require('../img/funny/aaliyah.png'),
             isDM: false
