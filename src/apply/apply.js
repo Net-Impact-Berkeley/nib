@@ -54,7 +54,7 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Fall 2024 is now open! Scroll to learn more about our timeline and events</p>
+                   <p>Our application for Spring 2025 will open soon! Scroll to learn more about our timeline and events</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
@@ -172,14 +172,14 @@ const Apply = () => {
        <section className="container timelineSection" id="timelineSection">
            <h1>Timeline</h1>
            <div className="timelinePhotos">
-               <img src={require("./img/timelinePhotos/photo1.jpg")} alt="" />
+               <img src={require("./img/timelinePhotos/photo10new.jpg")} alt="" />
                {/* <img src={require("./img/timelinePhotos/photo2.jpg")} alt="" /> */}
-               <img src={require("./img/timelinePhotos/photo3.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo4.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo5.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo6.jpg")} alt="" />
-               <img src={require("./img/timelinePhotos/photo9.JPG")} alt="" />
-               <img src={require("./img/timelinePhotos/photo8.jpg")} alt="" />
+               <img src={require("./img/timelinePhotos/photo3new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo4new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo5new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo6new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo1new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo2new.JPEG")} alt="" />
            </div>
            <div className="timelineContainer">
                <ul className="timeline">
