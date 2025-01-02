@@ -5,8 +5,8 @@ import 'home/home.scss';
 import 'projects/projects.scss';
 
 import nibLogo from 'img/nib-logo-new.png';
-import secondSection1 from './img/exec.png';
-import secondSection2 from './img/railroad.png';
+import secondSection1 from './img/f24exec.jpg'; // changed from './img/exec.png'
+import secondSection2 from './img/berkeleyprojectF24.JPEG';
 import membersSectionImage from './img/whoarewe.png';
 import SpectrumSection from './spectrumSection';
 import pastClients from './data/pastClientsHighlights';

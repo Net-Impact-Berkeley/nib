@@ -9,8 +9,8 @@ import ProjectType from '../components/ProjectType';
 import CallToAction from 'components/callToAction';
 
 
-import blob1 from './img/shapes/photo1.png';
-import blob2 from './img/shapes/photo2.png';
+import blob1 from './img/shapes/blobphoto1.png';
+import blob2 from './img/shapes/blobphoto2.png';
 import zoom from './img/zoom.png';
 
 
@@ -90,9 +90,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={chat} alt="chat icon" />
                        <h4>Tabling</h4>
-                       <p>Wednesday, 8/28 – Thursday, 9/5</p>
+                       <p>Tuesday, 1/21 – Thursday, 1/30</p>
                        <ul>
-                           <li>From August 28th through September 5th anytime 8am-4pm, come say hi on at our table on Sproul or the Glade!</li>
+                           <li>From January 21th through January 30th anytime 8am-4pm, come say hi on at our table on Sproul!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
                            <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
@@ -100,7 +100,7 @@ const Apply = () => {
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 9/03 - Thursday, 9/05</p>
+                       <p>Tuesday, 1/28 - Thursday, 1/30</p>
                        <ul>
                            <li>Tuesday: Infosession #1</li>
                            <li>Wednesday: Infosession #2 + Case Workshop</li>
@@ -110,9 +110,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 9/06 - Tuesday 9/10</p>
+                       <p>Friday 1/31 - Tuesday 2/4</p>
                        <ul>
-                           <li>Applications are due at 1PM on September 6th.</li>
+                           <li>Applications are due at 1PM on January 31st.</li>
                            Apply <a className="underline-magical" href="https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
@@ -177,9 +177,11 @@ const Apply = () => {
                <img src={require("./img/timelinePhotos/photo3new.JPEG")} alt="" />
                <img src={require("./img/timelinePhotos/photo4new.JPEG")} alt="" />
                <img src={require("./img/timelinePhotos/photo5new.JPEG")} alt="" />
-               <img src={require("./img/timelinePhotos/photo6new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo6new.jpg")} alt="" />
                <img src={require("./img/timelinePhotos/photo1new.JPEG")} alt="" />
-               <img src={require("./img/timelinePhotos/photo2new.JPEG")} alt="" />
+               <img src={require("./img/timelinePhotos/photo8new.jpg")} alt="" />
+               <img src={require("./img/timelinePhotos/photo11new.jpg")} alt="" />
+               {/* <img src={require("./img/timelinePhotos/photo7new.JPEG")} alt="" /> */}
            </div>
            <div className="timelineContainer">
                <ul className="timeline">
