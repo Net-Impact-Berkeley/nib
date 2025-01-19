@@ -391,7 +391,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/nikith-vangala/nib-coffee-chats',
             image: require('../img/prof/nikith.png'),
             sillyImage: require('../img/funny/nikith.jpg'),
-            isDM: true
+            isDM: false
         },
         
         {
@@ -471,7 +471,7 @@ let memberInfo = {
             ],
             linkedin: 'http://linkedin.com/in/pranit-jain/',
             calendly: 'https://calendly.com/pranitjain/coffee-chat',
-            image: require('../img/prof/pranit.jpg'),
+            image: require('../img/prof/pranit.png'),
             sillyImage: require('../img/funny/pranit.png'),
             isDM: false
         },
