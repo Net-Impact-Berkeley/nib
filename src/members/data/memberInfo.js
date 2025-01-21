@@ -32,10 +32,9 @@ let memberInfo = {
                 "Outside of NIB, I work on superconductivity at Berkeley Lab and I’ll be joining TSMC as an Epitaxy Intern this summer. In addition, I like to go on late-night drives with friends, watch soccer and learn new things! If you want to chat more on anything here, feel free to stop by while I’m tabling or come to any of our info sessions!"
             ],
             linkedin: 'http://linkedin.com/in/mehnai/',
-            calendly: "https://calendly.com/mehulnair/nib-coffee-chats",
-            image: require('../img/prof/mehul.jpg'),
+            image: require('../img/prof/mehul.png'),
             sillyImage: require('../img/funny/mehul.png'),
-            isDM: false
+            isDM: true
         },
         {
              name: 'Wenhan Xi', 
@@ -138,7 +137,7 @@ let memberInfo = {
                 "I'm passionate about increasing the quality of and access to education, and the democratization efforts in the Global South. I'm also an aspiring UI/UX designer (waiting for NIB to officially appoint me as the resident figma girl), and I enjoy various forms of writing and performance arts! Here are some of my favorite writers and works: Laufey, Rex Orange County, Daniel Caesar, Ocean Vuong, F. Scott Fitzgerald, Eriks Esenvalds, La La Land, Everything Everywhere All at Once, Hadestown."
             ],
             linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
-            image: require('../img/prof/ice.jpg'),
+            image: require('../img/prof/ice.png'),
             sillyImage: require('../img/funny/ice.jpg'),
             isDM: true
         },
@@ -153,7 +152,7 @@ let memberInfo = {
                 "Outside of school I love musical theater, historical fiction, yap sessions with my friends, brainrot content, and running/dancing. I can’t wait to meet you :)"
             ],
             linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
-            calendly: "https://calendly.com/francesroserich-berkeley/nib-coffee-chat",
+            calendly: "https://calendly.com/francesroserich-berkeley",
             image: require('../img/prof/frances.png'),
             sillyImage: require('../img/funny/frances.png'),
             isDM: false
@@ -162,12 +161,12 @@ let memberInfo = {
             name: 'Diane Shih', 
             title: 'Senior Associate',
             bio: [
-                "Hi! I'm Diane, and I'm a sophomore studying Business and Data Science. I joined NIB during my freshman spring semester and have truly loved every second! NIB is such an incredible, passionate, and supportive community, and I've felt so very lucky to be a part of it. During my time with NIB, I've worked on a project analyzing how AI impacts global education and most recently with the World Bank on financing Water, Sanitation, and Hygiene infrastructure in Pacific countries (super lit, cool, awesome stuff!!). ",
+                "Hi! I'm Diane, and I'm a sophomore studying Business and Data Science. I joined NIB during my freshman spring semester and have truly loved every second! NIB is such an incredible, passionate, and supportive community, and I've felt so very lucky to be a part of it. During my time with NIB, I've worked on a project analyzing how AI impacts global education and most recently with the World Bank on financing Water, Sanitation, and Hygiene infrastructure in Pacific countries (super cool and awesome stuff!!).",
                 "I'm very passionate about financial education, neurodiversity, and environmental sustainability, and NIB has helped me further these passions through the unique, genuine, and impactful work that we do. Feel free to reach out if you want to talk about any and all things music, terrible puns/dad jokes, travel (yet having no sense of direction), nature walks, questions about NIB, or really anything you want!"
             ],
             linkedin: 'https://www.linkedin.com/in/diane-shih',
             calendly: "https://calendly.com/dgshih-berkeley/nib-coffee-chat",
-            image: require('../img/prof/dgshih.jpg'),
+            image: require('../img/prof/diane.png'),
             sillyImage: require('../img/funny/dgshih.jpg'),
             isDM: false
         },
@@ -261,7 +260,7 @@ let memberInfo = {
                 "Outside of NIB, I am a human rights activist (anti-genocide campaign, climate crisis, reproductive access), a huge Swiftie, and a debater (American Parli is the best form of debate). I love reading, baking, playing Fortnite, and watching various anime shows. So excited to meet you!!"
             ],
             linkedin: 'https://www.linkedin.com/in/renaissancezhang/',
-            calendly: 'https://calendly.com/rzhang0326-berkeley/nib-coffee-chats-sp25',
+            calendly: 'https://calendly.com/rzhang0326-berkeley/nib-coffee-chats-sp25-1?month=2025-01',
             image: require('../img/prof/ren.png'),
             sillyImage: require('../img/funny/ren.png'),
             isDM: false
