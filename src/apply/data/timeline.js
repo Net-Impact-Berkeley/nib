@@ -7,7 +7,7 @@ let Timeline = [{
     date: "January 21st - January 30th, 8am - 4pm PST | Sproul/Glade",
     title: "Tabling",
     description: "Drop by Sproul and Memorial Glade to learn more about our people, projects, and impact! Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
-    link: "https://airtable.com/appZNUaqLhwW38hJf/shrzmMZkOfJ0uMPyR",
+    link: "https://airtable.com/appSxxFiFv8wKG96P/shrWZTvjyCgbbMGif",
     linkText: "Interest Form",
 },
 {
@@ -36,7 +36,7 @@ let Timeline = [{
     date: "Friday, January 31st, 1 PM PST",
     title: "Applications Due",
     description: "Our application consists of a resume drop and a few short answer questions. Please submit your application by 1 PM on Friday if you'd like to apply!",
-    link: "https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp",
+    link: "https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form",
     linkText: "Application"
 },
 {

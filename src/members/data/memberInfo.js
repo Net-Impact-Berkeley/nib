@@ -44,7 +44,7 @@ let memberInfo = {
                 "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this spring!"
             ],
             inkedin: 'https://www.linkedin.com/in/wenhan-xi-842440149/',
-            image: require('../img/prof/han.jpg'),
+            image: require('../img/prof/han.png'),
             sillyImage: require('../img/funny/han.png'),
             isDM: true
          },
@@ -98,7 +98,7 @@ let memberInfo = {
                 "NIB has created so many core memories that have shaped who I am. If you have any questions, or want to talk about Cal's Football Team, I'm all ears!"
             ],
             linkedin: 'https://www.linkedin.com/in/hunter-valencia-42216424b',
-            image: require('../img/prof/hunter.jpg'),
+            image: require('../img/prof/hunter.png'),
             sillyImage: require('../img/funny/hunter.png'),
             isDM: true
         },
@@ -180,7 +180,7 @@ let memberInfo = {
             ],
             linkedin: 'www.linkedin.com/in/raymond-yuan-yayayayay',
             calendly: 'https://calendly.com/rmyuan-berkeley/nib-coffee-chat',
-            image: require('../img/prof/nibplaceholder.jpeg'),
+            image: require('../img/prof/raymond.png'),
             sillyImage: require('../img/funny/raymond.png'),
             isDM: false
         },
@@ -276,7 +276,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/tanyachandok/',
             calendly: 'https://calendly.com/tanyachandok-berkeley/nib-coffee-chats',
-            image: require('../img/prof/nibplaceholder.jpeg'),
+            image: require('../img/prof/tanya.png'),
             sillyImage: require('../img/funny/tanya.png'),
             isDM: false
         },
@@ -353,7 +353,7 @@ let memberInfo = {
             name: 'Mandy Pham', 
             title: 'Senior Advisor', 
             bio: [
-                "Hii!! I’m a sophomore studying EECS and joined NIB last semester. In NIB, I focused on educational accessibility and source sustainability in the social impact sector. NIB has greatly impacted my life, from academic support to the amazing people I've met. Being part of this community has made my freshman experience truly memorable.",
+                "Hii!! I’m a sophomore studying EECS and joined NIB two semesters ago. In NIB, I focused on educational accessibility and source sustainability in the social impact sector. NIB has greatly impacted my life, from academic support to the amazing people I've met. Being part of this community has made my berkeley experience truly memorable.",
                 "Outside of consulting, I’m involved in AFX Comp, gym, fashion, and have traveled Asia during the summer. I have a range of interests and have recently taken up cooking!",
                 "I’m also enthusiastic about making and exploring jewelry, trying new foods, browsing Facebook Marketplace, thrifting, and discovering new music. If you ever need a hand or some advice, feel free to reach out!"
             ],
@@ -547,7 +547,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/mia-chou-2454a4187/',
             calendly: 'https://calendly.com/miachou/nib-coffee-chats',
-            image: require('../img/prof/mia.jpg'),
+            image: require('../img/prof/mia.png'),
             sillyImage: require('../img/funny/mia.png'),
             isDM: false
         },

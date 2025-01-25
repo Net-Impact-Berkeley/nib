@@ -25,7 +25,7 @@ const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
    const interestForm = "https://airtable.com/appSxxFiFv8wKG96P/shrWZTvjyCgbbMGif";
-   const application = "https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp";
+   const application = "https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -54,7 +54,7 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Spring 2025 will open soon! Scroll to learn more about our timeline and events</p>
+                   <p>Our application for Spring 2025 is now open! Scroll to learn more about our timeline and events</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
@@ -62,7 +62,7 @@ const Apply = () => {
                    />
                    <Button
                        link={application}
-                       buttonText="Application opening soon!"
+                       buttonText="Application"
                        external
                    />
                </div>
@@ -113,7 +113,7 @@ const Apply = () => {
                        <p>Friday 1/31 - Tuesday 2/4</p>
                        <ul>
                            <li>Applications are due at 1PM on January 31st.</li>
-                           Apply <a className="underline-magical" href="https://airtable.com/appZNUaqLhwW38hJf/shr2WObqWtUvlWpbp" target="_blank" rel="noopener noreferrer"> here. </a>
+                           Apply <a className="underline-magical" href="https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
