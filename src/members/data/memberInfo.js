@@ -43,7 +43,7 @@ let memberInfo = {
                 "Hi there! I’m Han, and I’m a Junior studying econ and data science. I joined NIB freshman fall and it's here that I've found a home. So far, I've had the privilege to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. Last semester, I led my own project supporting the World Bank's efforts in promoting Water and Sanitation investment! I've been driven to grow in many dimensions in a supportive family who I've come to love deeply",
                 "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this spring!"
             ],
-            inkedin: 'https://www.linkedin.com/in/wenhan-xi-842440149/',
+            inkedin: 'https://www.linkedin.com/in/wenhanxi/',
             image: require('../img/prof/han.png'),
             sillyImage: require('../img/funny/han.png'),
             isDM: true
@@ -253,7 +253,7 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'Rennaissance Zhang',
+            name: 'Renaissance Zhang',
             title: 'Associate',
             bio: [
                 "Hi!! I'm Renaissance, a sophomore studying Political Science and Cognitive Science. I joined NIB Fall 2024, and it has easily been the best experience I've had at Cal! NIB is an incredibly supportive, fun, and rewarding. I'm very passionate about human rights and all things social justice. Last semester, I worked on pitching global health funding as a strategic U.S. investment, focusing on research and political messaging strategies.", 
