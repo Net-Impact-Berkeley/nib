@@ -62,21 +62,6 @@ let memberInfo = {
             isDM: true
         },
         
-        
-        {
-            name: 'Ethan Foong', 
-            title: 'VP External',
-            bio: [
-                "What's up everyone! My name's Ethan, and I'm a third-year from Pasadena studying Data Science and Operations Research (ORMS). This will be my third upcoming semester as a part of NIB and it has been a blast to be a part of this dedicated and lively community! In my college experience thus far, I can confidently accredit NIB for the hearty laughs, long-lasting memories, and invaluable skills I have gained here at Berkeley. Serving as VP External for the Spring 2025 semester, I'm so stoked to broaden NIB's impact through planning diverse volunteering events and engaging socials!", 
-                "Throughout my time at NIB, I have been extremely fortunate to with companies that directly correspond to my passions, from aiding startups that are revolutionizing climate technology to nonprofits that assimilate communities suffering from borderland conflicts. Outside of project work, whether I'm shredding the ski slopes in Tahoe, playing poker, or grooving to house music, NIB is always down to join me in anything fun. Come stop by or reach out if you have any questions! Can't wait to welcome y'all to the #NIBFAM ;)" 
-            ],
-            linkedin: 'https://www.linkedin.com/in/ethanfoong/',
-            image: require('../img/prof/ethan.png'),
-            sillyImage: require('../img/funny/ethan.png'),
-            isDM: true
-        },
-        
-        
     ],
     pmList: [
         {
@@ -170,20 +155,7 @@ let memberInfo = {
             sillyImage: require('../img/funny/dgshih.jpg'),
             isDM: false
         },
-        {
-            name: 'Raymond Yuan', 
-            title: 'Senior Associate',
-            bio: [
-                "Hello! My name is Raymond and I am a Junior majoring in Philosophy and Computer Science. As you can tell from my majors, I love to try new things and see different perspectives of the world. I am very thankful for NIB to have given me the opportunity to work with many diverse and talented individuals.",
-                "For me social impact comes in the way of understanding. Because it is so much easier to change the mind of a friend than an enemy. To this end, I find it very hopeful that NIB is trying to make social impact happen in the corporate world, where people usually imagine black hearts and cold hands.",
-                "In my free time I think about little things and how life came to be. Reach out if you're prepared for the conversation to be derailed to somewhere strange and curious!"
-            ],
-            linkedin: 'www.linkedin.com/in/raymond-yuan-yayayayay',
-            calendly: 'https://calendly.com/rmyuan-berkeley/nib-coffee-chat',
-            image: require('../img/prof/raymond.png'),
-            sillyImage: require('../img/funny/raymond.png'),
-            isDM: false
-        },
+      
         {
             name: 'Maddie Bhuvan', 
             title: 'Senior Associate',
@@ -225,19 +197,7 @@ let memberInfo = {
             sillyImage: require('../img/funny/eshaan.png'),
             isDM: false
         },
-        {
-            name: 'Tej Singh Rai', 
-            title: 'Associate',
-            bio: [
-                "Hi! I'm Tej, a sophomore from Francistown, Botswana studying Neuroscience and minoring in Data Science. I joined NIB in Fall of 2024 and this semester I will be a Returning Associate. Last semester, I worked with the Danish Refugee Council to help research the field of Climate Finance. ", 
-                "I'm incredibly interested in analyzing Human Performance in sports such as Track, Swimming and Tennis. I've spent a lot of time interning at sports teams as well as helping out with research on the ACL. In my free time I love reading, hiking, playing sports and video games!"
-            ],
-            linkedin: 'https://www.linkedin.com/in/tej-rai/',
-            calendly: "https://calendly.com/tejzoravarsinghrai/nib-coffee-chats",
-            image: require('../img/prof/tej.png'),
-            sillyImage: require('../img/funny/tej.png'),
-            isDM: false
-        },
+       
         {
             name: 'Aswin Surya', 
             title: 'Associate',
