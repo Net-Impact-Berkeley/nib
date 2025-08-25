@@ -183,8 +183,8 @@ let memberInfo = {
             name: 'Melanie Davidson',
             title: 'Associate',
             bio: [
-                "Hi! I’m Lauren—a second-year student majoring in Political Economics and minoring in Public Policy. I joined NIB during my sophomore fall, and it’s hands down one of the best decisions I’ve made at Cal! Through NIB, I’ve had the incredible opportunity to work on a project with an international financial institution, analyzing WASH expenditure in the Pacific Islands. Beyond the rewarding work, I’ve also met some of the most inspiring people and made unforgettable memories. #NIBFAM!!", 
-                "Outside of NIB, I’m all about sports, the outdoors, and road trips! I competed for Cal Track and Field as a thrower for two years and am now training independently while diving into intramural sports—catch me at open gym volleyball! I’m also passionate about web development and photography. Can’t wait to meet you!"
+                "Hi! My name is Mel, and I am a current sophomore, majoring in Cognitive Science and intending to pursue Data Science as well! I joined NIB in my freshman spring and have loved working alongside and learning from the many amazing people in this club, particularly through my project with SFO Airport. However, the NIBfam community extends further than my project, surrounding me with such interesting, dedicated, and kind people that I could not be more grateful for!",
+                "Besides school, I am on the Club Volleyball team here at Cal, and I enjoy crocheting, reading books about niche scientific topics, trying out new restaurants and cafes with my friends, and running. I am always open to new adventures or anything with good conversation! I can’t wait to meet you!"
             ],
             linkedin: 'www.linkedin.com/in/laurenlemire',
             calendly: 'https://calendly.com/laurenml/nib-coffee-chats ',
