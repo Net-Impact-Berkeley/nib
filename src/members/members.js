@@ -231,6 +231,24 @@ const Members = () => {
                     <div>{memberList}</div>
                 </section>
             </section>
+            <section className="advisor">
+                <section className="grid container">
+                    <div>
+                        <img src={require('./img/boyle.jpeg')} alt="Alex Budak" />
+                    </div>
+                    <div className="verticallyCenter">
+                        <h2>Faculty Advisor</h2>
+                        <p>Professor Boyle teaches graduate-level courses on management, strategy, and impact measurement in the social sector. Prior to his role in Haas, he was a Partner and Managing Director with The Boston Consulting Group. Net Impact Berkeley works with Professor Boyle to enhance the impact of our projects, and to explore deeper opportunities within the intersection of strategy and social impact. </p>
+                        <span>
+                            <Button
+                                link="https://haas.berkeley.edu/faculty/boyle-colin/"
+                                buttonText="Learn more"
+                                external
+                            />
+                        </span>
+                    </div>
+                </section>
+            </section>
             <section className="carousel hideOnMobile">
                 <section className="container">
                     <div className="carouselView">
