@@ -85,7 +85,7 @@ let clients = [
     },
     {
         link: '',
-        img: require("../img/clients/subject.png" )
+        img: require("../img/clients/wb.png" )
     },
     {
         link: '',
@@ -109,7 +109,7 @@ let clients = [
     },
     {
         link: '',
-        img: require("../img/clients/kapor.png" )
+        img: require("../img/clients/un.png" )
     },
 ];
 

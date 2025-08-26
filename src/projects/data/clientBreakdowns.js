@@ -94,6 +94,13 @@ let clientBreakdownsInfo = [
                 ourWork: "They wanted to understand the vaccine procurement process for Sub-Saharan African countries. So basically, how did nations get the necessary medical devices, vaccines, and treatments to people that needed them. We did extensive research into the procurement laws of several African nations and provided the team at BMGF with an understanding of the trade landscape regarding medical products in the African continent.",
                 impact: "We were able to provide extensive research and fact development that the team at BMGF went on to use. For instance, they used some of the information we procured at an international conference regarding malaria and tuberculosis vaccines."
             },
+            {
+                projectName: "World Bank",
+                projectLogo: require("../img/clients/wb.png"),
+                aboutClient: "The World Bank is an international financial institution that provides financial guidance to developing countries to reduce poverty and promote sustainable economic growth.",
+                ourWork: "We identified streams of investment into Water and Sanitation Hygiene, and collected data across the past decade to map out total spending and patterns within Papua New Guinea. We compared these values across the Pacific region, evaluating the data to provide recommendations on investment and coordination strategies for local offices in the Pacific.",
+                impact: "We prepared a comprehensive write-up and data analysis, with insights presented at a regional water security conference."
+            }
         ],
     },
     

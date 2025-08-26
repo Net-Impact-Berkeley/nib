@@ -13,7 +13,7 @@ import clientBreakdownsInfo from './data/clientBreakdowns';
 import ClientImage from './clientImage';
 
 
-import ikea from './img/clients/ikea.png';
+import wb from './img/clients/wb.png';
 import salesforce from './img/clients/salesforce.png';
 import bestbuy from './img/clients/bestbuy.png';
 import amazon from './img/clients/amazon.png';
@@ -152,8 +152,8 @@ const openModalHandler = (type) => {
                         <div className="clientLogos">
                             <img src={subject} />
                             <img src={bam} />
-                            <img src={lls} className="full-width" />
-                            {/* <img src={ikea} /> */}
+                            <img src={lls}/>
+                            <img src={wb} />
                         </div>
                         <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
                     </div>
