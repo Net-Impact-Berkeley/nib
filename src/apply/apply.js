@@ -24,7 +24,7 @@ import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
-   const interestForm = "https://airtable.com/appSxxFiFv8wKG96P/shrWZTvjyCgbbMGif";
+   const interestForm = "https://airtable.com/app5kIIT8OgWGBQWj/pagJeWlxkVwdMaqLC/form";
    const application = "https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
@@ -54,7 +54,7 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Spring 2025 is now open! Scroll to learn more about our timeline and events</p>
+                   <p>Our application for Fall 2025 is now open! Scroll to learn more about our timeline and events</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
@@ -90,9 +90,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={chat} alt="chat icon" />
                        <h4>Tabling</h4>
-                       <p>Tuesday, 1/21 – Thursday, 1/30</p>
+                       <p>Wednesday, 8/27 – Thursday, 9/4</p>
                        <ul>
-                           <li>From January 21th through January 30th anytime 8am-4pm, come say hi on at our table on Sproul!</li>
+                           <li>From August 27th through September 4th between 8AM - 4PM, come say hi on at our table on Sproul!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
                            <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
@@ -100,19 +100,19 @@ const Apply = () => {
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 1/28 - Thursday, 1/30</p>
+                       <p>Tuesday, 9/2 - Thursday, 9/4</p>
                        <ul>
                            <li>Tuesday: Infosession #1</li>
-                           <li>Wednesday: Infosession #2 + Case Workshop</li>
-                           <li>Thursday: Case coaching session</li>
+                           <li>Wednesday: Infosession #2</li>
+                           <li>Thursday: Case Coaching Session</li>
                        </ul>
                    </div>
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 1/31 - Tuesday 2/4</p>
+                       <p>Friday 9/5 - Tuesday 9/10</p>
                        <ul>
-                           <li>Applications are due at 1PM on January 31st.</li>
+                           <li>Applications are due at 1PM PST on September 5th.</li>
                            Apply <a className="underline-magical" href="https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form" target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>

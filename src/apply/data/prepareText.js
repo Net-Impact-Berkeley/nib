@@ -8,13 +8,13 @@ let prepareTypeInfo = [{
         img: require('../img/prepareSection/meet.png'),
         alt: "Icon of 2 chat bubbles",
         title: "Take Initiative, Reach Out!",
-        description: "We're tabling during the day from January 21st to January 30th on Sproul. Stop by to ask our members about their experiences and time in NIB or sign up for a coffee chat on the members page!"
+        description: "We're tabling during the day from August 27th to September 4th on Sproul. Stop by to ask our members about their experiences and time in NIB or sign up for a coffee chat on the members page!"
     },
     {
         img: require('../img/prepareSection/case.png'),
         alt: "Icon of puzzle pieces",
         title: "Practice Problem Solving",
-        description: "Come out to our case coaching workshop to practice casing! Or practice them on your own."
+        description: "Come out to our case coaching workshop to practice casing! Or choose to practice them on your own, if you'd prefer."
     },
     {
         img: require('../img/prepareSection/think.png'),
