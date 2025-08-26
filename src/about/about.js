@@ -67,17 +67,17 @@ const About = () => {
                 </section>
                 <section className="statsSection container">
                     <div>
-                        <h2>100+</h2>
+                        <h2>150+</h2>
                         <p>Consulting Projects Completed</p>
                     </div>
 
                     <div>
-                        <h2>14+</h2>
+                        <h2>18+</h2>
                         <p>Years of Experience</p>
                     </div>
 
                     <div>
-                        <h2>170+</h2>
+                        <h2>180+</h2>
                         <p>Net Impact Berkeley Alumni</p>
                     </div>
 
