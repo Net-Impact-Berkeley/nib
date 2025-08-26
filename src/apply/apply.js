@@ -110,7 +110,7 @@ const Apply = () => {
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 9/5 - Tuesday 9/10</p>
+                       <p>Friday 9/5 - Tuesday 9/9</p>
                        <ul>
                            <li>Applications are due at 1PM PST on September 5th.</li>
                            Apply <a className="underline-magical" href="https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form" target="_blank" rel="noopener noreferrer"> here. </a>
