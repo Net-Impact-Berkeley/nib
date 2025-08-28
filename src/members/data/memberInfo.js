@@ -1,12 +1,6 @@
 let memberInfo = {
     execList: [
         /* temp change */
-    ],
-    pmList: [
-        /* add when we go back to 5 pms lol */
-    ],
-
-    memberList: [
         {
             name: 'Wenhan Xi', 
             title: 'President',
@@ -15,7 +9,7 @@ let memberInfo = {
                 "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this spring!"
             ],
             linkedin: 'https://www.linkedin.com/in/wenhanxi/',
-            image: require('../img/prof/han.png'),
+            image: require('../img/prof/Han.jpg'),
             sillyImage: require('../img/funny/han.png'),
             isDM: true
          },
@@ -27,7 +21,7 @@ let memberInfo = {
                 "Outside of consulting, I am interested in human rights, environmental justice, African development, and Timothée Chalamet. I am also involved in on-campus research. In my free time, I love shopping, hiking, and traveling. I just got back from a semester abroad in Paris in the spring. Feel free to reach out and chat, and I look forward to meeting you! Feel free to reach out and chat, and I look forward to meeting you!"
             ],
             linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
-            image: require('../img/prof/breanna.png'),
+            image: require('../img/prof/Breanna.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
             isDM: true
         },
@@ -39,7 +33,7 @@ let memberInfo = {
                 "Outside of school I love musical theater, historical fiction, yap sessions with my friends, brainrot content, and running/dancing. I can't wait to meet you :)"
             ],
             linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
-            image: require('../img/prof/frances.png'),
+            image: require('../img/prof/Frances.jpg'),
             sillyImage: require('../img/funny/frances.png'),
             isDM: true
         },
@@ -53,7 +47,7 @@ let memberInfo = {
                 "NIB is a wonderful community of kind, passionate, driven, and social people. I'm a huge believer in NIB-Fam, and am so excited to meet our newest set of applicants and connect :)"
             ],
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
-            image: require('../img/prof/madelyn.jpeg'),
+            image: require('../img/prof/Madelyn Christensen.jpg'),
             sillyImage: require('../img/funny/madelyn.png'),
             isDM: true
         },
@@ -66,7 +60,7 @@ let memberInfo = {
             ],
             calendly: 'https://calendly.com/srijani-sarkar/nib-coffee-chats',
             linkedin: 'https://www.linkedin.com/in/srijani-sarkar-035016200/',
-            image: require('../img/prof/srijani.jpg'),
+            image: require('../img/prof/Srij.jpg'),
             sillyImage: require('../img/funny/srijani.jpeg'),
             isDM: true
         },
@@ -78,7 +72,7 @@ let memberInfo = {
                 "Outside of consulting, I’m involved in AFX Comp, love fashion, traveling, music, concerts/raves, and digital media. If you ever need a hand or some advice, feel free to reach out!"
             ],
             linkedin: 'https://www.linkedin.com/in/phamandy24/',
-            image: require('../img/prof/mandy.png'),
+            image: require('../img/prof/Mandy.jpg'),
             sillyImage: require('../img/funny/mandy.png'),
             isDM: true
         },
@@ -91,7 +85,7 @@ let memberInfo = {
                 "Outside of NIB, I'm interested in pursuing a career in consulting or product management full-time. I've interned at a variety of small and large firms in both tech and business, which is a combination I hope to bring to my project team. I am also a member of UCB Zahanat, a Bollywood fusion dance team here on campus."
             ],
             linkedin: 'https://linkedin.com/in/nikith-vangala',
-            image: require('../img/prof/nikith.png'),
+            image: require('../img/prof/Nikith.jpg'),
             sillyImage: require('../img/funny/nikith.jpg'),
             isDM: true
         },
@@ -103,7 +97,7 @@ let memberInfo = {
                 "I'm very passionate about neurodiversity, education, and environmental sustainability, and NIB has helped me further these passions through the unique, genuine, and impactful work that we do. Feel free to reach out if you want to talk about any and all things music, really terrible puns/dad jokes, travel (yet having no sense of direction), questions about NIB, or really anything you want!",
             ],
             linkedin: 'https://www.linkedin.com/in/diane-shih',
-            image: require('../img/prof/diane.png'),
+            image: require('../img/prof/Diane.jpg'),
             sillyImage: require('../img/funny/dgshih.png'),
             isDM: true
         },
@@ -115,7 +109,7 @@ let memberInfo = {
                 "I am very passionate about LGBTQ+ inclusivity, educational accessibility, environmental sustainability, and mental health awareness. Outside of NIB, I love to dance, take cool pictures, sing, hike, collect matchboxes, and play the drums. I’m also always on the lookout for good music, thrift stores, food, and boba/matcha (pmo if you have recs please)!"
             ],
             linkedin: 'https://www.linkedin.com/in/madhurum-bhuvan',
-            image: require('../img/prof/maddie.png'),
+            image: require('../img/prof/Madhurum.jpg'),
             sillyImage: require('../img/funny/madhurum.png'),
             isDM: true
         },
@@ -126,10 +120,17 @@ let memberInfo = {
                 "Hello! I'm Sashank and I am currently a senior studying computer science. I joined NIB my junior fall and it's been an amazing experience so far. I've had the opportunity to work with a sustainable fashion company looking to expand into the EU so far. I personally am passionate about personalized, accessible education everywhere. I've had an amazing experience in NIB so far and I'm super excited for what the semester has in store. Super excited to meet everyone!"
             ],
             linkedin: 'https://www.linkedin.com/in/sashank-gadisetti',
-            image: require('../img/prof/sashank.png'),
+            image: require('../img/prof/Sashank.jpg'),
             sillyImage: require('../img/funny/sashank.png'),
             isDM: true
         },
+    ],
+    pmList: [
+        /* add when we go back to 5 pms lol */
+    ],
+
+    memberList: [
+       
         {
             name: 'Aswin Surya', 
             title: 'Senior Associate',
@@ -139,7 +140,7 @@ let memberInfo = {
                 "Outside of NIB, I love lifting, listening to any and all types of music, and playing basketball and tennis. My goal is to try every single food place at Berkeley, so if you have any unique favorites, don't hesitate to hit me up. Looking forward to chatting with you :)"],
             linkedin: 'https://www.linkedin.com/in/aswinsurya/',
             calendly: 'https://calendly.com/aswinsurya/nib-coffee-chats',
-            image: require('../img/prof/aswin.png'),
+            image: require('../img/prof/Aswin.jpg'),
             sillyImage: require('../img/funny/aswin.png'),
             isDM: false
         },
@@ -178,7 +179,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/javiercgonzales',
             calendly: 'https://calendly.com/javiergonzales-berkeley/30min',
-            image: require('../img/prof/javi.png'),
+            image: require('../img/prof/Javi Headshot.jpg'),
             sillyImage: require('../img/funny/javi.png'),
             isDM: false
         },
@@ -191,7 +192,7 @@ let memberInfo = {
             ],
             linkedin: 'https://linkedin.com/in/melanie-davidson-711919325',
             calendly: 'https://calendly.com/melaniebdavidson-berkeley/30min',
-            image: require('../img/prof/mel.png'),
+            image: require('../img/prof/Mel.jpg'),
             sillyImage: require('../img/funny/mel.png'),
             isDM: false
         },
@@ -203,7 +204,7 @@ let memberInfo = {
               "If you have any questions, please do not hesitate to reach out!!! Goodluck :DDDD"],
             linkedin: 'https://www.linkedin.com/in/luis-suarez1/',
             calendly: 'https://calendly.com/luis_suarez-berkeley/30min',
-            image: require('../img/prof/luis.png'),
+            image: require('../img/prof/Luis.jpg'),
             sillyImage: require('../img/funny/luis.png'),
             isDM: false
         },
@@ -216,7 +217,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/anika-yu/',
             calendly: 'https://calendly.com/anika-yu',
-            image: require('../img/prof/anika.png'),
+            image: require('../img/prof/Anika.jpg'),
             sillyImage: require('../img/funny/anika.png'),
             isDM: false
         },
@@ -229,7 +230,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/maitreemeher/',
             calendly: 'https://calendly.com/maitree-meher-berkeley/nib-calendly',
-            image: require('../img/prof/maitree.png'),
+            image: require('../img/prof/Maitree.jpg'),
             sillyImage: require('../img/funny/maitree.png'),
             isDM: false
         },
@@ -243,7 +244,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/brian-poh-b8686637b/',
             calendly: 'https://calendly.com/brianpoh/brian-nib-fall-25-coffee-chats',
-            image: require('../img/prof/brian.png'),
+            image: require('../img/prof/Brian.jpg'),
             sillyImage: require('../img/funny/brian.png'),
             isDM: false
         },
@@ -255,7 +256,7 @@ let memberInfo = {
                ],
             linkedin: 'https://www.linkedin.com/in/eliasgoss/',
             calendly: 'https://calendly.com/eliasgoss2005-berkeley/30min',
-            image: require('../img/prof/elias.png'),
+            image: require('../img/prof/Elias.jpg'),
             sillyImage: require('../img/funny/elias.png'),
             isDM: false
         },
@@ -268,7 +269,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/aditya-dawar/',
             calendly: 'https://calendar.app.google/e4YHvKsAZSzjVqa18',
-            image: require('../img/prof/adi.png'),
+            image: require('../img/prof/Adi.jpg'),
             sillyImage: require('../img/funny/adi.png'),
             isDM: false
         },
@@ -282,7 +283,7 @@ let memberInfo = {
             ],
             linkedin: 'http://www.linkedin.com/in/eshaan-shaik-62433b211',
             calendly: "https://calendly.com/eshaan_shaik-berkeley/nib-coffee-chats",
-            image: require('../img/prof/eshaan.png'),
+            image: require('../img/prof/Eshaan.jpg'),
             sillyImage: require('../img/funny/eshaan.png'),
             isDM: false
         },
@@ -343,7 +344,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/graybert',
             calendly: 'https://calendly.com/graybert-berkeley/30min',
-            image: require('../img/prof/grayson.png'),
+            image: require('../img/prof/Grayson.jpg'),
             sillyImage: require('../img/funny/grayson.png'),
             isDM: false
         },
@@ -356,7 +357,7 @@ let memberInfo = {
                     "In my free time I can be found at the climbing gym (shoutout Mosaic), RSF, being a tad too competitive on our NIB IM sports teams, or laying on the glade in the sun with some still woozy playing."],
             linkedin: 'https://www.linkedin.com/in/elan-trager-a9a2311a9/',
             calendly: 'https://calendly.com/elantrager/nib-coffee-chatsky',
-            image: require('../img/prof/elan.png'),
+            image: require('../img/prof/Elan.jpg'),
             sillyImage: require('../img/funny/elan.png'),
             isDM: false
         },
@@ -370,7 +371,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/gracexyhu/',
             calendly: 'https://calendly.com/grace_hu/nib-coffee-chat-fa25',
-            image: require('../img/prof/grace.png'),
+            image: require('../img/prof/grace.jpg'),
             sillyImage: require('../img/funny/grace.jpeg'),
             isDM: false
         },
@@ -382,7 +383,7 @@ let memberInfo = {
                 "Outside of NIB, I work on superconductivity at Berkeley Lab and I joined TSMC as an Epitaxy Intern last summer summer. In addition, I like to go on late-night drives with friends, watch soccer and learn new things! If you want to chat more on anything here, feel free to stop by while I’m tabling or come to any of our info sessions!"],
             linkedin: 'http://linkedin.com/in/mehnai/',
             calendly: 'https://calendly.com/mehulnair',
-            image: require('../img/prof/mehul.png'),
+            image: require('../img/prof/Mehul.jpg'),
             sillyImage: require('../img/funny/mehul.png'),
             isDM: false
         },
@@ -396,7 +397,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/ashni-sheth-4629041b3/',
             calendly: 'https://calendly.com/ashni_sheth/nib-coffee-chats',
-            image: require('../img/prof/ashni.png'),
+            image: require('../img/prof/Ashni.jpg'),
             sillyImage: require('../img/funny/ashni.png'),
             isDM: false
         },
@@ -437,7 +438,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/muhammed-bakr/',
             calendly: 'https://calendly.com/muhammed-bakr/nib-coffee-chats',
-            image: require('../img/prof/muhammed.jpg'),
+            image: require('../img/prof/Muha.jpg'),
             sillyImage: require('../img/funny/muha.png'),
             isDM: false
         },
