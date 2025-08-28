@@ -1,5 +1,12 @@
 let memberInfo = {
     execList: [
+        /* temp change */
+    ],
+    pmList: [
+        /* add when we go back to 5 pms lol */
+    ],
+
+    memberList: [
         {
             name: 'Wenhan Xi', 
             title: 'President',
@@ -75,15 +82,13 @@ let memberInfo = {
             sillyImage: require('../img/funny/mandy.png'),
             isDM: true
         },
-    ],
-    pmList: [
         {
             name: 'Nikith Vangala',
             title: 'Project Manager',
             bio: [
                 "Hi! It's great to meet you :) My name is Nikith and I'm a senior studying EECS and Business. I'm going to be a project manager this semester, and have served as VP Finance & Operations and President over the past few semesters. I'm excited to dive back into project work!",
                 "NIB has been my home away from home since my first semester at school. I've met my closest friends and roommates through this club and I couldn't be more thankful for all the opportunities it's provided me. I've worked on three projects so far: roadmapping health product procurement in Africa for one of the largest nonprofit orgs in the world, growth strategy for a sustainable clothing retailer, and a go-to-market strategy for a new biotechnology startup with a sustainable alternative to a milk derivative.",
-                "Outside of NIB, I'm interested in pursuing a career in consulting product management full-time. I've interned at a variety of small and large firms in both tech and business, which is a combination I hope to bring to my project team. I am also a member of UCB Zahanat, a Bollywood fusion dance team here on campus."
+                "Outside of NIB, I'm interested in pursuing a career in consulting or product management full-time. I've interned at a variety of small and large firms in both tech and business, which is a combination I hope to bring to my project team. I am also a member of UCB Zahanat, a Bollywood fusion dance team here on campus."
             ],
             linkedin: 'https://linkedin.com/in/nikith-vangala',
             image: require('../img/prof/nikith.png'),
@@ -125,9 +130,6 @@ let memberInfo = {
             sillyImage: require('../img/funny/sashank.png'),
             isDM: true
         },
-    ],
-
-    memberList: [
         {
             name: 'Aswin Surya', 
             title: 'Senior Associate',
@@ -168,7 +170,7 @@ let memberInfo = {
             isDM: false
         },
         {
-            name: 'Javi Gonzalez',
+            name: 'Javier Gonzales',
             title: 'Senior Associate',
             bio: [
                 "Hi! I'm Javi, currently a Junior studying EECS. I joined NIB Spring 2025 and I haven't looked back since! NIB has been an amazing place for me to learn much more outside of my traditional coursework and take on meaningful work that truly does have an impact. On top of all that, everyone at NIB is incredible—people I genuinely admire and respect.",
@@ -393,7 +395,7 @@ let memberInfo = {
                 "Outside of NIB, I have trained in dance for over 15 years and am part of a team at Berkeley (shoutout Zahanat)! I'm also a member of Alpha Delta Pi (ADPi) and deeply involved in venture capital and entrepreneurship on- and off-campus. I am thrilled to have the opportunity to meet you!"
             ],
             linkedin: 'https://www.linkedin.com/in/ashni-sheth-4629041b3/',
-            calendly: '',
+            calendly: 'https://calendly.com/ashni_sheth/nib-coffee-chats',
             image: require('../img/prof/ashni.png'),
             sillyImage: require('../img/funny/ashni.png'),
             isDM: false
