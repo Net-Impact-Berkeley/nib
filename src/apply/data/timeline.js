@@ -36,7 +36,7 @@ let Timeline = [{
     date: "Friday, September 5th, 1 PM PST",
     title: "Applications Due",
     description: "Our application consists of a resume drop and a few short answer questions. Please submit your application by 1 PM on Friday if you'd like to apply!",
-    link: "https://airtable.com/appSxxFiFv8wKG96P/pagasA5eZl1Uy0Ca9/form",
+    link: "https://airtable.com/app5kIIT8OgWGBQWj/pagO6AnGJoBTImhIN/form",
     linkText: "Application"
 },
 {

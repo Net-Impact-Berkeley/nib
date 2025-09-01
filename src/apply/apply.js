@@ -140,6 +140,11 @@ const Apply = () => {
                        external
                    />
                    <Button
+                       link="/resume-template.docx"
+                       buttonText="NIB Resume Template"
+                       external
+                   />
+                   <Button
                        link="https://www.youtube.com/watch?v=COYgGdxBrso&feature=youtu.be"
                        buttonText="Case Interview Demo"
                        external

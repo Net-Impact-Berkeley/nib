@@ -5,9 +5,9 @@ let memberInfo = {
             name: 'Wenhan Xi', 
             title: 'President',
             bio: [
-                "Hi there! I’m Han, and I’m a Senior studying econ and data science. I joined NIB freshman fall and it's here that I've found a home. So far, I've had the privilege to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. Last semester, I led my own project supporting the World Bank's efforts in promoting Water and Sanitation investment! I've been driven to grow in many dimensions in a supportive family who I've come to love deeply",
-                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this spring!"
-            ],
+                "Hi there! I’m Han, and I’m a Senior studying econ and data science. I joined NIB freshman fall and it's here that I've found a home. So far, I've had the privilege to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. Last year, I led my own project supporting the World Bank's efforts in promoting Water and Sanitation investment! I've been driven to grow in many dimensions in a supportive family who I've come to love deeply.",
+                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this fall!",
+               ],
             linkedin: 'https://www.linkedin.com/in/wenhanxi/',
             image: require('../img/prof/Han.jpg'),
             sillyImage: require('../img/funny/han.png'),
@@ -41,10 +41,8 @@ let memberInfo = {
             name: 'Madelyn Christensen',
             title: 'VP Consulting',
             bio: [
-                "Hi everyone! My name is Madelyn, and I am a senior studying Cognitive Science and Data science. Being a part of Net Impact Berkeley has been such an enriching experience, both through the skills I have acquired from workshops and team projects, as well as just getting the chance to be a part of such a fun and kind group of people. Most of my projects in NIB have focused on the healthcare industry, which is an impact area I've always been passionate about. This last semester I had the chance to lead a project related to AI and its usage in education through services such as ChatGPT, which I'd also love to chat about!",
-                "During my time in NIB, I have also had the opportunity to work on a project that focused on vaccine and pharmaceutical procurement within trading blocs in Africa. I've also branched out further in the healthcare industry and worked for a med tech company on bringing sustainability into the medical technology space, as well as a project focused around understanding the feasibility in increasing access to food safety tests to regions around the world. Through these projects, NIB has helped me improve the quality of my research, writing, and public speaking skills.",
-                "In my free time I enjoy reading, board games, hiking, grabbing boba with friends, listening to practically every genre of music that exists, and playing tennis.",
-                "NIB is a wonderful community of kind, passionate, driven, and social people. I'm a huge believer in NIB-Fam, and am so excited to meet our newest set of applicants and connect :)"
+                "Hello! I'm Madelyn, a senior studying Cognitive Science & Data Science. Since joining NIB in 2022, I've had the opportunity to work on a wide range of exciting projects with some of the largest non-profits in the world on the global healthcare crisis. I also had the opportunity to lead my own team on a project about AI usage in universities, partnering with a leading AI detection company.",
+                "Outside of NIB, you can find me reading on the glade, dancing with some of Cal's dance teams, exploring coffee shops, or debating. NIB has given me a wide range of experiences and opportunities that I never could've imagined. But more than any of that, it's given me a truly amazing community here on Berkeley's campus to connect with. So much love for NIBFAM!!",
             ],
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
             image: require('../img/prof/Madelyn Christensen.jpg'),
@@ -450,7 +448,7 @@ let memberInfo = {
                 "I'm passionate about increasing the quality of and access to education, and the democratization efforts in the Global South. I'm also an aspiring UI/UX designer (waiting for NIB to officially appoint me as the resident figma girl), and I enjoy various forms of writing and performance arts! Here are some of my favorite writers and works: Laufey, Rex Orange County, Daniel Caesar, Ocean Vuong, F. Scott Fitzgerald, Eriks Esenvalds, La La Land, Everything Everywhere All at Once, Hadestown."
             ],
             linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
-            calendly: '',
+            calendly: 'https://calendly.com/napimk/nib-coffee-chat-w-ice',
             image: require('../img/prof/ice.png'),
             sillyImage: require('../img/funny/ice.jpg'),
             isDM: false
