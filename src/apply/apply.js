@@ -24,7 +24,7 @@ import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
-   const interestForm = "https://airtable.com/app5kIIT8OgWGBQWj/pagJeWlxkVwdMaqLC/form";
+   const interestForm = "https://airtable.com/appzavtFjBRUlUmPt/pagqItCKlhH3VB25J/form";
    const application = "https://airtable.com/app5kIIT8OgWGBQWj/pagO6AnGJoBTImhIN/form";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
@@ -54,17 +54,18 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Fall 2025 opens on Friday, August 29th! Scroll to learn more about our timeline and events.</p>
+                   <p>Our application for Spring 2026 will open soon. Fill out our interest form to stay updated!</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
                        external
                    />
+                   {/* 
                    <Button
                        link={application}
                        buttonText="Application"
                        external
-                   />
+                   /> */}
                </div>
            <div className="right hideOnMobile">
            <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
@@ -90,9 +91,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={chat} alt="chat icon" />
                        <h4>Tabling</h4>
-                       <p>Wednesday, 8/27 – Thursday, 9/4</p>
+                       <p>Tuesday, 1/20 – Thursday, 1/29</p>
                        <ul>
-                           <li>From August 27th through September 4th between 8AM - 4PM, come say hi on at our table on Sproul!</li>
+                           <li>From January 20th through January 29th between 8AM - 4PM, come say hi on at our table on Sproul!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
                            <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
@@ -100,7 +101,7 @@ const Apply = () => {
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 9/2 - Thursday, 9/4</p>
+                       <p>Tuesday, 1/27 - Thursday, 1/29</p>
                        <ul>
                            <li>Tuesday: Infosession #1</li>
                            <li>Wednesday: Infosession #2 + Case Demonstration</li>
@@ -110,10 +111,10 @@ const Apply = () => {
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 9/5 - Tuesday 9/9</p>
+                       <p>Friday 1/30 - Tuesday 2/3</p>
                        <ul>
-                           <li>Applications are due at 1PM PST on September 5th.</li>
-                           Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a>
+                           <li>Applications are due at 1PM PST on January 30th.</li>
+                           { /* Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a> */ }
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
