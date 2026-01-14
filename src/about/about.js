@@ -3,7 +3,7 @@ import './about.scss';
 import CallToAction from '../components/callToAction';
 import aboutPhoto from './img/nib5k.jpg';
 import aboutRetreat from './img/AboutRetreat.jpg';
-import values from './img/ValuesPhoto.png';
+import values from './img/values.png';
 import NetImpactGlobal from './img/NetImpactGlobal.png';
 import Button from '../components/button';
 import Values from './values';
