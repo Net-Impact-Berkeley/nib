@@ -21,10 +21,11 @@ import kaiser from './img/clients/kaiser.png';
 import clif from './img/clients/clif.png';
 import sce from './img/clients/SCE.png';
 import heifer from './img/clients/heifer.png';
-import pattern from './img/clients/pattern.png';
+import reformation from './img/clients/reformation.png';
 import lls from './img/clients/lls.png';
 import subject from './img/clients/subject.png';
-import bam from './img/clients/bam.png';
+import bmgf from './img/clients/bmgf.png';
+import goodwill from './img/clients/goodwill.png';
 
 import greyArrow from './img/grey-arrow.png';
 
@@ -143,16 +144,16 @@ const openModalHandler = (type) => {
                             <img src={clif} />
                             <img src={sce} />
                             <img src={heifer} />
-                            <img src={pattern} />
+                            <img src={reformation} />
                         </div>
                         <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
                     </div>
                     <div className="clientTypeBox" onClick={() => openModalHandler(2)}>
-                        <h2><b>Social enterprises</b> & <b>nonprofits</b></h2>
+                        <h2><b>Nonprofit</b> organizations</h2>
                         <div className="clientLogos">
-                            <img src={subject} />
-                            <img src={bam} />
-                            <img src={lls}/>
+                            <img src={goodwill} />
+                            <img src={bmgf} />
+                            <img src={lls} />
                             <img src={wb} />
                         </div>
                         <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>

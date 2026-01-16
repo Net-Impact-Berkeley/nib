@@ -57,11 +57,11 @@ let clientBreakdownsInfo = [
                 impact: "We created an excel model that Heifer will continue to develop and use to evaluate the digital readiness of the smallholder farmers."
             },
             {
-                projectName: "Pattern Energy",
-                projectLogo: require("../img/clients/pattern.png"),
-                aboutClient: "Pattern Energy is one of the largest renewable energy developers in North America working primarily within Wind and Solar Energy.",
-                ourWork: "Client wanted a landscape analysis to determine best practices for developing leasing prices as well as a pricing model for farmlands across 12 states, and future recommendations based on literature review of farmland trends. \n Phase 1 included a landscape analysis and initial literature review that then supported Phase 2 of creating the pricing model, evaluating its strengths and limitations, and future recommendations and a list of academic resources.",
-                impact: "Developed a comprehensive farmland pricing model that evaluates land value per acre basis and market pricing to determine equitable and competitive leasing rates for Pattern to develop sustainable energy projects. The model was in the form of an excel sheet with variable inputs. The model required an elaborate analysis and data based on geographical, agricultural, and socio-economic factor. \n Other deliverables included a comprehensive literature review of academic resources on the subject that could enhance the model in the future. \n The team learned to work with data on excel/sheets to create pricing models and also how to conduct literature review on academic papers, which is beyond the scope of a typical NIB Project."
+                projectName: "Reformation",
+                projectLogo: require("../img/clients/reformation.png"),
+                aboutClient: "Reformation is a sustainable fashion brand dedicated to making clothing that is both stylish and environmentally friendly, achieving negative carbon emissions in 2025.",
+                ourWork: "As Reformation grows globally, they were looking for guidance in operating under the sustainability regulations within the European Union. The client asked us to assess the regulatory landscape and provide recommendations for any key regulatory gaps for Reformation to prioritize throughout the expansion.",
+                impact: "Team Reformation created a rubric for Reformation to quantify the impact of various sustainability policies within the European Union, identifying the most impactful regulations to Reformation. The team then produced an in-depth report on the 6 most impactful regulations to provide guidance on how they might adjust their operations to comply with these regulations." 
             },]
     },
     {
@@ -81,11 +81,11 @@ let clientBreakdownsInfo = [
                 ]
             },
             {
-                projectName: "Subject",
-                projectLogo: require("../img/clients/subject.png"),
-                aboutClient: "Our team worked on scalability and accessibility solutions for Subject.",
-                ourWork: "We focused on how we could make high-quality education available to people all over the United States through the Subject platform, and how the technology could be scaled up to support more students. ",
-                impact: "Flew to Subject HQ in LA and presented our our research and mockups of a streamlined customer service journey."
+                projectName: "Goodwill",
+                projectLogo: require("../img/clients/goodwill.png"),
+                aboutClient: "Evergreen Goodwill of Northwest Washington is a nonprofit with the mission to connect people with jobs, services, and skills they need to thrive. Operating across five counties, they leverage their retail and donation centers to fund free training programs while keeping millions of pounds of reusable goods out of landfills annually, actively working toward a zero-waste future.",
+                ourWork: "Faced with shifting international regulations that severed previous recycling partnerships, the client asked us to identify a circular and cost-efficient solution for their complex plastic waste stream. Our team conducted a comprehensive landscape analysis, engaging over 120 industry professionals to benchmark best practices and identify emerging plastic management innovations. Leveraging insights from startups to Fortune 500s, we developed a weighted scoring framework to rigorously evaluate potential partners based on processing capacity, financial viability, and geographic alignment. This framework brought us to our strongest solution, which we presented in a business case to the Evergreen Goodwill CEO, CFO, and project leads.",
+                impact: "Our proposed solution is projected to divert nearly 200 tons of plastic from landfills annually, delivering a total financial benefit of over $40,000 per year. This would transform a significant disposal expense into a revenue-generating asset and position Evergreen Goodwill as a leader in circularity, establishing a scalable model for sustainable waste diversion that can be replicated by other regions."
             },
             {
                 projectName: "Bill and Melinda Gates Foundation",

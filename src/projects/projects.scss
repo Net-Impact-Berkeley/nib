@@ -237,12 +237,22 @@
                 justify-items: center;
                 width: 100%;
                 grid-gap: 10px; /* Adjust the gap between images as needed */
+
+                img {
+                    width: 90px;
+                    height: 90px;
+                    object-fit: contain;
+                }
             }
 
             .full-width {
                 grid-column: span 2; /* Span 2 columns for the third item */
                 grid-row: 2; /* Place it in the second row */
               }
+        }
+
+        .clientsSection {
+            text-align: center;
         }
 
     }
