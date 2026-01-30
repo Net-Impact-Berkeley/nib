@@ -25,7 +25,7 @@ const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
    const interestForm = "https://airtable.com/appzavtFjBRUlUmPt/pagqItCKlhH3VB25J/form";
-   const application = "https://airtable.com/app5kIIT8OgWGBQWj/pagO6AnGJoBTImhIN/form";
+   const application = "https://airtable.com/appk87G4bajdKguxx/pagasA5eZl1Uy0Ca9/form";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -54,18 +54,17 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Spring 2026 will open soon. Fill out our interest form to stay updated!</p>
+                   <p>Our application for Spring 2026 is now open!. The application closes at 1pm on Friday, January 30th!</p>
                    <Button
                        link={interestForm}
                        buttonText="Interest Form"
                        external
-                   />
-                   {/* 
+                   /> 
                    <Button
                        link={application}
                        buttonText="Application"
                        external
-                   /> */}
+                   />
                </div>
            <div className="right hideOnMobile">
            <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
@@ -114,7 +113,7 @@ const Apply = () => {
                        <p>Friday 1/30 - Tuesday 2/3</p>
                        <ul>
                            <li>Applications are due at 1PM PST on January 30th.</li>
-                           { /* Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a> */ }
+                           Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a>
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>
@@ -150,13 +149,13 @@ const Apply = () => {
                        buttonText="Case Interview Demo"
                        external
                    />
-                   <Button
+                   { /* <Button
                        link="https://www.netimpactberkeley.org/_files/ugd/7349c5_aed0f4abfbcf4fb48d4b9763d25aa028.pdf"
                        buttonText="Case in Point Guide"
                        external
-                   />
+                   /> */}
                    <Button
-                       link="https://www.netimpactberkeley.org/_files/ugd/7349c5_36e1153ac96449fd9e1dce237df545c4.pdf"
+                       link="/casebook.pdf"
                        buttonText="MBB Case Book"
                        external
                    />

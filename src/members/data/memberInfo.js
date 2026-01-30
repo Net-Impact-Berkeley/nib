@@ -10,7 +10,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/muhammed-bakr/',
             calendly: 'https://calendly.com/muhammed-bakr/nib-coffee-chats',
-            image: require('../img/prof/Muha.jpg'),
+            image: require('../img/prof/muha.jpg'),
             sillyImage: require('../img/funny/muha.png'),
             isDM: true
         },
@@ -23,7 +23,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/ashni-sheth-4629041b3/',
             calendly: 'https://calendly.com/ashni_sheth/nib-coffee-chats',
-            image: require('../img/prof/Ashni.jpg'),
+            image: require('../img/prof/ashni.jpg'),
             sillyImage: require('../img/funny/ashni.png'),
             isDM: true
         },
@@ -36,7 +36,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
             calendly: 'https://calendly.com/napimk/nib-coffee-chat-w-ice',
-            image: require('../img/prof/ice.png'),
+            image: require('../img/prof/ice.jpg'),
             sillyImage: require('../img/funny/ice.jpg'),
             isDM: true
         },
@@ -48,7 +48,7 @@ let memberInfo = {
                 "I'm very passionate about neurodiversity, education, and environmental sustainability, and NIB has helped me further these passions through the unique, genuine, and impactful work that we do. Feel free to reach out if you want to talk about any and all things music, really terrible puns/dad jokes, travel (yet having no sense of direction), questions about NIB, or really anything you want!",
             ],
             linkedin: 'https://www.linkedin.com/in/diane-shih',
-            image: require('../img/prof/Diane.jpg'),
+            image: require('../img/prof/diane.jpg'),
             sillyImage: require('../img/funny/dgshih.png'),
             isDM: true
         },
@@ -59,11 +59,11 @@ let memberInfo = {
                "Hey! I'm Tanya, a junior majoring in Molecular & Cellular Biology and Economics from Vancouver, Canada. Joining NIB has been an incredible journey and it’s truly my second family on campus, providing me with endless opportunities for growth and some of the most amazing friendships I could ask for. My past projects have included working with a consumer tech-focused venture capital fund to analyze investment opportunities in Latin America's rapidly evolving digital landscape, as well as with a leading geothermal energy company to identify strategic partnerships to expand their global footprint and advancing sustainable energy solutions.",
                 "I am deeply passionate about addressing water accessibility challenges and I have channeled that passion by developing low-cost water purification methods and leading initiatives to educate and empower remote Indigenous communities with sustainable and culturally informed solutions.",
                 "Outside of NIB, tennis has been a central part of my life. I’ve been playing and directing tennis programs for 12 years and it’s shaped so much of who I am! I am involved in tumor immunotherapy research, exploring strategies to combat cancer and improve patient outcomes. I’m also a member of Alpha Delta Pi, where I’ve led Diversity, Equity, and Inclusion initiatives across Greek life, working to foster a more inclusive and welcoming community on campus. In my free time, I love shopping (NIB’s Aritzia plug), pilates (I’m practically my studio’s unofficial ambassador), and cooking (I make a mean Nobu Tuna Crispy Rice dupe).",
-                "Can't wait to meet you and share more about the amazing experiences NIB has to offer!"
+                "Can't wait to meet you and share more about the amazing experiences NIB has to offer!",
             ],
             linkedin: 'https://www.linkedin.com/in/tanyachandok/',
             calendly: 'https://calendly.com/tanyachandok-berkeley/coffee-chats',
-            image: require('../img/prof/tanya.png'),
+            image: require('../img/prof/tanya.jpg'),
             sillyImage: require('../img/funny/tanya.png'),
             isDM: true
         },
@@ -75,7 +75,7 @@ let memberInfo = {
                 "I am very passionate about LGBTQ+ inclusivity, educational accessibility, environmental sustainability, and mental health awareness. Outside of NIB, I love to dance, take cool pictures, sing, hike, collect matchboxes, and play the drums. I’m also always on the lookout for good music, thrift stores, food, and boba/matcha (pmo if you have recs please)!"
             ],
             linkedin: 'https://www.linkedin.com/in/madhurum-bhuvan',
-            image: require('../img/prof/Madhurum.jpg'),
+            image: require('../img/prof/maddie.jpg'),
             sillyImage: require('../img/funny/madhurum.png'),
             isDM: true
         },
@@ -83,12 +83,12 @@ let memberInfo = {
             name: 'Renaissance Zhang',
             title: 'Project Manager',
             bio: [
-                "Hi!! I'm Renaissance, a junior studying Political Science and Cognitive Science. I joined NIB Fall 2024, and it has easily been the best experience I've had at Cal! NIB is an incredibly supportive, fun, and rewarding. I'm very passionate about human rights and all things social justice. Last year, I worked on pitching global health funding as a strategic U.S. investment, as well as worked on increasing the prevalence of pro bono lego work with the Pro Bono Institute.", 
-                "Outside of NIB, I am a human rights activist (anti-genocide campaign, climate crisis, reproductive access), a huge Swiftie, and a debater. I love reading, baking, playing Marvel Rivals, and watching various anime shows. So excited to meet you!!",
+               "Hi!! I'm Renaissance, a junior studying Political Science and Cognitive Science. I joined NIB Fall 2024, and it has easily been the best experience I've had at Cal! NIB is an incredibly supportive, fun, and rewarding- the people are the best part. In the past, I worked on pitching global health funding as a strategic U.S. investment, as well as worked on increasing the prevalence of pro bono lego work with the Pro Bono Institute. Most recently, I worked with Fender on business & product strategy!",
+                "Outside of NIB, I am a human rights activist (anti-genocide, climate crisis, reproductive access), a huge Swiftie, and a debater. I love reading, baking, playing Marvel Rivals, and watching various anime shows. So excited to meet you!!"
             ],
             linkedin: 'https://www.linkedin.com/in/renaissancezhang/',
             calendly: 'https://calendly.com/rzhang0326-berkeley/nib-coffee-chats-sp25-1?month=2025-01',
-            image: require('../img/prof/ren.png'),
+            image: require('../img/prof/ren.jpg'),
             sillyImage: require('../img/funny/ren.png'),
             isDM: true
         },
@@ -101,7 +101,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/laurenlemire',
             calendly: 'https://calendly.com/laurenml/nib-coffee-chats ',
-            image: require('../img/prof/lauren.png'),
+            image: require('../img/prof/lauren.jpg'),
             sillyImage: require('../img/funny/lauren.png'),
             isDM: true
         },
@@ -109,12 +109,12 @@ let memberInfo = {
             name: 'Javier Gonzales',
             title: 'Project Manager',
             bio: [
-                "Hi! I'm Javi, currently a Junior studying EECS. I joined NIB Spring 2025 and I haven't looked back since! NIB has been an amazing place for me to learn much more outside of my traditional coursework and take on meaningful work that truly does have an impact. On top of all that, everyone at NIB is incredible—people I genuinely admire and respect.",
-                "Outside of NIB I really love spending time with my family and firing up the grill, listening to hot takes, watching the niners --Super Bowl window has not closed--, Beli, and playing marbles."
+               "Hi! I'm Javi, currently a Junior studying EECS. I've been in NIB for a couple semesters now and I haven't looked back since! NIB has been an amazing place for me to learn much more outside of my traditional coursework and take on meaningful work that truly does have an impact. I've met so many new and amazing people that truly inspire me everyday.", 
+               "Outside of NIB I love folding clothes, playing soccer, watching gorilla videos, backpacking, and baked goods."
             ],
             linkedin: 'https://www.linkedin.com/in/javiercgonzales',
             calendly: 'https://calendly.com/javiergonzales-berkeley/30min',
-            image: require('../img/prof/Javi Headshot.jpg'),
+            image: require('../img/prof/javi.jpg'),
             sillyImage: require('../img/funny/javi.png'),
             isDM: true
         },
@@ -122,13 +122,13 @@ let memberInfo = {
             name: 'Eshaan Shaik', 
             title: 'Project Manager',
             bio: [
-                "Hey everyone! I’m Eshaan and I’m a sophomore studying Business and Data Science with a minor in Public Policy. I joined NIB in Fall 2024 and I’ve had the immense pleasure of calling this community home. From the kind, supportive members to the social-impact oriented projects, I can’t imagine my first year here without NIB.", 
-                "Regarding my projects, I worked on strategy for one of the biggest NGOs in the world where we researched grant-funding, explored climate finance, and decked countless number of slides.",
-                "Outside of NIB I love doing origami, playing poker, and hitting late night Taco Bell runs! Feel free to reach out!"
+                "Hey everyone! I’m Eshaan and I’m a sophomore studying Business and Data Science with a minor in Public Policy. I joined NIB my freshman fall and I’ve had the immense pleasure of calling this community home. From the kind, supportive members to the social-impact oriented projects, I can’t imagine my college experience here without NIB.",
+                "Regarding my projects, I worked on strategy for one of the biggest NGOs in the world where we researched grant-funding, explored climate finance, and decked countless number of slides to help international refugees. I also worked on a project which found cost-effective methods for wildfire resilience through data analytics methods and countless hours of research! Besides projects, NIB's focus on social impact has always been what sets us apart and makes the entire experience far more fulfilling!",
+                "Outside of NIB I love doing origami, football, hitting the gym, and eating at food spots around Berkeley and SF!"
             ],
             linkedin: 'http://www.linkedin.com/in/eshaan-shaik-62433b211',
             calendly: "https://calendly.com/eshaan_shaik-berkeley/nib-coffee-chats",
-            image: require('../img/prof/Eshaan.jpg'),
+            image: require('../img/prof/eshaan.jpg'),
             sillyImage: require('../img/funny/eshaan.png'),
             isDM: true
         },
@@ -142,11 +142,11 @@ let memberInfo = {
             name: 'Elias Goss',
             title: 'Senior Associate',
             bio: [
-               "Wassup, I'm Elias, a Sophomore from Denver, Colorado studying Business Administration and Political Economy. I joined NIB the second semester of my freshman year and I will be a returing associate this Fall! My last project involved working with Fervo Energy. My interests include religion, football, basketball, cooking, weightlifting, rock climbing, trading, AI, and public speaking."
+               "Wassup, I'm Elias, a Sophomore from Denver, Colorado, studying Business Administration and Political Economy. I joined NIB in the second semester of my freshman year, and I will be a returning associate this Fall! My last project involved working with Fervo Energy. My interests include religion, football, basketball, cooking, weightlifting, rock climbing, trading, AI, and public speaking."
                ],
             linkedin: 'https://www.linkedin.com/in/eliasgoss/',
-            calendly: 'https://calendly.com/eliasgoss2005-berkeley/30min',
-            image: require('../img/prof/Elias.jpg'),
+            calendly: 'https://calendly.com/eliasgoss2005-berkeley',
+            image: require('../img/prof/elias.jpg'),
             sillyImage: require('../img/funny/elias.png'),
             isDM: false
         },
@@ -154,12 +154,13 @@ let memberInfo = {
             name: 'Anika Yu',
             title: 'Senior Associate',
             bio: [
-                "Hi! I’m Anika and I’m a second-year studying Political Economy, Data Science, and Public Policy. I joined NIB last semester and could not have been more grateful for the memories I left my first year of college with! NIB not only broadened my concept of what my academic and professional career could look like, but also provided me with the most supportive and sweet friends ever. From defining future strategies for a national legal nonprofit to big backing my way through Berkeley, there is never a dull moment in NIB.",
-                "I’m personally passionate about equitable policymaking and participatory democracy, especially in the field of education. This summer, I worked for a nonprofit that addresses the needs of working class communities in SF. Outside of NIB, I (try to) run, chef it up, read books to boost frontal lobe development, and am a part of a Christian fellowship on campus! Super excited to meet everyone through recruitment but I know it can definitely be a pretty daunting process, so don’t hesitate to reach out anything and/or everything :)"
+                "Hi, I’m Anika and I’m a sophomore studying Political Economy, Data Science, and Public Policy. I joined NIB my freshman spring (SP25 CLASS ON TOP!) and could not have been more grateful for the memories I've gained, coming up on one year in the club. NIB not only broadened my concept of what my academic and professional career could look like, but also provided me with the most supportive and sweet friends ever. I can never shut my mouth around them, whether it's presenting a deliverable to a nonprofit CEO or making up a derpy language that only my team understands #fendyforever.",
+                "I am super passionate about equitable policymaking and participatory democracy, especially in the field of education. Ultimately, I want to be a public interest lawyer! I'd love to talk about how my previous projects, Pro Bono Institute and Fender, have intersected with these passions. We can also connect over cool books, elite food spots, and recent budding interests (mine are running and F1!)",
+                "There is never a dull moment in NIB and I am so excited for you to discover what that could look like for yourself through recruitment!"
             ],
             linkedin: 'https://www.linkedin.com/in/anika-yu/',
-            calendly: 'https://calendly.com/anika-yu',
-            image: require('../img/prof/Anika.jpg'),
+            calendly: 'https://calendly.com/anika-yu/nib-spring-26-coffee-chats-anika',
+            image: require('../img/prof/anika.jpg'),
             sillyImage: require('../img/funny/anika.png'),
             isDM: false
         },
@@ -171,9 +172,115 @@ let memberInfo = {
                 "I'm very passionate about civic engagement and technology policy. Outside of NIB, I love everything related to comedy (SNL, sitcoms, etc.), sports (hype for football season), and food (learning to stop eating out and cook my own food, but also I’m always on the hunt for good restaurant recs). Happy to chat about anything, feel free to reach out!"
             ],
             linkedin: 'https://www.linkedin.com/in/aditya-dawar/',
-            calendly: 'https://calendar.app.google/e4YHvKsAZSzjVqa18',
+            calendly: 'https://calendar.app.google/maz85GiqR2y8h6YQA',
             image: require('../img/prof/Adi.jpg'),
             sillyImage: require('../img/funny/adi.png'),
+            isDM: false
+        },
+        {
+            name: 'Kabir Dua',
+            title: 'Senior Associate',
+            bio: [
+              "Hi! My name is Kabir, and I am a sophomore studying Data Science and Economics with a minor in Energy & Resources. Joining NIB this past Fall has undoubtedly been one of the most meaningful decisions of my college experience: through NIB, I've found my closest friends, gained invaluable mentors, and learned so much about myself, my true passions, and the intellectually diverse community that surrounds me.", 
+                "This past semester, I was lucky enough to contribute to a waste diversion research project, exploring emerging technologies like physical AI for recycling management and autonomous robotics for plastics sorting, ultimately identifying vendors to help our client, Evergreen Goodwill, achieve their circularity goals for post-consumer materials.",
+                "NIB has made me optimistic that in a generation often driven by optics and conventional metrics of success, there still are incredibly talented people who care more about effectuating the positive change they seek to see in the world.",
+                "Outside of NIB, I enjoy contributing to academic research, collecting vinyl records (favorite artists: Smino, Yves Tumor, Tame Impala, Jaydes, KAYTRANADA, Lil Baby), weightlifting, hiking, and playing pool.",
+                "So stoked to meet everyone at recruitment, don't hesitate to reach out!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/kabir-dua',
+            calendly: 'https://calendly.com/kabir-dua-berkeley/nib-coffee-chat-sp-26',
+            image: require('../img/prof/kabir.jpg'),
+            sillyImage: require('../img/funny/kabir.png'),
+            isDM: false
+        },
+        {
+            name: 'Zoey Bahng',
+            title: 'Returning Associate',
+            bio: [
+               "Hi, this is Zoey! I’m a freshman on the pre-law track studying Political Science and Conservation & Resource Studies. My social impact focus is on environmental justice. I joined NIB my freshman fall and it's been the most well-rounded, supportive community to start college with. When you hear that the NIB community is wholesome, empowering, fun, smart, and genuine, BELIEVE IT!",
+                "Outside of consulting, I intern with Berkeley Law and a wildlife conservation campaign and make content. I'm always down to yap about pinterest boards, science fun facts, matcha cafes, and the political and economic state of the world (ifykyk). So excited to meet you!"
+               ],
+            linkedin: 'https://www.linkedin.com/in/zoeybahng',
+            calendly: 'https://calendly.com/zoeybahng-berkeley',
+            image: require('../img/prof/zoey.jpg'),
+            sillyImage: require('../img/funny/zoey.png'),
+            isDM: false
+        },
+        {
+            name: 'Vit Do',
+            title: 'Returning Associate',
+            bio: [
+               "Hi, I'm Vit! I'm currently studying Economics and Media Studies, and I joined last semester! NIB has been one of my defining experiences at Berkeley, from meeting the most authentic and hardworking people to getting to work on growth and go-to-market strategy with the startup Clutch. The community is one-of-a-kind and there's so many opportunities for deep friendships and mentorship that I'm super grateful for.",
+                "Besides NIB, I've been dancing for 15 years and am currently on Kairos Dance Company, a contemporary group here on campus. Also, in my free time, I love thrifting and crocheting, knitting and sewing my own clothes. Additionally, some artists I listen to are Blood Orange and the Cocteau Twins! You can chat with me about anything, NIB-related or not, so feel free to reach out!"
+               ],
+            linkedin: 'https://www.linkedin.com/in/nguyen-do-61a6a9256/',
+            calendly: 'https://calendly.com/vit-do-berkeley/30min',
+            image: require('../img/prof/vit.jpg'),
+            sillyImage: require('../img/funny/vit.png'),
+            isDM: false
+        },
+        {
+            name: 'Brooklynn Collins',
+            title: 'Returning Associate', 
+            bio: [
+                "Hi! My name is Brook, and I am a sophomore from Los Angeles, majoring in Global Studies and minoring in Public Policy. I joined NIB in Fall '25, and it has been everything I could have hoped for and more. NIB is the sweetest, hardest-working, and most supportive group of people you will EVER find. I have had the opportunity to further my love for #NIBFAM and my technological knowledge through my past project, working with NIB Alum on their start-up, Clutch. I have had the opportunity to grow so much with NIB, not only professionally through our projects but also socially with this group of amazing, diverse individuals.",
+                "Outside of NIB, I am involved with a non-profit organization, ECCO, where I work closely with a team to advance academic justice and opportunities for underprivileged women. I love anything Drake, all music (ESPECIALLY country), sewing, crocheting, and scrapbooking. I can't wait to meet you all, and I am looking forward to talking to you about YOUR interest!!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/brooklynn-collins-70aa22324',
+            calendly: 'https://calendly.com/brooklynn-sc-berkeley/new-meeting?month=2026-01',
+            image: require('../img/prof/brooklynn.jpg'),
+            sillyImage: require('../img/funny/brook.png'),
+            isDM: false
+        },
+        {
+            name: 'Vish Goel',
+            title: 'Returning Associate',
+            bio: [
+              "Hi!! I’m Vish, a freshman from San Jose studying Economics and Political Science. I joined NIB last semester and it’s become one of the communities at Berkeley where I feel most at home— everyone is passionate, kind, and incredibly hard-working. NIB has combined meaningful support and culture with professional development and true impact, and I feel so grateful to be part of such an amazing community. Truly, NIBfam is so real. So far, I’ve worked with a leading guitar company on product strategy and go-to-market for a new audio production software, helping improve user experience and increase access to quality music education with the funniest team #fendysendy.",
+                "I’m passionate about mental health advocacy and economic welfare, specifically in using law to promote preventative care and reduce poverty writ large. Outside of NIB, I love baseball, music (Coldplay, Kendrick, Billy Joel, Maroon 5), working out, binging shows (ATLA, Brooklyn Nine-Nine), and reading political philosophy. I also recently started learning electric guitar. Don’t hesitate to reach out, I’m looking forward to meeting all of you!"
+               ],
+            linkedin: 'https://www.linkedin.com/in/vishgoel/',
+            calendly: 'https://calendly.com/vish_goel-berkeley/new-meeting',
+            image: require('../img/prof/vish.png'),
+            sillyImage: require('../img/funny/vish.png'),
+            isDM: false
+        },
+        {
+            name: 'Harper Young',
+            title: 'Returning Associate',
+            bio: [
+              "Hey there!! My name is Harper Young, I am a freshman studying Environmental Economics and Policy and a returning associate this year. I LOVE NIB, and joining was the best thing I've done at college so far. The people here are the kindest and most genuine people I have ever met, while being the most fun and phenomenal to hang out with. I learned so much from my past project with SC Johnson, but more importantly, forged friendships with nib members who inspire and challenge me every day. #NIBISLITNIBISIT #NIBFAM",
+                "I'm passionate about sustainable development, whether that's regenerative agriculture, restorative infrastructure, energy grids, policy, or habitat conservation. I am also interested in youth literacy, especially for marginalized youth, and advancing equal opportunity in our education systems. Outside of NIB, I love to ski, backpack, hike, cook, and go on any adventure possible (bonus points if someone can teach me how to surf). Please talk to me about whatever gets you excited!!!!!"
+               ],
+            linkedin: 'https://www.linkedin.com/in/harper-young-2685b6307/',
+            calendly: 'https://calendly.com/harperyoung-berkeley/30min',
+            image: require('../img/prof/harper.png'),
+            sillyImage: require('../img/funny/harper.png'),
+            isDM: false
+        },
+        {
+            name: 'Jules De Boni',
+            title: 'Returning Associate',
+            bio: [
+             "Hey, what's up! My name is Jules and I'm a junior studying Economics and Data Science. I joined NIB last semester after arriving in the US for the first time, and this is singlehandedly the best decision I've made at Cal. Everything from my first semester's project with Evergreen Goodwill to our insane trip to Mexico has been an insane enhancement of my college experience. I've loved making so many wonderful memories with the people I now call my best friends and I can't wait for you to join the NIBFam!",
+                "Outside of school, I play football/soccer and am part of the Cal Boxing Club. I'm also a big Geography nerd and I love debating about electoral politics and geopolitics, so if you do too, don't hesitate to reach out!!"
+               ],
+            linkedin: 'https://www.linkedin.com/in/jules-de-boni',
+            calendly: 'https://calendly.com/julesdeboni-berkeley/30min',
+            image: require('../img/prof/jules.jpg'),
+            sillyImage: require('../img/funny/jules.png'),
+            isDM: false
+        },
+        {
+            name: 'Vedatman Duhoon',
+            title: 'Returning Associate',
+            bio: [
+                "Hello everyone! I'm Vedatman, a freshman studying Business. I joined NIB last fall, and it’s been one of the best decisions I could’ve made! From day one, I was welcomed into the most inspiring, uplifting and genuine community on campus. Beyond the people, NIB has also provided me with an incredible environment for professional growth and exploration. Through my project with SC Johnson, I had the opportunity to dive into ESG reports, analyze sustainability initiatives, and think critically about how large corporations approach social and environmental impact. Outside of NIB, I love playing board games, watching soccer (FC Barcelona fan), and following Formula 1!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/vedatman-duhoon/',
+            calendly: 'https://calendly.com/vedatman',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
             isDM: false
         },
         {
@@ -189,19 +296,7 @@ let memberInfo = {
             sillyImage: require('../img/funny/aswin.png'),
             isDM: false
         },
-        {
-            name: 'Melanie Davidson',
-            title: 'Senior Advisor',
-            bio: [
-                "Hi! My name is Mel, and I am a current sophomore, majoring in Cognitive Science and intending to pursue Data Science as well! I joined NIB in my freshman spring and have loved working alongside and learning from the many amazing people in this club, particularly through my project with SFO Airport. However, the NIBfam community extends further than my project, surrounding me with such interesting, dedicated, and kind people that I could not be more grateful for!", 
-                "Besides school, I am on the Club Volleyball team here at Cal, and I enjoy crocheting, reading books about niche scientific topics, trying out new restaurants and cafes with my friends, and running. I am always open to new adventures or anything with good conversation! I can’t wait to meet you!!"
-            ],
-            linkedin: 'https://linkedin.com/in/melanie-davidson-711919325',
-            calendly: 'https://calendly.com/melaniebdavidson-berkeley/30min',
-            image: require('../img/prof/Mel.jpg'),
-            sillyImage: require('../img/funny/mel.png'),
-            isDM: false
-        },
+       
         {
             name: 'Luis Suarez',
             title: 'Senior Advisor',
@@ -236,7 +331,7 @@ let memberInfo = {
                 "In my free time I like to play sports, watch Netflix, cook, travel, and spend quality time with my friends and family. Don't hesitate to reach out!]"
             ],
             linkedin: 'https://www.linkedin.com/in/brian-poh-b8686637b/',
-            calendly: 'https://calendly.com/brianpoh/brian-nib-fall-25-coffee-chats',
+            calendly: 'https://calendly.com/brianpoh/brian-nib-spring-26-coffee-chats',
             image: require('../img/prof/Brian.jpg'),
             sillyImage: require('../img/funny/brian.png'),
             isDM: false
@@ -245,13 +340,14 @@ let memberInfo = {
             name: 'Wenhan Xi', 
             title: 'Senior Advisor',
             bio: [
-                "Hi there! I’m Han, and I’m a Senior studying econ and data science. I joined NIB freshman fall and it's here that I've found a home. So far, I've had the privilege to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. Last year, I led my own project supporting the World Bank's efforts in promoting Water and Sanitation investment! I've been driven to grow in many dimensions in a supportive family who I've come to love deeply.",
-                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this fall!",
+                "Hi there! I’m Han, and I’m a Senior studying econ and data science. I joined NIB freshman fall and it's here that I've found a home. So far, I've had the privilege to work on amazing projects from developing social enterprise partnership strategies for the aerospace industry to digital readiness with farmers and even on a corporate partnership strategy for an environmental advocacy group. Last year, I led my own project supporting the World Bank's efforts in promoting Water and Sanitation investment, before serving as NIB's VP Consulting and President.",
+                "Outside of NIB, I love judo, building houses and cooking up a storm in the kitchen (cleaning up after though is something I'm still working on...) I’m super excited to meet you through recruitment this Spring!"
                ],
             linkedin: 'https://www.linkedin.com/in/wenhanxi/',
+            calendly: 'https://calendar.app.google/d2n8TsidFUFbzFD29',
             image: require('../img/prof/Han.jpg'),
             sillyImage: require('../img/funny/han.png'),
-            isDM: true
+            isDM: false
          },
          {
             name: 'Breanna Pearlman', 
@@ -261,22 +357,12 @@ let memberInfo = {
                 "Outside of consulting, I am interested in human rights, environmental justice, African development, and Timothée Chalamet. I am also involved in on-campus research. In my free time, I love shopping, hiking, and traveling. I just got back from a semester abroad in Paris in the spring. Feel free to reach out and chat, and I look forward to meeting you! Feel free to reach out and chat, and I look forward to meeting you!"
             ],
             linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
-            image: require('../img/prof/Breanna.jpg'),
+            calendly: 'https://calendly.com/breannapearlman/nib-spring-26-coffee-chats?month=2026-01',
+            image: require('../img/prof/breanna.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
-            isDM: true
+            isDM: false
         },
-        {
-            name: 'Frances Rich', 
-            title: 'Senior Advisor',
-            bio: [
-                "Hi! My name is Frances, I am a current junior and I joined nib my freshman spring. I have worked on a bunch of cool projects and met some of my best friends in this club. NIBfam is so real and I love being surrounded by such amazing, smart, and cool people every day!",
-                "Outside of school I love musical theater, historical fiction, yap sessions with my friends, brainrot content, and running/dancing. I can't wait to meet you :)"
-            ],
-            linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
-            image: require('../img/prof/Frances.jpg'),
-            sillyImage: require('../img/funny/frances.png'),
-            isDM: true
-        },
+        
         {
             name: 'Madelyn Christensen',
             title: 'Senior Advisor',
@@ -285,9 +371,10 @@ let memberInfo = {
                 "Outside of NIB, you can find me reading on the glade, dancing with some of Cal's dance teams, exploring coffee shops, or debating. NIB has given me a wide range of experiences and opportunities that I never could've imagined. But more than any of that, it's given me a truly amazing community here on Berkeley's campus to connect with. So much love for NIBFAM!!",
             ],
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
+            calendly: 'https://calendly.com/madelync-1/nib-fall-2024-coffee-chats',
             image: require('../img/prof/Madelyn Christensen.jpg'),
             sillyImage: require('../img/funny/madelyn.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Srijani Sarkar', 
@@ -298,9 +385,9 @@ let memberInfo = {
             ],
             calendly: 'https://calendly.com/srijani-sarkar/nib-coffee-chats',
             linkedin: 'https://www.linkedin.com/in/srijani-sarkar-035016200/',
-            image: require('../img/prof/Srij.jpg'),
+            image: require('../img/prof/srijani.jpg'),
             sillyImage: require('../img/funny/srijani.jpeg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Mandy Pham', 
@@ -310,22 +397,24 @@ let memberInfo = {
                 "Outside of consulting, I’m involved in AFX Comp, love fashion, traveling, music, concerts/raves, and digital media. If you ever need a hand or some advice, feel free to reach out!"
             ],
             linkedin: 'https://www.linkedin.com/in/phamandy24/',
+            calendly: 'https://calendly.com/tpmandy24/nib-coffee-chat',
             image: require('../img/prof/Mandy.jpg'),
             sillyImage: require('../img/funny/mandy.png'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Nikith Vangala',
             title: 'Senior Advisor',
             bio: [
-                "Hi! It's great to meet you :) My name is Nikith and I'm a senior studying EECS and Business. I'm going to be a project manager this semester, and have served as VP Finance & Operations and President over the past few semesters. I'm excited to dive back into project work!",
-                "NIB has been my home away from home since my first semester at school. I've met my closest friends and roommates through this club and I couldn't be more thankful for all the opportunities it's provided me. I've worked on three projects so far: roadmapping health product procurement in Africa for one of the largest nonprofit orgs in the world, growth strategy for a sustainable clothing retailer, and a go-to-market strategy for a new biotechnology startup with a sustainable alternative to a milk derivative.",
-                "Outside of NIB, I'm interested in pursuing a career in consulting or product management full-time. I've interned at a variety of small and large firms in both tech and business, which is a combination I hope to bring to my project team. I am also a member of UCB Zahanat, a Bollywood fusion dance team here on campus."
+                "Hi! It's great to meet you :) My name is Nikith and I'm a senior studying EECS and Business. I'm going to be a senior advisor this semester, and have served as VP Finance & Operations and President over the past few semesters.",   
+                "NIB has been my home away from home since my first semester at school. I've met my closest friends and roommates through this club and I couldn't be more thankful for all the opportunities it's provided me. I've worked on four projects so far: roadmapping health product procurement in Africa for one of the largest nonprofit orgs in the world, growth strategy for a sustainable clothing retailer, a go-to-market strategy for a new biotechnology startup with a sustainable alternative to a milk derivative, and building a recognition algorithm for a stealth-stage startup.",
+                "I am also a member of UCB Zahanat, a Bollywood fusion dance team here on campus."
             ],
             linkedin: 'https://linkedin.com/in/nikith-vangala',
+            calendly: 'https://calendly.com/nikith-vangala/nib-coffee-chats',
             image: require('../img/prof/Nikith.jpg'),
             sillyImage: require('../img/funny/nikith.jpg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Sashank Gadisetti', 
@@ -334,11 +423,11 @@ let memberInfo = {
                 "Hello! I'm Sashank and I am currently a senior studying computer science. I joined NIB my junior fall and it's been an amazing experience so far. I've had the opportunity to work with a sustainable fashion company looking to expand into the EU so far. I personally am passionate about personalized, accessible education everywhere. I've had an amazing experience in NIB so far and I'm super excited for what the semester has in store. Super excited to meet everyone!"
             ],
             linkedin: 'https://www.linkedin.com/in/sashank-gadisetti',
+            calendly: 'https://calendly.com/sgadisetti-berkeley/coffee-chats',
             image: require('../img/prof/Sashank.jpg'),
             sillyImage: require('../img/funny/sashank.png'),
-            isDM: true
+            isDM: false
         },
-        /*
         {
             name: 'Raymond Yuan', 
             title: 'Senior Advisor',
@@ -348,12 +437,11 @@ let memberInfo = {
                 "In my free time I think about little things and how life came to be. Reach out if you're prepared for the conversation to be derailed to somewhere strange and curious!"
             ],
             linkedin: 'www.linkedin.com/in/raymond-yuan-yayayayay',
-            calendly: 'https://calendly.com/rmyuan-berkeley/nib-coffee-chat',
+            calendly: 'https://calendly.com/raymondyuan9/30min?month=2026-01',
             image: require('../img/prof/raymond.png'),
             sillyImage: require('../img/funny/raymond.png'),
             isDM: false
         }, 
-        */
         {
             name: 'Grayson Peters',
             title: 'Senior Advisor',
@@ -363,7 +451,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/graybert',
             calendly: 'https://calendly.com/graybert-berkeley/30min',
-            image: require('../img/prof/Grayson.jpg'),
+            image: require('../img/prof/grayson.jpg'),
             sillyImage: require('../img/funny/grayson.png'),
             isDM: false
         },
@@ -375,7 +463,7 @@ let memberInfo = {
                     "In my free time I can be found at the climbing gym (shoutout Mosaic), RSF, being a tad too competitive on our NIB IM sports teams, or laying on the glade in the sun with some still woozy playing."],
             linkedin: 'https://www.linkedin.com/in/elan-trager-a9a2311a9/',
             calendly: 'https://calendly.com/elantrager/nib-coffee-chatsky',
-            image: require('../img/prof/Elan.jpg'),
+            image: require('../img/prof/elan.jpg'),
             sillyImage: require('../img/funny/elan.png'),
             isDM: false
         },
@@ -388,7 +476,7 @@ let memberInfo = {
                 "As a first-generation college student, I’m deeply passionate about poverty alleviation and global development. Outside of NIB, I’m heavily involved in social science research, love spontaneous midnight drives, savor a great meal, and enjoy solo traveling. Excited to meet you all soon!"
             ],
             linkedin: 'https://www.linkedin.com/in/gracexyhu/',
-            calendly: 'https://calendly.com/grace_hu/nib-coffee-chat-fa25',
+            calendly: 'https://calendly.com/grace_hu/nib-coffee-chat-sp26',
             image: require('../img/prof/grace.jpg'),
             sillyImage: require('../img/funny/grace.jpeg'),
             isDM: false
@@ -400,7 +488,7 @@ let memberInfo = {
                 "Hey everyone! I'm Mehul; I'm a senior currently studying Materials Science and Nuclear Engineering. I'm very passionate about climate sustainability and the long term implications of the materials we use. Going into my fifth semester in NIB, I’ve had the opportunity to work on incredible projects with some of my best friends! Throughout my time in NIB, I’ve gotten the privilege to work on sustainable farming with Kiss The Ground, carbon capture with Climeworks and technology access with Goodwater Capital. Each of these projects has taught me so much and I have been delighted to see the tangible impact that we’ve made through them. In addition, NIB is such an amazing community and I love how much we show up and care for each other. NIB is full of people who are always there for you and I am lucky to have a club of some of my closest friends.",
                 "Outside of NIB, I work on superconductivity at Berkeley Lab and I joined TSMC as an Epitaxy Intern last summer summer. In addition, I like to go on late-night drives with friends, watch soccer and learn new things! If you want to chat more on anything here, feel free to stop by while I’m tabling or come to any of our info sessions!"],
             linkedin: 'http://linkedin.com/in/mehnai/',
-            calendly: 'https://calendly.com/mehulnair',
+            calendly: 'https://calendly.com/mehulnair/nib-coffee-chats',
             image: require('../img/prof/Mehul.jpg'),
             sillyImage: require('../img/funny/mehul.png'),
             isDM: false
@@ -414,7 +502,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/hunter-valencia-42216424b',
             calendly: 'https://calendly.com/sunwardloki/nib-coffee-chat-1',
-            image: require('../img/prof/hunter.png'),
+            image: require('../img/prof/hunter.jpg'),
             sillyImage: require('../img/funny/hunter.png'),
             isDM: false
         },
@@ -467,7 +555,34 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/mariah-branscomb',
             image: require('../img/prof/mariah.jpg'),
             sillyImage: require('../img/funny/mariah.jpg'),
-            isDM: false
+            isDM: true
+        },
+        {
+            name: 'Frances Rich', 
+            title: 'Senior Advisor',
+            bio: [
+                "Hi! My name is Frances, I am a current junior and I joined nib my freshman spring. I have worked on a bunch of cool projects and met some of my best friends in this club. NIBfam is so real and I love being surrounded by such amazing, smart, and cool people every day!",
+                "Outside of school I love musical theater, historical fiction, yap sessions with my friends, brainrot content, and running/dancing. I can't wait to meet you :)",
+                "Frances is studying abroad this semester."
+            ],
+            linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
+            image: require('../img/prof/Frances.jpg'),
+            sillyImage: require('../img/funny/frances.png'),
+            isDM: true
+        },
+        {
+            name: 'Melanie Davidson',
+            title: 'Senior Advisor',
+            bio: [
+                "Hi! My name is Mel, and I am a current sophomore, majoring in Cognitive Science and intending to pursue Data Science as well! I joined NIB in my freshman spring and have loved working alongside and learning from the many amazing people in this club, particularly through my project with SFO Airport. However, the NIBfam community extends further than my project, surrounding me with such interesting, dedicated, and kind people that I could not be more grateful for!", 
+                "Besides school, I am on the Club Volleyball team here at Cal, and I enjoy crocheting, reading books about niche scientific topics, trying out new restaurants and cafes with my friends, and running. I am always open to new adventures or anything with good conversation! I can’t wait to meet you!!",
+                "Melanie is studying abroad this semester."
+            ],
+            linkedin: 'https://linkedin.com/in/melanie-davidson-711919325',
+            calendly: 'https://calendly.com/melaniebdavidson-berkeley/30min',
+            image: require('../img/prof/Mel.jpg'),
+            sillyImage: require('../img/funny/mel.png'),
+            isDM: true
         },
     ]
 } 
