@@ -54,17 +54,19 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Our application for Spring 2026 is now open!. The application closes at 1pm on Friday, January 30th!</p>
-                   <Button
+                   <p>Our application for Spring 2026 is now closed. Stay tuned for more information about our next application cycle!</p>
+                   {/*<Button
                        link={interestForm}
                        buttonText="Interest Form"
                        external
                    /> 
+                   {/*}
                    <Button
                        link={application}
                        buttonText="Application"
                        external
                    />
+                   */}
                </div>
            <div className="right hideOnMobile">
            <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
@@ -113,7 +115,7 @@ const Apply = () => {
                        <p>Friday 1/30 - Tuesday 2/3</p>
                        <ul>
                            <li>Applications are due at 1PM PST on January 30th.</li>
-                           Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a>
+                           {/* Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a> */}
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
                    </div>

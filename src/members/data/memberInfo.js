@@ -23,7 +23,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/ashni-sheth-4629041b3/',
             calendly: 'https://calendly.com/ashni_sheth/nib-coffee-chats',
-            image: require('../img/prof/ashni.jpg'),
+          image: require('../img/prof/ashni.jpg'),
             sillyImage: require('../img/funny/ashni.png'),
             isDM: true
         },
@@ -241,7 +241,7 @@ let memberInfo = {
                ],
             linkedin: 'https://www.linkedin.com/in/vishgoel/',
             calendly: 'https://calendly.com/vish_goel-berkeley/new-meeting',
-            image: require('../img/prof/vish.png'),
+            image: require('../img/prof/vish.jpg'),
             sillyImage: require('../img/funny/vish.png'),
             isDM: false
         },
@@ -279,6 +279,118 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/vedatman-duhoon/',
             calendly: 'https://calendly.com/vedatman',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Erica Chen',
+            title: 'Associate',
+            bio: [
+                "Hi! I’m Erica, a freshman majoring in Business Administration and Legal Studies with a minor in Data Science from Vancouver, Canada.",
+                "As someone who joined NIB just this past semester, I’ve been able to see a clear difference between my life at Cal before and after becoming part of this community. Arriving as an international student, I was honestly overwhelmed by the sheer number of opportunities and groups on campus. It was exciting, but I also felt lost at times, unsure of where I truly belonged. From the moment I joined NIB, that changed. With NIB, I not only tried In-N-Out for the first time (and yes, animal style fries really might beat poutine), but I also found an incredibly intellectually diverse group of people who genuinely care about using business as a force for good, along with the warmest, most supportive family I could have asked for.",
+                "In my first semester, I had the opportunity to work with the World Wildlife Fund (WWF), where our team conducted in-depth research on sustainable banking frameworks. We reviewed and refined the SUSBA methodology, benchmarked it against leading ESG and climate-focused approaches, and helped assess how financial institutions can better align with nature- and sustainability-focused standards.",
+                "What stands out to me most about NIB is the shared respect everyone has for one another’s passions. In a fast-paced world that often prioritizes surface-level success, I’ve found people here who care deeply about meaningful, long-term change and who push each other to grow both personally and professionally.",
+                "Outside of NIB, I love being involved in Cal’s entrepreneurial community, watching movies (Love Actually, Mamma Mia!, Clueless, In the Mood for Love, Letters to Juliet), working out, and cooking. I make a pretty great miso salmon.",
+                "If you’re thinking about applying to NIB, I’d love for you to come meet us. NIB has been such an integral part of finding my home at Cal, and I truly believe it can be that for you too. Looking forward to talking soon!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/ericachen0328/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Lilliana Calvert',
+            title: 'Associate',
+            bio: [
+                "Hi! I’m Lilliana, a freshman studying Business Administration and Data Science from Western Washington. Joining NIB this semester has honestly been one of the best decisions I could have possibly made. It has pushed me to be far more intentional about how I learn, who I learn from, and the kinds of problems I want to work on. I’m excited to keep building practical skills and use NIB as a space to test out different directions and passions.",
+                "Outside of NIB, I’m really interested in building and startups, especially in sustainable business, clean tech, SaaS, and materials engineering. I also enjoy absolutely anything creative (creative engineering, watercolors, fashion, etc.). Outside of school and projects, I love pilates (shoutout to the lovely bodyrok), hiking (Washington trails > any other trails in the world), baking (currently learning how to make croissants), and reading (if you ever need recommendations, let me know!)",
+            ],
+            linkedin: 'https://www.linkedin.com/in/lillianakcalvert/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Dia Hemanth',
+            title: 'Associate',
+            bio: [
+                "Hi! My name is Dia, and I’m a freshman studying Business with a minor in Data Science. Throughout my first semester, I was looking for a community I could call home, somewhere that would make Berkeley feel a little smaller. NIB has given me that and so much more; I’ve truly found a family here!",
+                "I love being surrounded by people who are so passionate and willing to uplift and challenge one another to grow.",
+                "I’m especially passionate about personal finance and closing the financial literacy gap. In the past, I founded a financial literacy nonprofit where I developed my own personal finance curriculum and led workshops for students.",
+                "Outside of NIB, I enjoy baking, listening to British rap (some of my favorite artists are Dave, Central Cee, J Hus, and AJ Tracey), doing Pilates, and exploring new coffee spots. I can’t wait to meet you, so don’t hesitate to reach out!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/diahemanth/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Ayla Margate',
+            title: 'Associate',
+            bio: [
+                "Hi! I'm Ayla, a freshman majoring in Business Administration in Haas' 4- year Spieker program and minoring in Public Policy, and am from Walnut Creek in the East Bay. I joined Net Impact in Spring of 2026 and have been absolutely loving every second so far. Even though it's only my first semester, I can easily call the people I've met in NIB some of my closest friends. The family I've been welcomed into has been filled with lots of love, surprises, and endless fun. Each person in NIB has a social impact area they are passionate about, from education to women's advocacy, and I've loved learning about everyone's passions. Personally, I am passionate about education equity and civic engagement, and am looking forward to the ways I can integrate these passions into future projects. This semester, I am working with the California Academy of Sciences to expand corporate philanthropy and donors to fun STEM educational experiences to museum visitors. I grew up going to the museum so I am very excited to be working with them!",
+                "Outside of NIB, I'm involved in the ASUC where I serve as an associate under the Office of the President. I enjoy going on daily walks, working out and playing sports, baking, shopping (downtown WC is where it's at!), and trying new food spots around Berkeley! I can't wait to meet all of you and share more about my experiences in NIB!"
+            ],
+            linkedin: 'https://www.linkedin.com/in/ayla-margate-4bb395381/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/ayla.jpg'),
+            isDM: false
+        },
+        {
+            name: 'Sid Avula',
+            title: 'Associate',
+            bio: [
+                "Hey! I'm Sid, a freshman studying Business Administration from Chicago, IL. I joined NIB in SP '26 and #NIBFam has provided me with a supportive and genuinely fun community that feels like a home away from home. Additionally, I've never met a group of people so passionate about creating an impact in the world, no matter what field or cause. There's such a diverse range of perspectives in NIB, and it's refreshing to learn from people who think differently and are driven by their own passions. I'm particularly interested in alleviating global hygiene and period poverty, and I'm excited to keep expanding that impact by applying the skills and insights I gain through NIB.",
+                "Outside of NIB, I've played soccer my whole life, and it's been a huge part of shaping who I am - from competitiveness and discipline to just loving to be active. I'm also big on country music, exploring new hiking trails, and playing new sports. Lately, I've also been on a mission to finally learn how to swim. Excited to get to know everyone!"
+                ],
+            linkedin: 'https://www.linkedin.com/in/siddharthavula/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Amy Tanaka',
+            title: 'Associate',
+            bio: [
+                "Hai I’m Amy and I’m a freshman studying environmental engineering science! Joining NIB has been the highlight of my semester and I’m so excited for this journey. I really love the #NIBFAM and how everyone’s so genuine, passionate, and a little bit quirky!",
+                "I’m extremely passionate about environmental justice, specifically building sustainable infrastructure in low-income neighborhoods and developing countries.",
+                "Outside of NIB, I’m a member of Theta Tau, a professional engineering fraternity. In my free time, I like to watch anime, K-dramas, sci-fi movies (Star Wars, Jurassic Park), and Criminal Minds, listen to indie music (Lamp, Wave to Earth, Mac DeMarco), explore nature, and collect cute trinkets."
+            ],
+            linkedin: 'https://www.linkedin.com/in/yuukaamytanakaenvironmentalengineer/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Dylan Gunadi',
+            title: 'Associate',
+            bio: [
+                "Hey! I’m Dylan, a freshman studying DS + Econ coming from Jakarta, Indonesia! I joined NIB Spring ‘26, and it was probably one of the most influential decisions I’ve made. I remember just how confusing it was coming from 8,000 miles away to such a big university with one too many clubs on sproul… If that’s you, or even if it’s not, this is by far the most wholesome, supportive, and social community to join (no glaze pure honesty).",
+                "I am most passionate about education, nutrition, and men’s mental health and have experience working with systems back home to uplift the underserved. Aside from social impact and consulting, I love anything sports/outdoors (hoops, surfing, skiing, running, lifting), reading non-performatively, and eating insane amts of food.",
+                "I’m super excited to meet all you guys, reach out and let’s talk about intl. experience, shower thoughts, life, the nba, anything."
+                ],
+            linkedin: 'https://www.linkedin.com/in/dylan-gunadi/',
+            calendly: '',
+            image: require('../img/prof/vedatman.jpg'),
+            sillyImage: require('../img/funny/vedatman.png'),
+            isDM: false
+        },
+        {
+            name: 'Anthony Sapp Guadarrama',
+            title: 'Associate',
+            bio: [
+                "Hi! I’m Anthony, a freshman studying Economics and minoring in Data Science and GPP from San Diego. I joined this semester and have loved the vibrant and genuine community that comes with NIB. The sense of community is unmatched and I’ve never been prouder to share a group of passionate people than ever before. I’m currently working on a project with Logitech and have grown so much in the past couple of first weeks and so can you!",
+                "I’m passionate about mitigating world poverty and creating a more equitable and sustainable future. Outside of NIB, I love to play squash, find new places to eat on Fat Sundays, watch movies, and thrift. I’m a part of FAST and love fashion, so coffee chat me in your toughest fit! I love to talk to people who are excited about their passions! Can’t wait to meet you!",
+                ],
+            linkedin: 'https://www.linkedin.com/in/anthony-sapp-guadarrama-196239335/',
+            calendly: '',
             image: require('../img/prof/vedatman.jpg'),
             sillyImage: require('../img/funny/vedatman.png'),
             isDM: false
@@ -358,7 +470,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
             calendly: 'https://calendly.com/breannapearlman/nib-spring-26-coffee-chats?month=2026-01',
-            image: require('../img/prof/breanna.jpg'),
+            image: require('../img/prof/bre.jpg'),
             sillyImage: require('../img/funny/breanna.png'),
             isDM: false
         },
