@@ -296,8 +296,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/ericachen0328/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/erica.jpg'),
+            sillyImage: require('../img/funny/erica.jpg'),
             isDM: false
         },
         {
@@ -309,8 +309,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/lillianakcalvert/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/lilliana.jpg'),
+            sillyImage: require('../img/funny/lilliana.jpg'),
             isDM: false
         },
         {
@@ -324,8 +324,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/diahemanth/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/dia.jpg'),
+            sillyImage: require('../img/funny/dia.jpg'),
             isDM: false
         },
         {
@@ -337,7 +337,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/ayla-margate-4bb395381/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
+            image: require('../img/prof/ayla.jpg'),
             sillyImage: require('../img/funny/ayla.jpg'),
             isDM: false
         },
@@ -350,8 +350,8 @@ let memberInfo = {
                 ],
             linkedin: 'https://www.linkedin.com/in/siddharthavula/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/sid.jpg'),
+            sillyImage: require('../img/funny/sid.jpg'),
             isDM: false
         },
         {
@@ -364,8 +364,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/yuukaamytanakaenvironmentalengineer/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/amy.jpg'),
+            sillyImage: require('../img/funny/amy.jpg'),
             isDM: false
         },
         {
@@ -378,7 +378,7 @@ let memberInfo = {
                 ],
             linkedin: 'https://www.linkedin.com/in/dylan-gunadi/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
+            image: require('../img/prof/dylan.jpg'),
             sillyImage: require('../img/funny/vedatman.png'),
             isDM: false
         },
@@ -391,8 +391,8 @@ let memberInfo = {
                 ],
             linkedin: 'https://www.linkedin.com/in/anthony-sapp-guadarrama-196239335/',
             calendly: '',
-            image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            image: require('../img/prof/anthony.jpg'),
+            sillyImage: require('../img/funny/anthony.jpg'),
             isDM: false
         },
         {
