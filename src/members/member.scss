@@ -50,6 +50,12 @@
     }
 }
 
+// Leadership and PM rows are centered so a partial row sits mid-container
+// rather than stranded on the left.
+.leadershipGrid {
+    text-align: center;
+}
+
 .clickable {
     cursor: pointer;
 }
@@ -67,10 +73,12 @@
         width: 18%;
         margin: 1%;
     }
-    // .memberProfile.execProfile {
-    //     height: 14.5%;
-    //     width: 14.5%;
-    // }
+    // Leadership and PMs are groups of six: three per row gives two even rows
+    // instead of five plus an orphan. 31.333% + 1% margins fills the same 100%
+    // as the members grid (5 x 20%), so all three sections share edges.
+    .leadershipGrid .memberProfile {
+        width: 31.333%;
+    }
 }
 
 @media (max-width: 800px) {
