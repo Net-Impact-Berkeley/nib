@@ -74,10 +74,17 @@
         margin: 1%;
     }
     // Leadership and PMs are groups of six: three per row gives two even rows
-    // instead of five plus an orphan. 31.333% + 1% margins fills the same 100%
-    // as the members grid (5 x 20%), so all three sections share edges.
+    // instead of five plus an orphan. Narrowing the group to 60% and scaling
+    // within it keeps photos and gaps identical to the members grid
+    // (30% x 60% = 18% wide, 1.65% x 60% = 1% margin), leaving the remaining
+    // 40% as even whitespace either side.
+    .leadershipGrid {
+        max-width: 60%;
+        margin: 0 auto;
+    }
     .leadershipGrid .memberProfile {
-        width: 31.333%;
+        width: 30%;
+        margin: 1.65%;
     }
 }
 
