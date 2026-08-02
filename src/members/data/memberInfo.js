@@ -24,7 +24,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/aswinsurya/nib-coffee-chats',
             image: require('../img/prof/Aswin.jpg'),
             sillyImage: require('../img/funny/aswin.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Lauren Lemire',
@@ -63,7 +63,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/maitree-meher-berkeley/nib-calendly',
             image: require('../img/prof/Maitree.jpg'),
             sillyImage: require('../img/funny/maitree.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Eshaan Shaik', 
@@ -79,6 +79,8 @@ let memberInfo = {
             sillyImage: require('../img/funny/eshaan.png'),
             isDM: true
         },
+    ],
+    pmList: [
         {
             name: 'Harper Young',
             title: 'Project Manager',
@@ -90,7 +92,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/harperyoung-berkeley/30min',
             image: require('../img/prof/harper.png'),
             sillyImage: require('../img/funny/harper.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Elias Goss',
@@ -102,7 +104,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/eliasgoss2005-berkeley',
             image: require('../img/prof/Elias.jpg'),
             sillyImage: require('../img/funny/elias.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Luis Suarez',
@@ -114,7 +116,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/luis_suarez-berkeley/30min',
             image: require('../img/prof/Luis.jpg'),
             sillyImage: require('../img/funny/luis.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Jules De Boni',
@@ -127,7 +129,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/julesdeboni-berkeley/30min',
             image: require('../img/prof/jules.jpg'),
             sillyImage: require('../img/funny/jules.png'),
-            isDM: false
+            isDM: true
         },
         {
             name: 'Melanie Davidson',
@@ -157,11 +159,8 @@ let memberInfo = {
             calendly: 'https://calendly.com/kabir-dua-berkeley/nib-coffee-chat-sp-26',
             image: require('../img/prof/kabir.jpg'),
             sillyImage: require('../img/funny/kabir.png'),
-            isDM: false
+            isDM: true
         },
-    ],
-    pmList: [
-        /* add when we go back to 5 pms lol */
     ],
 
     memberList: [
@@ -431,20 +430,6 @@ let memberInfo = {
             calendly: 'https://calendly.com/tpmandy24/nib-coffee-chat',
             image: require('../img/prof/Mandy.jpg'),
             sillyImage: require('../img/funny/mandy.png'),
-            isDM: false
-        },
-        {
-            name: 'Raymond Yuan', 
-            title: 'Senior Advisor',
-            bio: [
-                "Hello! My name is Raymond and I am a Junior majoring in Philosophy and Computer Science. As you can tell from my majors, I love to try new things and see different perspectives of the world. I am very thankful for NIB to have given me the opportunity to work with many diverse and talented individuals.",
-                "For me social impact comes in the way of understanding. Because it is so much easier to change the mind of a friend than an enemy. To this end, I find it very hopeful that NIB is trying to make social impact happen in the corporate world, where people usually imagine black hearts and cold hands.",
-                "In my free time I think about little things and how life came to be. Reach out if you're prepared for the conversation to be derailed to somewhere strange and curious!"
-            ],
-            linkedin: 'www.linkedin.com/in/raymond-yuan-yayayayay',
-            calendly: 'https://calendly.com/raymondyuan9/30min?month=2026-01',
-            image: require('../img/prof/raymond.png'),
-            sillyImage: require('../img/funny/raymond.png'),
             isDM: false
         },
         {
