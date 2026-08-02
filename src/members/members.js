@@ -29,7 +29,7 @@ import calendlyImage from '../img/calendly.png';
 const ImagesLoadedContext = createContext();
 
 const AlumniCompany = ({name, href, fileName}) => {
-    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
+    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} loading="lazy" decoding="async" /></a>;
 }
 const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin, isDM} = person;
@@ -172,7 +172,6 @@ const Members = () => {
 
     for (let i = 1; i <= 12; i++) {
       const photoImport = require(`./img/splash-carousel/photo${i}.jpg`)
-      console.log("photo", photoImport)
       photos1.push(
         <div className="photo" key={`photo${i}`}>
           <img alt={`photo${i}`} src={photoImport} />
@@ -234,7 +233,7 @@ const Members = () => {
             <section className="advisor">
                 <section className="grid container">
                     <div>
-                        <img src={require('./img/boyle.jpeg')} alt="Alex Budak" />
+                        <img src={require('./img/boyle.jpeg')} alt="Alex Budak" loading="lazy" decoding="async" />
                     </div>
                     <div className="verticallyCenter">
                         <h2>Faculty Advisor</h2>
@@ -253,9 +252,9 @@ const Members = () => {
                 <section className="container">
                     <div className="carouselView">
                         <Carousel>
-                            <img src={photo1} alt="" />
-                            <img src={photo2} alt="" />
-                            <img src={photo3} alt="" />
+                            <img src={photo1} alt="" loading="lazy" decoding="async" />
+                            <img src={photo2} alt="" loading="lazy" decoding="async" />
+                            <img src={photo3} alt="" loading="lazy" decoding="async" />
                         </Carousel>
                     </div>
                 </section>
@@ -266,7 +265,7 @@ const Members = () => {
             <section className="alumniSection">
                 <section className="grid container">
                     <div>
-                        <img src={require('./img/alumni.jpg')} alt="NIB alumni" />
+                        <img src={require('./img/alumni.jpg')} alt="NIB alumni" loading="lazy" decoding="async" />
                     </div>
                     <div className="verticallyCenter">
                         <h2>Alumni</h2>

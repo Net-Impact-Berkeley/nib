@@ -8,8 +8,8 @@ const Member = ({person, handleClick}) => {
   return (
     <div className={"memberProfile"}>
       <div onClick={() => {handleClick(person)}} className="clickable">
-        <img src={image} className="memberImage" alt={name} />
-        <img src={sillyImage} className="memberSillyImage" alt={name} />
+        <img src={image} className="memberImage" alt={name} loading="lazy" decoding="async" />
+        <img src={sillyImage} className="memberSillyImage" alt={name} loading="lazy" decoding="async" />
         <div className="name">
           <h4>{name}</h4>
           <p>{title}</p>
