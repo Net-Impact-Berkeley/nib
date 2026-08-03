@@ -2,3 +2,33 @@ Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.html [QSA,L]
+
+# The host spends around 350ms of think-time per request whatever the file size,
+# and the members page pulls over a hundred images. Responses carry only ETag and
+# Last-Modified, so a repeat visitor still pays a round trip for every one of them
+# just to be told nothing changed.
+#
+# Everything the build emits under static/ has a content hash in its filename, so
+# a changed file is a changed URL and those responses can be cached indefinitely.
+# index.html is excluded because it is what points at the hashed names; caching it
+# would pin visitors to a previous deploy.
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|css|js|woff2?|ttf|eot)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
