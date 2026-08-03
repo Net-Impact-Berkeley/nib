@@ -7,13 +7,13 @@ import 'projects/projects.scss';
 import nibLogo from 'img/nib-logo-new.png';
 import secondSection1 from './img/f24exec.jpg'; // changed from './img/exec.png'
 import secondSection2 from './img/berkeleyprojectF24.JPEG';
-import membersSectionImage from './img/whoarewe.png';
+import membersSectionImage from './img/whoarewe.jpg';
 import SpectrumSection from './spectrumSection';
 import pastClients from './data/pastClientsHighlights';
-import splashBlob1 from './img/splashblob1.png';
-import splashBlob2 from './img/splashblob2.png';
-import splashBlob3 from './img/splashblob3.png';
-import splashBlob4 from './img/splashblob4.png';
+import splashBlob1 from './img/splashblob1.webp';
+import splashBlob2 from './img/splashblob2.webp';
+import splashBlob3 from './img/splashblob3.webp';
+import splashBlob4 from './img/splashblob4.webp';
 
 const Home = () => {
     document.title = 'NIB | Home';

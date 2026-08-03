@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './member.scss';
 import linkedInImage from '../img/linkedin.png';
-import calendlyImage from '../img/calendly.png';
+import calendlyImage from '../img/calendly.webp';
 
 const Member = ({person, handleClick}) => {
   const {name, image, sillyImage, title, linkedin, calendly, isDM} = person;

@@ -41,7 +41,7 @@ let clients = [
     },
     {
         link: '',
-        img: require("../img/clients/yerba.png" )
+        img: require("../img/clients/yerba.webp" )
     },
     {
         link: '',
@@ -97,7 +97,7 @@ let clients = [
     },
     {
         link: '',
-        img: require("../img/clients/luna.png" )
+        img: require("../img/clients/luna.jpg" )
     },
     {
         link: '',

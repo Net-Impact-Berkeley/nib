@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import './impact.scss';
 import CallToAction from '../components/callToAction';
-import aboutPhoto from './img/about-header.png';
+import aboutPhoto from './img/about-header.webp';
 import blueWave from './img/blue-wave.png';
 import boldlogo from './img/boldlogo.png';
-import recipients from './img/recipients.png';
-import m1 from './img/m1.png';
-import m2 from './img/m2.png';
-import m3 from './img/m3.png';
+import recipients from './img/recipients.webp';
+import m1 from './img/m1.jpg';
+import m2 from './img/m2.jpg';
+import m3 from './img/m3.jpg';
 import cnhalogo from './img/cnha-logo.png';
 import imperfect from './img/imperfect.png';
 import malala from './img/malala.png';
 import marin from './img/marin.png';
 import larkin from './img/larkin.png';
-import div1 from './img/div1.png';
-import div2 from './img/div2.png';
-import div3 from './img/div3.png';
-import div4 from './img/div4.png';
+import div1 from './img/div1.webp';
+import div2 from './img/div2.webp';
+import div3 from './img/div3.webp';
+import div4 from './img/div4.webp';
 
 
 
 
 import aboutRetreat from './img/AboutRetreat.jpg';
-import values from './img/ValuesPhoto.png';
-import NetImpactGlobal from './img/NetImpactGlobal.png';
+import values from './img/ValuesPhoto.webp';
+import NetImpactGlobal from './img/NetImpactGlobal.webp';
 import Button from '../components/button';
 import Values from './values';
 import CultureImage from './cultureImage';

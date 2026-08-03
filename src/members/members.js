@@ -10,8 +10,8 @@ import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
 import imageList from './data/carousel';
 
-import imageLeft from './img/splash-left.png';
-import imageRight from './img/splash-right.png';
+import imageLeft from './img/splash-left.webp';
+import imageRight from './img/splash-right.webp';
 import photo1 from './img/carousel/photo1.jpg';
 
 
@@ -21,7 +21,7 @@ import p1 from './img/splash-carousel/photo1.jpg';
 import photo2 from './img/carousel/photo2.jpg';
 import photo3 from './img/carousel/photo3.jpg';
 import linkedInImage from '../img/linkedin.png';
-import calendlyImage from '../img/calendly.png';
+import calendlyImage from '../img/calendly.webp';
 
 
 
