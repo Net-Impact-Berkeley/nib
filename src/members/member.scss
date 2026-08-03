@@ -8,6 +8,20 @@
 
     }
 
+    // Headshots are square, so reserving the ratio keeps every card at its final
+    // height before its image arrives. Without it the queue would reflow the whole
+    // grid as each photo lands. The tint is what shows in the reserved space.
+    .memberImage {
+        aspect-ratio: 1 / 1;
+        background-color: #e4f4f8;
+        opacity: 0;
+        transition: opacity 0.25s ease-in;
+
+        &.isLoaded {
+            opacity: 1;
+        }
+    }
+
     .memberSillyImage {
         position: absolute;
         width: 100%;
