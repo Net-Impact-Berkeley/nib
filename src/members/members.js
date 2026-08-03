@@ -225,9 +225,10 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Leadership Team</h2>
-                    <div>{execList}</div>
+                    <div className="leadershipGrid">{execList}</div>
+                    <h2>Project Managers</h2>
+                    <div className="leadershipGrid">{pmList}</div>
                     <h2>Members</h2>
-                    <div>{pmList}</div>
                     <div>{memberList}</div>
                 </section>
             </section>
