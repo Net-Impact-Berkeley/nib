@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './member.scss';
+import useQueuedImage from '../utils/useQueuedImage';
 import linkedInImage from '../img/linkedin.png';
 import calendlyImage from '../img/calendly.webp';
 
@@ -9,11 +10,14 @@ const Member = ({person, handleClick}) => {
   // the page's image requests for something most visitors never see. Mount it on
   // first hover and keep it mounted so the fade only pays the cost once.
   const [hovered, setHovered] = useState(false);
+  // Queued rather than lazy-loaded: see utils/imageQueue for why the browser's own
+  // scheduling overwhelms OCF here.
+  const queuedImage = useQueuedImage(image);
 
   return (
     <div className={"memberProfile"} onMouseEnter={() => setHovered(true)}>
       <div onClick={() => {handleClick(person)}} className="clickable">
-        <img src={image} className="memberImage" alt={name} loading="lazy" decoding="async" />
+        <img src={queuedImage} className={queuedImage ? "memberImage isLoaded" : "memberImage"} alt={name} decoding="async" />
         {hovered && <img src={sillyImage} className="memberSillyImage" alt={name} decoding="async" />}
         <div className="name">
           <h4>{name}</h4>

@@ -7,6 +7,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import Button from '../components/button';
 import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
 import AlumniCompanies from './data/alumniCompanies';
+import useQueuedImage from '../utils/useQueuedImage';
 import memberInfo from './data/memberInfo';
 import imageList from './data/carousel';
 
@@ -29,7 +30,19 @@ import calendlyImage from '../img/calendly.webp';
 const ImagesLoadedContext = createContext();
 
 const AlumniCompany = ({name, href, fileName}) => {
-    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} loading="lazy" decoding="async" /></a>;
+    const src = useQueuedImage(require(`./img/careers/${fileName}`));
+    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={src} alt={name} decoding="async" /></a>;
+}
+
+// Carousel frames go through the same queue as everything else, so the hero does
+// not consume every available connection before the roster below it loads.
+const CarouselPhoto = ({src, alt}) => {
+    const queued = useQueuedImage(src);
+    return (
+        <div className="photo">
+            <img alt={alt} src={queued} decoding="async" />
+        </div>
+    );
 }
 const Modal = ({toggleShow, person}) => {
     const {name, image, bio, calendly, title, linkedin, isDM} = person;
@@ -173,9 +186,7 @@ const Members = () => {
     for (let i = 1; i <= 12; i++) {
       const photoImport = require(`./img/splash-carousel/photo${i}.jpg`)
       photos1.push(
-        <div className="photo" key={`photo${i}`}>
-          <img alt={`photo${i}`} src={photoImport} loading="lazy" decoding="async" />
-        </div>
+        <CarouselPhoto key={`photo${i}`} src={photoImport} alt={`photo${i}`} />
       );
     }
 
@@ -184,9 +195,7 @@ const Members = () => {
     for (let i = 13; i <= 27; i++) {
       const photoImport = require(`./img/splash-carousel/photo${i}.jpg`);
       photos2.push(
-        <div className="photo" key={`photo${i}`}>
-          <img alt={`photo${i}`} src={photoImport} loading="lazy" decoding="async" />
-        </div>
+        <CarouselPhoto key={`photo${i}`} src={photoImport} alt={`photo${i}`} />
       );
     }
 
