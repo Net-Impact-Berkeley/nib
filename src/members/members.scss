@@ -49,6 +49,11 @@
                 border-radius: 30px;
                 margin-right: 20px;
                 width: auto;
+                // Queued images have no src until their turn, and width:auto
+                // collapses an empty image to nothing. Holding the narrowest
+                // frame's width keeps the strip from reflowing as it fills.
+                min-width: 131px;
+                background-color: #e4f4f8;
             }
         }
 
