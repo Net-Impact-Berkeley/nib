@@ -174,7 +174,7 @@ const Members = () => {
       const photoImport = require(`./img/splash-carousel/photo${i}.jpg`)
       photos1.push(
         <div className="photo" key={`photo${i}`}>
-          <img alt={`photo${i}`} src={photoImport} />
+          <img alt={`photo${i}`} src={photoImport} loading="lazy" decoding="async" />
         </div>
       );
     }
@@ -185,7 +185,7 @@ const Members = () => {
       const photoImport = require(`./img/splash-carousel/photo${i}.jpg`);
       photos2.push(
         <div className="photo" key={`photo${i}`}>
-          <img alt={`photo${i}`} src={photoImport} />
+          <img alt={`photo${i}`} src={photoImport} loading="lazy" decoding="async" />
         </div>
       );
     }
