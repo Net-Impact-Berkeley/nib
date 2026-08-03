@@ -9,8 +9,8 @@ import ProjectType from '../components/ProjectType';
 import CallToAction from 'components/callToAction';
 
 
-import blob1 from './img/shapes/blobphoto1.png';
-import blob2 from './img/shapes/blobphoto2.png';
+import blob1 from './img/shapes/blobphoto1.webp';
+import blob2 from './img/shapes/blobphoto2.webp';
 import zoom from './img/zoom.png';
 
 

@@ -4,8 +4,8 @@ import CallToAction from '../components/callToAction';
 import ProjectType from '../components/ProjectType';
 import ProjectBreakdown from './projectBreakdown';
 
-import ProjectHeroImage from './img/projectsHero2.png';
-import ClientSpectrumNew from './img/ClientSpectrum.png';
+import ProjectHeroImage from './img/projectsHero2.webp';
+import ClientSpectrumNew from './img/ClientSpectrum.webp';
 import projectTypeInfo from './data/ProjectTypesText';
 import clients from './data/clients';
 import clientBreakdownsInfo from './data/clientBreakdowns';

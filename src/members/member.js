@@ -1,15 +1,20 @@
+import { useState } from 'react';
 import './member.scss';
 import linkedInImage from '../img/linkedin.png';
-import calendlyImage from '../img/calendly.png';
+import calendlyImage from '../img/calendly.webp';
 
 const Member = ({person, handleClick}) => {
   const {name, image, sillyImage, title, linkedin, calendly, isDM} = person;
-  
+  // The hover image is only ever visible on hover, so fetching it up front doubles
+  // the page's image requests for something most visitors never see. Mount it on
+  // first hover and keep it mounted so the fade only pays the cost once.
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <div className={"memberProfile"}>
+    <div className={"memberProfile"} onMouseEnter={() => setHovered(true)}>
       <div onClick={() => {handleClick(person)}} className="clickable">
         <img src={image} className="memberImage" alt={name} loading="lazy" decoding="async" />
-        <img src={sillyImage} className="memberSillyImage" alt={name} loading="lazy" decoding="async" />
+        {hovered && <img src={sillyImage} className="memberSillyImage" alt={name} decoding="async" />}
         <div className="name">
           <h4>{name}</h4>
           <p>{title}</p>

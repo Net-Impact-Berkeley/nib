@@ -23,7 +23,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/aswinsurya/',
             calendly: 'https://calendly.com/aswinsurya/nib-coffee-chats',
             image: require('../img/prof/Aswin.jpg'),
-            sillyImage: require('../img/funny/aswin.png'),
+            sillyImage: require('../img/funny/aswin.jpg'),
             isDM: true
         },
         {
@@ -36,7 +36,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/laurenlemire',
             calendly: 'https://calendly.com/laurenml/nib-coffee-chats ',
             image: require('../img/prof/lauren.jpg'),
-            sillyImage: require('../img/funny/lauren.png'),
+            sillyImage: require('../img/funny/lauren.jpg'),
             isDM: true
         },
         {
@@ -49,7 +49,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/renaissancezhang/',
             calendly: 'https://calendly.com/rzhang0326-berkeley/nib-coffee-chats-sp25-1?month=2025-01',
             image: require('../img/prof/ren.jpg'),
-            sillyImage: require('../img/funny/ren.png'),
+            sillyImage: require('../img/funny/ren.jpg'),
             isDM: true
         },
         {
@@ -62,7 +62,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/maitreemeher/',
             calendly: 'https://calendly.com/maitree-meher-berkeley/nib-calendly',
             image: require('../img/prof/Maitree.jpg'),
-            sillyImage: require('../img/funny/maitree.png'),
+            sillyImage: require('../img/funny/maitree.jpg'),
             isDM: true
         },
         {
@@ -76,7 +76,7 @@ let memberInfo = {
             linkedin: 'http://www.linkedin.com/in/eshaan-shaik-62433b211',
             calendly: "https://calendly.com/eshaan_shaik-berkeley/nib-coffee-chats",
             image: require('../img/prof/Eshaan.jpg'),
-            sillyImage: require('../img/funny/eshaan.png'),
+            sillyImage: require('../img/funny/eshaan.jpg'),
             isDM: true
         },
     ],
@@ -90,8 +90,8 @@ let memberInfo = {
                ],
             linkedin: 'https://www.linkedin.com/in/harper-young-2685b6307/',
             calendly: 'https://calendly.com/harperyoung-berkeley/30min',
-            image: require('../img/prof/harper.png'),
-            sillyImage: require('../img/funny/harper.png'),
+            image: require('../img/prof/harper.jpg'),
+            sillyImage: require('../img/funny/harper.jpg'),
             isDM: true
         },
         {
@@ -103,7 +103,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/eliasgoss/',
             calendly: 'https://calendly.com/eliasgoss2005-berkeley',
             image: require('../img/prof/Elias.jpg'),
-            sillyImage: require('../img/funny/elias.png'),
+            sillyImage: require('../img/funny/elias.jpg'),
             isDM: true
         },
         {
@@ -115,7 +115,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/luis-suarez1/',
             calendly: 'https://calendly.com/luis_suarez-berkeley/30min',
             image: require('../img/prof/Luis.jpg'),
-            sillyImage: require('../img/funny/luis.png'),
+            sillyImage: require('../img/funny/luis.jpg'),
             isDM: true
         },
         {
@@ -128,7 +128,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/jules-de-boni',
             calendly: 'https://calendly.com/julesdeboni-berkeley/30min',
             image: require('../img/prof/jules.jpg'),
-            sillyImage: require('../img/funny/jules.png'),
+            sillyImage: require('../img/funny/jules.jpg'),
             isDM: true
         },
         {
@@ -142,7 +142,7 @@ let memberInfo = {
             linkedin: 'https://linkedin.com/in/melanie-davidson-711919325',
             calendly: 'https://calendly.com/melaniebdavidson-berkeley/30min',
             image: require('../img/prof/Mel.jpg'),
-            sillyImage: require('../img/funny/mel.png'),
+            sillyImage: require('../img/funny/mel.jpg'),
             isDM: true
         },
         {
@@ -158,7 +158,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/kabir-dua',
             calendly: 'https://calendly.com/kabir-dua-berkeley/nib-coffee-chat-sp-26',
             image: require('../img/prof/kabir.jpg'),
-            sillyImage: require('../img/funny/kabir.png'),
+            sillyImage: require('../img/funny/kabir.jpg'),
             isDM: true
         },
     ],
@@ -174,7 +174,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/vishgoel/',
             calendly: 'https://calendly.com/vish_goel-berkeley/new-meeting',
             image: require('../img/prof/vish.jpg'),
-            sillyImage: require('../img/funny/vish.png'),
+            sillyImage: require('../img/funny/vish.jpg'),
             isDM: false
         },
         {
@@ -187,7 +187,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/zoeybahng',
             calendly: 'https://calendly.com/zoeybahng-berkeley',
             image: require('../img/prof/zoey.jpg'),
-            sillyImage: require('../img/funny/zoey.png'),
+            sillyImage: require('../img/funny/zoey.jpg'),
             isDM: false
         },
         {
@@ -199,7 +199,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/vedatman-duhoon/',
             calendly: 'https://calendly.com/vedatman',
             image: require('../img/prof/vedatman.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            sillyImage: require('../img/funny/vedatman.jpg'),
             isDM: false
         },
         {
@@ -212,7 +212,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/nguyen-do-61a6a9256/',
             calendly: 'https://calendly.com/vit-do-berkeley/30min',
             image: require('../img/prof/vit.jpg'),
-            sillyImage: require('../img/funny/vit.png'),
+            sillyImage: require('../img/funny/vit.jpg'),
             isDM: false
         },
         {
@@ -254,7 +254,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/dylan-gunadi/',
             calendly: '',
             image: require('../img/prof/dylan.jpg'),
-            sillyImage: require('../img/funny/vedatman.png'),
+            sillyImage: require('../img/funny/vedatman.jpg'),
             isDM: false
         },
         {
@@ -336,7 +336,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/diane-shih',
             image: require('../img/prof/Diane.jpg'),
-            sillyImage: require('../img/funny/dgshih.png'),
+            sillyImage: require('../img/funny/dgshih.jpg'),
             isDM: true
         },
         {
@@ -351,7 +351,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/tanyachandok/',
             calendly: 'https://calendly.com/tanyachandok-berkeley/coffee-chats',
             image: require('../img/prof/tanya.jpg'),
-            sillyImage: require('../img/funny/tanya.png'),
+            sillyImage: require('../img/funny/tanya.jpg'),
             isDM: true
         },
         {
@@ -363,7 +363,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/madhurum-bhuvan',
             image: require('../img/prof/maddie.jpg'),
-            sillyImage: require('../img/funny/madhurum.png'),
+            sillyImage: require('../img/funny/madhurum.jpg'),
             isDM: true
         },
         {
@@ -376,7 +376,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/javiercgonzales',
             calendly: 'https://calendly.com/javiergonzales-berkeley/30min',
             image: require('../img/prof/javi.jpg'),
-            sillyImage: require('../img/funny/javi.png'),
+            sillyImage: require('../img/funny/javi.jpg'),
             isDM: true
         },
         {
@@ -390,7 +390,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/anika-yu/',
             calendly: 'https://calendly.com/anika-yu/nib-spring-26-coffee-chats-anika',
             image: require('../img/prof/Anika.jpg'),
-            sillyImage: require('../img/funny/anika.png'),
+            sillyImage: require('../img/funny/anika.jpg'),
             isDM: false
         },
         {
@@ -403,7 +403,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/aditya-dawar/',
             calendly: 'https://calendar.app.google/maz85GiqR2y8h6YQA',
             image: require('../img/prof/Adi.jpg'),
-            sillyImage: require('../img/funny/adi.png'),
+            sillyImage: require('../img/funny/adi.jpg'),
             isDM: false
         },
         {
@@ -416,7 +416,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/brooklynn-collins-70aa22324',
             calendly: 'https://calendly.com/brooklynn-sc-berkeley/new-meeting?month=2026-01',
             image: require('../img/prof/brooklynn.jpg'),
-            sillyImage: require('../img/funny/brook.png'),
+            sillyImage: require('../img/funny/brook.jpg'),
             isDM: false
         },
         {
@@ -429,7 +429,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/phamandy24/',
             calendly: 'https://calendly.com/tpmandy24/nib-coffee-chat',
             image: require('../img/prof/Mandy.jpg'),
-            sillyImage: require('../img/funny/mandy.png'),
+            sillyImage: require('../img/funny/mandy.jpg'),
             isDM: false
         },
         {
@@ -442,7 +442,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/graybert',
             calendly: 'https://calendly.com/graybert-berkeley/30min',
             image: require('../img/prof/Grayson.jpg'),
-            sillyImage: require('../img/funny/grayson.png'),
+            sillyImage: require('../img/funny/grayson.jpg'),
             isDM: false
         },
         {
@@ -455,7 +455,7 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
             image: require('../img/prof/Frances.jpg'),
-            sillyImage: require('../img/funny/frances.png'),
+            sillyImage: require('../img/funny/frances.jpg'),
             isDM: true
         },
 
@@ -472,7 +472,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/muhammed-bakr/',
             calendly: 'https://calendly.com/muhammed-bakr/nib-coffee-chats',
             image: require('../img/prof/Muha.jpg'),
-            sillyImage: require('../img/funny/muha.png'),
+            sillyImage: require('../img/funny/muha.jpg'),
             isDM: true
         },
         */
@@ -487,7 +487,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/ashni-sheth-4629041b3/',
             calendly: 'https://calendly.com/ashni_sheth/nib-coffee-chats',
           image: require('../img/prof/Ashni.jpg'),
-            sillyImage: require('../img/funny/ashni.png'),
+            sillyImage: require('../img/funny/ashni.jpg'),
             isDM: true
         },
         */
@@ -502,7 +502,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/wenhanxi/',
             calendly: 'https://calendar.app.google/d2n8TsidFUFbzFD29',
             image: require('../img/prof/Han.jpg'),
-            sillyImage: require('../img/funny/han.png'),
+            sillyImage: require('../img/funny/han.jpg'),
             isDM: false
          },
         */
@@ -517,7 +517,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/breanna-pearlman-637119251/',
             calendly: 'https://calendly.com/breannapearlman/nib-spring-26-coffee-chats?month=2026-01',
             image: require('../img/prof/bre.jpg'),
-            sillyImage: require('../img/funny/breanna.png'),
+            sillyImage: require('../img/funny/breanna.jpg'),
             isDM: false
         },
         */
@@ -531,8 +531,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/charleszgu/',
             calendly: 'https://calendly.com/chargu/30-minute-meeting',
-            image: require('../img/prof/charlie.png'),
-            sillyImage: require('../img/funny/charlie.png'),
+            image: require('../img/prof/charlie.jpg'),
+            sillyImage: require('../img/funny/charlie.jpg'),
             isDM: false
         },
         */
@@ -546,8 +546,8 @@ let memberInfo = {
             ],
             linkedin: 'https://www.linkedin.com/in/williamalexlittle/',
             calendly: "https://calendly.com/william-little-berkeley/nib-coffee-chats",
-            image: require('../img/prof/will.png'),
-            sillyImage: require('../img/funny/will.png'),
+            image: require('../img/prof/will.jpg'),
+            sillyImage: require('../img/funny/will.jpg'),
             isDM: false
         },
         */
@@ -591,7 +591,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/madelynchristensen/',
             calendly: 'https://calendly.com/madelync-1/nib-fall-2024-coffee-chats',
             image: require('../img/prof/Madelyn Christensen.jpg'),
-            sillyImage: require('../img/funny/madelyn.png'),
+            sillyImage: require('../img/funny/madelyn.jpg'),
             isDM: false
         },
         */
@@ -636,7 +636,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/sashank-gadisetti',
             calendly: 'https://calendly.com/sgadisetti-berkeley/coffee-chats',
             image: require('../img/prof/Sashank.jpg'),
-            sillyImage: require('../img/funny/sashank.png'),
+            sillyImage: require('../img/funny/sashank.jpg'),
             isDM: false
         },
         */
@@ -651,7 +651,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/hunter-valencia-42216424b',
             calendly: 'https://calendly.com/sunwardloki/nib-coffee-chat-1',
             image: require('../img/prof/hunter.jpg'),
-            sillyImage: require('../img/funny/hunter.png'),
+            sillyImage: require('../img/funny/hunter.jpg'),
             isDM: false
         },
         */
@@ -665,7 +665,7 @@ let memberInfo = {
             linkedin: 'http://linkedin.com/in/mehnai/',
             calendly: 'https://calendly.com/mehulnair/nib-coffee-chats',
             image: require('../img/prof/Mehul.jpg'),
-            sillyImage: require('../img/funny/mehul.png'),
+            sillyImage: require('../img/funny/mehul.jpg'),
             isDM: false
         },
         */
@@ -681,7 +681,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/brian-poh-b8686637b/',
             calendly: 'https://calendly.com/brianpoh/brian-nib-spring-26-coffee-chats',
             image: require('../img/prof/Brian.jpg'),
-            sillyImage: require('../img/funny/brian.png'),
+            sillyImage: require('../img/funny/brian.jpg'),
             isDM: false
         },
         */
@@ -695,7 +695,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/elan-trager-a9a2311a9/',
             calendly: 'https://calendly.com/elantrager/nib-coffee-chatsky',
             image: require('../img/prof/Elan.jpg'),
-            sillyImage: require('../img/funny/elan.png'),
+            sillyImage: require('../img/funny/elan.jpg'),
             isDM: false
         },
         */

@@ -1,11 +1,11 @@
-import image1 from '../img/culture1.png';
-import image2 from '../img/culture2.png';
-import image3 from '../img/culture3.png';
-import image4 from '../img/culture4.png';
-import image5 from '../img/culture5.png';
-import image6 from '../img/culture6.png';
-import image7 from '../img/culture7.png';
-import image8 from '../img/culture8.png';
+import image1 from '../img/culture1.jpg';
+import image2 from '../img/culture2.jpg';
+import image3 from '../img/culture3.jpg';
+import image4 from '../img/culture4.jpg';
+import image5 from '../img/culture5.jpg';
+import image6 from '../img/culture6.jpg';
+import image7 from '../img/culture7.jpg';
+import image8 from '../img/culture8.jpg';
 
 let cultureData = [
     {
