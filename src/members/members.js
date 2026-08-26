@@ -61,7 +61,7 @@ const Modal = ({toggleShow, person}) => {
                     <button className='close' onClick={() => toggleShow(person)}>X</button>
                     {bio.map(paragraph => <p>{paragraph}</p>)}
                     <div className='links'>
-                        {!isDM ? <p><a href={calendly} target="_blank" rel="noopener noreferrer"><img src={calendlyImage} className="icon" alt="Calendly icon" /></a></p> : null}
+                        {!isDM && calendly ? <p><a href={calendly} target="_blank" rel="noopener noreferrer"><img src={calendlyImage} className="icon" alt="Calendly icon" /></a></p> : null}
                         <p><a href={linkedin} target="_blank" rel="noopener noreferrer"><img src={linkedInImage} className="icon" alt="LinkedIn icon" /></a></p>
                     </div>
                 </div>
