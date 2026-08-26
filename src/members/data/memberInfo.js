@@ -306,7 +306,7 @@ let memberInfo = {
                 "I’m passionate about mitigating world poverty and creating a more equitable and sustainable future. Outside of NIB, I love to play squash, find new places to eat on Fat Sundays, watch movies, and thrift. I’m a part of FAST and love fashion, so coffee chat me in your toughest fit! I love to talk to people who are excited about their passions! Can’t wait to meet you!",
                 ],
             linkedin: 'https://www.linkedin.com/in/anthony-sapp-guadarrama-196239335/',
-            calendly: '',
+            calendly: 'https://calendly.com/anthony_sappg25-berkeley/30min',
             image: require('../img/prof/anthony.jpg'),
             sillyImage: require('../img/funny/anthony.jpg'),
             isDM: false
