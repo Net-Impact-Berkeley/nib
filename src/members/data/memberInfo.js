@@ -293,7 +293,7 @@ let memberInfo = {
                 "If you’re thinking about applying to NIB, I’d love for you to come meet us. NIB has been such an integral part of finding my home at Cal, and I truly believe it can be that for you too. Looking forward to talking soon!"
             ],
             linkedin: 'https://www.linkedin.com/in/ericachen0328/',
-            calendly: '',
+            calendly: 'https://calendly.com/ericachen0328-berkeley/30min',
             image: require('../img/prof/erica.jpg'),
             sillyImage: require('../img/funny/erica.jpg'),
             isDM: false
