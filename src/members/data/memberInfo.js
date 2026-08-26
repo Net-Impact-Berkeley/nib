@@ -47,7 +47,7 @@ let memberInfo = {
                 "Outside of NIB, I am a human rights activist (anti-genocide, climate crisis, reproductive access), a huge Swiftie, and a debater. I love reading, baking, playing Marvel Rivals, and watching various anime shows. So excited to meet you!!"
             ],
             linkedin: 'https://www.linkedin.com/in/renaissancezhang/',
-            calendly: 'https://calendly.com/rzhang0326-berkeley/nib-coffee-chats-sp25-1?month=2025-01',
+            calendly: '',
             image: require('../img/prof/ren.jpg'),
             sillyImage: require('../img/funny/ren.jpg'),
             isDM: true
@@ -74,7 +74,7 @@ let memberInfo = {
                 "Outside of NIB I love doing origami, football, hitting the gym, and eating at food spots around Berkeley and SF!"
             ],
             linkedin: 'http://www.linkedin.com/in/eshaan-shaik-62433b211',
-            calendly: "https://calendly.com/eshaan_shaik-berkeley/nib-coffee-chats",
+            calendly: '',
             image: require('../img/prof/Eshaan.jpg'),
             sillyImage: require('../img/funny/eshaan.jpg'),
             isDM: true
@@ -89,7 +89,7 @@ let memberInfo = {
                 "I'm passionate about sustainable development, whether that's regenerative agriculture, restorative infrastructure, energy grids, policy, or habitat conservation. I am also interested in youth literacy, especially for marginalized youth, and advancing equal opportunity in our education systems. Outside of NIB, I love to ski, backpack, hike, cook, and go on any adventure possible (bonus points if someone can teach me how to surf). Please talk to me about whatever gets you excited!!!!!"
                ],
             linkedin: 'https://www.linkedin.com/in/harper-young-2685b6307/',
-            calendly: 'https://calendly.com/harperyoung-berkeley/30min',
+            calendly: '',
             image: require('../img/prof/harper.jpg'),
             sillyImage: require('../img/funny/harper.jpg'),
             isDM: true
@@ -101,7 +101,7 @@ let memberInfo = {
                "Wassup, I'm Elias, a Sophomore from Denver, Colorado, studying Business Administration and Political Economy. I joined NIB in the second semester of my freshman year, and I will be a returning associate this Fall! My last project involved working with Fervo Energy. My interests include religion, football, basketball, cooking, weightlifting, rock climbing, trading, AI, and public speaking."
                ],
             linkedin: 'https://www.linkedin.com/in/eliasgoss/',
-            calendly: 'https://calendly.com/eliasgoss2005-berkeley',
+            calendly: 'https://calendly.com/eliasgoss2005-berkeley/30min',
             image: require('../img/prof/Elias.jpg'),
             sillyImage: require('../img/funny/elias.jpg'),
             isDM: true
@@ -140,7 +140,7 @@ let memberInfo = {
                 "Melanie is studying abroad this semester."
             ],
             linkedin: 'https://linkedin.com/in/melanie-davidson-711919325',
-            calendly: 'https://calendly.com/melaniebdavidson-berkeley/30min',
+            calendly: '',
             image: require('../img/prof/Mel.jpg'),
             sillyImage: require('../img/funny/mel.jpg'),
             isDM: true
@@ -197,7 +197,7 @@ let memberInfo = {
                 "Hello everyone! I'm Vedatman, a freshman studying Business. I joined NIB last fall, and it’s been one of the best decisions I could’ve made! From day one, I was welcomed into the most inspiring, uplifting and genuine community on campus. Beyond the people, NIB has also provided me with an incredible environment for professional growth and exploration. Through my project with SC Johnson, I had the opportunity to dive into ESG reports, analyze sustainability initiatives, and think critically about how large corporations approach social and environmental impact. Outside of NIB, I love playing board games, watching soccer (FC Barcelona fan), and following Formula 1!"
             ],
             linkedin: 'https://www.linkedin.com/in/vedatman-duhoon/',
-            calendly: 'https://calendly.com/vedatman',
+            calendly: 'https://calendly.com/vedatman_duhoon-berkeley',
             image: require('../img/prof/vedatman.jpg'),
             sillyImage: require('../img/funny/vedatman.jpg'),
             isDM: false
@@ -225,7 +225,7 @@ let memberInfo = {
                 "Outside of NIB, I enjoy baking, listening to British rap (some of my favorite artists are Dave, Central Cee, J Hus, and AJ Tracey), doing Pilates, and exploring new coffee spots. I can’t wait to meet you, so don’t hesitate to reach out!"
             ],
             linkedin: 'https://www.linkedin.com/in/diahemanth/',
-            calendly: '',
+            calendly: 'https://calendly.com/diahemanth-berkeley/30min',
             image: require('../img/prof/dia.jpg'),
             sillyImage: require('../img/funny/dia.jpg'),
             isDM: false
@@ -238,7 +238,7 @@ let memberInfo = {
                 "Outside of NIB, I've played soccer my whole life, and it's been a huge part of shaping who I am - from competitiveness and discipline to just loving to be active. I'm also big on country music, exploring new hiking trails, and playing new sports. Lately, I've also been on a mission to finally learn how to swim. Excited to get to know everyone!"
                 ],
             linkedin: 'https://www.linkedin.com/in/siddharthavula/',
-            calendly: '',
+            calendly: 'https://calendly.com/sidavula-berkeley/30min',
             image: require('../img/prof/sid.jpg'),
             sillyImage: require('../img/funny/sid.jpg'),
             isDM: false
@@ -252,7 +252,7 @@ let memberInfo = {
                 "I’m super excited to meet all you guys, reach out and let’s talk about intl. experience, shower thoughts, life, the nba, anything."
                 ],
             linkedin: 'https://www.linkedin.com/in/dylan-gunadi/',
-            calendly: '',
+            calendly: 'https://calendly.com/dylan_gunadi-berkeley/30min',
             image: require('../img/prof/dylan.jpg'),
             sillyImage: require('../img/funny/vedatman.jpg'),
             isDM: false
@@ -265,7 +265,7 @@ let memberInfo = {
                 "Outside of NIB, I’m really interested in building and startups, especially in sustainable business, clean tech, SaaS, and materials engineering. I also enjoy absolutely anything creative (creative engineering, watercolors, fashion, etc.). Outside of school and projects, I love pilates (shoutout to the lovely bodyrok), hiking (Washington trails > any other trails in the world), baking (currently learning how to make croissants), and reading (if you ever need recommendations, let me know!)",
             ],
             linkedin: 'https://www.linkedin.com/in/lillianakcalvert/',
-            calendly: '',
+            calendly: 'https://calendly.com/lillianacalvert-berkeley',
             image: require('../img/prof/lilliana.jpg'),
             sillyImage: require('../img/funny/lilliana.jpg'),
             isDM: false
@@ -278,7 +278,7 @@ let memberInfo = {
                 "Outside of NIB, I'm involved in the ASUC where I serve as an associate under the Office of the President. I enjoy going on daily walks, working out and playing sports, baking, shopping (downtown WC is where it's at!), and trying new food spots around Berkeley! I can't wait to meet all of you and share more about my experiences in NIB!"
             ],
             linkedin: 'https://www.linkedin.com/in/ayla-margate-4bb395381/',
-            calendly: '',
+            calendly: 'https://calendly.com/aylamargate-berkeley/nib-coffee-chats-1',
             image: require('../img/prof/ayla.jpg'),
             sillyImage: require('../img/funny/ayla.jpg'),
             isDM: false
@@ -322,7 +322,7 @@ let memberInfo = {
                 "Outside of NIB, I’m a member of Theta Tau, a professional engineering fraternity. In my free time, I like to watch anime, K-dramas, sci-fi movies (Star Wars, Jurassic Park), and Criminal Minds, listen to indie music (Lamp, Wave to Earth, Mac DeMarco), explore nature, and collect cute trinkets."
             ],
             linkedin: 'https://www.linkedin.com/in/yuukaamytanakaenvironmentalengineer/',
-            calendly: '',
+            calendly: 'https://calendly.com/yuukaamytanaka-berkeley/nib-coffee-chat-fall-2026',
             image: require('../img/prof/amy.jpg'),
             sillyImage: require('../img/funny/amy.jpg'),
             isDM: false
@@ -335,9 +335,10 @@ let memberInfo = {
                 "I'm very passionate about neurodiversity, education, and environmental sustainability, and NIB has helped me further these passions through the unique, genuine, and impactful work that we do. Feel free to reach out if you want to talk about any and all things music, really terrible puns/dad jokes, travel (yet having no sense of direction), questions about NIB, or really anything you want!",
             ],
             linkedin: 'https://www.linkedin.com/in/diane-shih',
+            calendly: 'https://calendly.com/dgshih-berkeley/nib-coffee-chat',
             image: require('../img/prof/Diane.jpg'),
             sillyImage: require('../img/funny/dgshih.jpg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Tanya Chandok',
@@ -362,9 +363,10 @@ let memberInfo = {
                 "I am very passionate about LGBTQ+ inclusivity, educational accessibility, environmental sustainability, and mental health awareness. Outside of NIB, I love to dance, take cool pictures, sing, hike, collect matchboxes, and play the drums. I’m also always on the lookout for good music, thrift stores, food, and boba/matcha (pmo if you have recs please)!"
             ],
             linkedin: 'https://www.linkedin.com/in/madhurum-bhuvan',
+            calendly: 'https://calendly.com/mbhuvan-berkeley/nib-coffee-chats',
             image: require('../img/prof/maddie.jpg'),
             sillyImage: require('../img/funny/madhurum.jpg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Javier Gonzales',
@@ -374,10 +376,10 @@ let memberInfo = {
                "Outside of NIB I love folding clothes, playing soccer, watching gorilla videos, backpacking, and baked goods."
             ],
             linkedin: 'https://www.linkedin.com/in/javiercgonzales',
-            calendly: 'https://calendly.com/javiergonzales-berkeley/30min',
+            calendly: 'https://calendly.com/javiergonzales-berkeley/nib-coffee-chat',
             image: require('../img/prof/javi.jpg'),
             sillyImage: require('../img/funny/javi.jpg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Anika Yu',
@@ -388,7 +390,7 @@ let memberInfo = {
                 "There is never a dull moment in NIB and I am so excited for you to discover what that could look like for yourself through recruitment!"
             ],
             linkedin: 'https://www.linkedin.com/in/anika-yu/',
-            calendly: 'https://calendly.com/anika-yu/nib-spring-26-coffee-chats-anika',
+            calendly: 'https://calendly.com/anika-yu/nib-fa-26',
             image: require('../img/prof/Anika.jpg'),
             sillyImage: require('../img/funny/anika.jpg'),
             isDM: false
@@ -401,7 +403,7 @@ let memberInfo = {
                 "I'm very passionate about civic engagement and technology policy. Outside of NIB, I love everything related to comedy (SNL, sitcoms, etc.), sports (hype for football season), and food (learning to stop eating out and cook my own food, but also I’m always on the hunt for good restaurant recs). Happy to chat about anything, feel free to reach out!"
             ],
             linkedin: 'https://www.linkedin.com/in/aditya-dawar/',
-            calendly: 'https://calendar.app.google/maz85GiqR2y8h6YQA',
+            calendly: 'https://calendar.app.google/AiUrHKLL77FAvVep9',
             image: require('../img/prof/Adi.jpg'),
             sillyImage: require('../img/funny/adi.jpg'),
             isDM: false
@@ -414,7 +416,7 @@ let memberInfo = {
                 "Outside of NIB, I am involved with a non-profit organization, ECCO, where I work closely with a team to advance academic justice and opportunities for underprivileged women. I love anything Drake, all music (ESPECIALLY country), sewing, crocheting, and scrapbooking. I can't wait to meet you all, and I am looking forward to talking to you about YOUR interest!!"
             ],
             linkedin: 'https://www.linkedin.com/in/brooklynn-collins-70aa22324',
-            calendly: 'https://calendly.com/brooklynn-sc-berkeley/new-meeting?month=2026-01',
+            calendly: 'https://calendly.com/brooklynn-sc-berkeley/new-meeting',
             image: require('../img/prof/brooklynn.jpg'),
             sillyImage: require('../img/funny/brook.jpg'),
             isDM: false
