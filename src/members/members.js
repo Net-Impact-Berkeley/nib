@@ -243,7 +243,7 @@ const Members = () => {
             <section className="advisor">
                 <section className="grid container">
                     <div>
-                        <img src={require('./img/boyle.jpeg')} alt="Alex Budak" loading="lazy" decoding="async" />
+                        <img src={require('./img/boyle.jpeg')} alt="Professor Colin Boyle" loading="lazy" decoding="async" />
                     </div>
                     <div className="verticallyCenter">
                         <h2>Faculty Advisor</h2>
