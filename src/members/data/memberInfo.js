@@ -352,7 +352,7 @@ let memberInfo = {
             calendly: 'https://calendly.com/tanyachandok-berkeley/coffee-chats',
             image: require('../img/prof/tanya.jpg'),
             sillyImage: require('../img/funny/tanya.jpg'),
-            isDM: true
+            isDM: false
         },
         {
             name: 'Maddie Bhuvan', 
@@ -456,9 +456,10 @@ let memberInfo = {
                 "Frances is studying abroad this semester."
             ],
             linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
+            calendly: 'https://calendly.com/francesroserich-berkeley/nib-coffee-chats',
             image: require('../img/prof/Frances.jpg'),
             sillyImage: require('../img/funny/frances.jpg'),
-            isDM: true
+            isDM: false
         },
 
         // ---- Graduated: kept for reference, not rendered ----
