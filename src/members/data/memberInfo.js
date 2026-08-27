@@ -252,7 +252,7 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/dylan-gunadi/',
             calendly: 'https://calendly.com/dylan_gunadi-berkeley/30min',
             image: require('../img/prof/dylan.jpg'),
-            sillyImage: require('../img/funny/vedatman.jpg'),
+            sillyImage: require('../img/funny/dylan.jpg'),
             isDM: false
         },
         {
