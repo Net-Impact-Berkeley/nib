@@ -226,6 +226,7 @@ const Members = () => {
             <section className="memberGallery">
                 <h4 className='description'>Click on our members to learn more and set up a time to coffee chat!</h4>
                 <h4 className='description'>Please limit to 3 coffee chats.</h4>
+                <h4 className='description'>URM coffee chats: <a href="https://tinyurl.com/298f8k67" target="_blank" rel="noopener noreferrer">sign up here</a>.</h4>
                 <section className= "showOnMobile tapQueue">
                     <section className= "abiTest">
                         <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>

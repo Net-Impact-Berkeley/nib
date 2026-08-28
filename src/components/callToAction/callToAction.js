@@ -14,9 +14,9 @@ const CallToAction = () => (
                 link="/apply"
                 buttonText="Learn How to Apply"
             />
-            {/* <div className="application">
-                <a href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer">Application Link →</a>
-            </div> */}
+            <div className="application">
+                <a href="https://airtable.com/app6CUasmCcQ4YrJd/paguZKxpcxKPSrm8r/form" target="_blank" rel="noopener noreferrer">Application Link →</a>
+            </div>
         </div>
     </div>
 );

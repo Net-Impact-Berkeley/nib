@@ -16,6 +16,14 @@
                 margin-bottom: 10px;
             }
 
+            // The URM application runs on its own, earlier deadline, so the note
+            // sits under the buttons rather than in the paragraph above them.
+            p.urmNote {
+                font-size: 16px;
+                line-height: 145%;
+                color: #666666;
+                margin-top: 12px;
+            }
 
         }
 
