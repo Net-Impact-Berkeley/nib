@@ -25,7 +25,7 @@ const Apply = () => {
    const virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
    const coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
    const interestForm = "https://airtable.com/app6CUasmCcQ4YrJd/pagqItCKlhH3VB25J/form";
-   const application = "https://airtable.com/appk87G4bajdKguxx/pagasA5eZl1Uy0Ca9/form";
+   const application = "https://airtable.com/app6CUasmCcQ4YrJd/paguZKxpcxKPSrm8r/form";
    const caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
    const infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
    const infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -54,19 +54,17 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Stay tuned for information about our upcoming Fall 2026 recruitment cycle!</p>
+                   <p>Applications for our Fall 2026 recruitment cycle are open through 1 PM on Friday, September 4th.</p>
                    {/*<Button
                        link={interestForm}
                        buttonText="Interest Form"
                        external
-                   /> 
-                   {/*}
+                   />*/}
                    <Button
                        link={application}
                        buttonText="Application"
                        external
                    />
-                   */}
                </div>
            <div className="right hideOnMobile">
            <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
