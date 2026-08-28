@@ -110,8 +110,9 @@ let memberInfo = {
             name: 'Luis Suarez',
             title: 'Project Manager',
             bio: [
-              "Hello there!!! My name is Luis, and I am a Sophomore studying Business & Compsci!!! I just joined NIB last semester (Spring 2025), and it has been one of the best decisions I have made in college so far. NIB has provided me with a strong professional exposure to the Business world while having a solid social impact foundation. This passion for social impact is visible through the culture in the club, the projects we undertake, and our members' lives outside of NIB. I cannot wait to see how this club continues to grow as we welcome a new class. In just a semester, NIB has become a family to me, and I would love to see that happen in others as well.",
-              "If you have any questions, please do not hesitate to reach out!!! Goodluck :DDDD"],
+                "Hellooooo!!! My name is Luis and I'm super excited to meet everyone this year!",
+                "I'm a Junior studying CS + Business and love the start up world, traveling, food, and hanging with friends! Talk to me about anything!"
+            ],
             linkedin: 'https://www.linkedin.com/in/luis-suarez1/',
             calendly: 'https://calendly.com/luis_suarez-berkeley/30min',
             image: require('../img/prof/Luis.jpg'),
@@ -149,8 +150,8 @@ let memberInfo = {
             name: 'Kabir Dua',
             title: 'Project Manager',
             bio: [
-              "Hi! My name is Kabir, and I am a sophomore studying Data Science and Economics with a minor in Energy & Resources. Joining NIB this past Fall has undoubtedly been one of the most meaningful decisions of my college experience: through NIB, I've found my closest friends, gained invaluable mentors, and learned so much about myself, my true passions, and the intellectually diverse community that surrounds me.", 
-                "This past semester, I was lucky enough to contribute to a waste diversion research project, exploring emerging technologies like physical AI for recycling management and autonomous robotics for plastics sorting, ultimately identifying vendors to help our client, Evergreen Goodwill, achieve their circularity goals for post-consumer materials.",
+                "Hi! My name is Kabir, and I am a junior studying Data Science and Economics with a minor in Energy & Resources. Joining NIB last Fall has undoubtedly been one of the most meaningful decisions of my college experience: through NIB, I've found my closest friends, gained invaluable mentors, and learned so much about myself, my true passions, and the intellectually diverse community that surrounds me.",
+                "My first semester, I was lucky enough to contribute to a waste diversion research project, exploring emerging technologies like physical AI for recycling management and autonomous robotics for plastics sorting, ultimately identifying vendors to help our client, Evergreen Goodwill, achieve their circularity goals for post-consumer materials.",
                 "NIB has made me optimistic that in a generation often driven by optics and conventional metrics of success, there still are incredibly talented people who care more about effectuating the positive change they seek to see in the world.",
                 "Outside of NIB, I enjoy contributing to academic research, collecting vinyl records (favorite artists: Smino, Yves Tumor, Tame Impala, Jaydes, KAYTRANADA, Lil Baby), weightlifting, hiking, and playing pool.",
                 "So stoked to meet everyone at recruitment, don't hesitate to reach out!"
@@ -285,12 +286,7 @@ let memberInfo = {
             name: 'Erica Chen',
             title: 'Returning Associate',
             bio: [
-                "Hi! I’m Erica, a freshman majoring in Business Administration and Legal Studies with a minor in Data Science from Vancouver, Canada.",
-                "As someone who joined NIB just this past semester, I’ve been able to see a clear difference between my life at Cal before and after becoming part of this community. Arriving as an international student, I was honestly overwhelmed by the sheer number of opportunities and groups on campus. It was exciting, but I also felt lost at times, unsure of where I truly belonged. From the moment I joined NIB, that changed. With NIB, I not only tried In-N-Out for the first time (and yes, animal style fries really might beat poutine), but I also found an incredibly intellectually diverse group of people who genuinely care about using business as a force for good, along with the warmest, most supportive family I could have asked for.",
-                "In my first semester, I had the opportunity to work with the World Wildlife Fund (WWF), where our team conducted in-depth research on sustainable banking frameworks. We reviewed and refined the SUSBA methodology, benchmarked it against leading ESG and climate-focused approaches, and helped assess how financial institutions can better align with nature- and sustainability-focused standards.",
-                "What stands out to me most about NIB is the shared respect everyone has for one another’s passions. In a fast-paced world that often prioritizes surface-level success, I’ve found people here who care deeply about meaningful, long-term change and who push each other to grow both personally and professionally.",
-                "Outside of NIB, I love being involved in Cal’s entrepreneurial community, watching movies (Love Actually, Mamma Mia!, Clueless, In the Mood for Love, Letters to Juliet), working out, and cooking. I make a pretty great miso salmon.",
-                "If you’re thinking about applying to NIB, I’d love for you to come meet us. NIB has been such an integral part of finding my home at Cal, and I truly believe it can be that for you too. Looking forward to talking soon!"
+                "Hi! I'm Erica, a sophomore studying Business Administration and Economics from Vancouver, Canada. Before joining NIB, I was an overwhelmed international student trying to find my place among Cal's endless opportunities. One semester later, NIB has given me an intellectually curious, impact-driven community—and most importantly, a new family. Last semester, I worked with WWF to strengthen its sustainable banking methodology and explore how financial institutions can better align with environmental standards. More than the project itself, I've loved being surrounded by people who genuinely support one another's passions and care about creating meaningful change. Outside of NIB, you'll find me exploring Cal's entrepreneurial community, listening to KPOP working out, or experimentally cheffing it up to some new recipes. If you're considering NIB, come meet us! It has truly helped me find my home at Cal, and I hope it can become yours too."
             ],
             linkedin: 'https://www.linkedin.com/in/ericachen0328/',
             calendly: 'https://calendly.com/ericachen0328-berkeley/30min',
@@ -302,9 +298,10 @@ let memberInfo = {
             name: 'Anthony Sapp Guadarrama',
             title: 'Returning Associate',
             bio: [
-                "Hi! I’m Anthony, a freshman studying Economics and minoring in Data Science and GPP from San Diego. I joined this semester and have loved the vibrant and genuine community that comes with NIB. The sense of community is unmatched and I’ve never been prouder to share a group of passionate people than ever before. I’m currently working on a project with Logitech and have grown so much in the past couple of first weeks and so can you!",
-                "I’m passionate about mitigating world poverty and creating a more equitable and sustainable future. Outside of NIB, I love to play squash, find new places to eat on Fat Sundays, watch movies, and thrift. I’m a part of FAST and love fashion, so coffee chat me in your toughest fit! I love to talk to people who are excited about their passions! Can’t wait to meet you!",
-                ],
+                "Hi, I'm Anthony and I'm a freshman studying Economics and minoring in Data Science and GPP from San Diego. I joined NIB Spring Semester and loved the vibrant and genuine community that comes with being a part of it.",
+                "I love talking to super passionate people.",
+                "I worked on the Logitech project, working with physical AI and have grown so much. I'm passionate about mitigating world poverty and creating a more equitable and sustainable future. Outside of NIB, I love to play squash, find new places to eat, watch movies, and thrift. I'm a part of FAST and love fashion. Can't wait to meet you!"
+            ],
             linkedin: 'https://www.linkedin.com/in/anthony-sapp-guadarrama-196239335/',
             calendly: 'https://calendly.com/anthony_sappg25-berkeley/30min',
             image: require('../img/prof/anthony.jpg'),
@@ -451,9 +448,7 @@ let memberInfo = {
             name: 'Frances Rich', 
             title: 'Senior Advisor',
             bio: [
-                "Hi! My name is Frances, I am a current junior and I joined nib my freshman spring. I have worked on a bunch of cool projects and met some of my best friends in this club. NIBfam is so real and I love being surrounded by such amazing, smart, and cool people every day!",
-                "Outside of school I love musical theater, historical fiction, yap sessions with my friends, brainrot content, and running/dancing. I can't wait to meet you :)",
-                "Frances is studying abroad this semester."
+                "Hi! My name is Frances and I have been in NIB since I was a freshman! Now I am a senior and am so grateful for this club and the friendships I have made. Feel free to reach out if you are interested in education, reading, finance, travel, or really anything I am a very chatty person :)"
             ],
             linkedin: 'https://www.linkedin.com/in/francesgloryroserich/',
             calendly: 'https://calendly.com/francesroserich-berkeley/nib-coffee-chats',
