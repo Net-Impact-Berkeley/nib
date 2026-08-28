@@ -7,7 +7,7 @@ let memberInfo = {
                 "Hey there! My name is Ice, and I'm a junior studying Political Science and Data Science. I was born in Thailand but went to high school in Singapore, but despite third culture kid struggles, I felt right at home with NIB since I joined in my freshman fall semester. I've worked with a microfinance nonprofit, an EdTech company, and an international organization with problems ranging from go-to-market strategy to reinvesting strategic narratives for fundraising. One of the things I love most about NIB is how this club never fails to inspire and motivate me to become a better person.",
                 "I'm passionate about increasing the quality of and access to education, and the democratization efforts in the Global South. I'm also an aspiring UI/UX designer (waiting for NIB to officially appoint me as the resident figma girl), and I enjoy various forms of writing and performance arts! Here are some of my favorite writers and works: Laufey, Rex Orange County, Daniel Caesar, Ocean Vuong, F. Scott Fitzgerald, Eriks Esenvalds, La La Land, Everything Everywhere All at Once, Hadestown."
             ],
-            linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn-6a77531b3/',
+            linkedin: 'https://www.linkedin.com/in/napim-ice-kulruchakorn/',
             calendly: 'https://calendly.com/napimk/nib-coffee-chat-w-ice',
             image: require('../img/prof/ice.jpg'),
             sillyImage: require('../img/funny/ice.jpg'),
