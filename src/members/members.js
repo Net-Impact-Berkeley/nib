@@ -224,7 +224,7 @@ const Members = () => {
           
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
-                <h4 className='description'>Coffee chats are with our Associates and Senior Advisors. Click anyone below to read more, then book a time using the Calendly icon on their card.</h4>
+                <h4 className='description'>Coffee chats are only with our Associates and Senior Advisors. Click anyone below to read more, then book a time using the Calendly icon on their card.</h4>
                 <h4 className='description'>Please limit yourself to 3 coffee chats, and book through Calendly rather than emailing or messaging members directly.</h4>
                 <h4 className='description'>URM coffee chats: <a href="https://tinyurl.com/298f8k67" target="_blank" rel="noopener noreferrer">sign up here</a>.</h4>
                 <section className= "showOnMobile tapQueue">
