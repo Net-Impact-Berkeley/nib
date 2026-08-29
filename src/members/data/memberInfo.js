@@ -17,9 +17,10 @@ let memberInfo = {
             name: 'Aswin Surya', 
             title: 'VP Finance & Operations',
             bio: [
-                "Hey! I'm Aswin, a sophomore from the Bay Area studying EECS. I joined NIB freshman fall, and it is honestly the best decision I've made at Berkeley. In the last year, NIB has given me so many opportunities, from a free Michelin dinner to presenting global health strategy to the United Nations in DC to meeting the most amazing community on campus. I'm particularly passionate about healthcare, and the intersection of tech and health, using digital tools to ensure quality and accessible healthcare for all.",
-                "I'm also on leadership in Dil Se, Berkeley's South Asian A Cappella Team and am in Berkeley AI Research, where I work on hybrid systems, LLMs, and cybersecurity.",
-                "Outside of NIB, I love lifting, listening to any and all types of music, and playing basketball and tennis. My goal is to try every single food place at Berkeley, so if you have any unique favorites, don't hesitate to hit me up. Looking forward to chatting with you :)"],
+                "Hey! I'm Aswin, a junior from the Bay Area studying EECS. I joined NIB freshman fall, and it is honestly the best decision I've made at Berkeley. NIB has given me so many opportunities, from a free Michelin dinner to presenting global health strategy at the UN headquarters in DC, which involved staying up the whole night before redoing the presentation because they changed the format on us last minute.",
+                "I'm particularly passionate about healthcare and the intersection of tech and health, using digital tools to make quality care accessible to everyone. I'm also in Berkeley AI Research working on hybrid systems and LLMs, and I've gotten increasingly into AI safety, which means I spend an unreasonable amount of time thinking about superintelligence, philosophy, and how we can replicate our brains inside machines.",
+                "Outside of NIB I'm eating, lifting, playing basketball and tennis, and arguing with people on hot takes. I've been to every matcha spot in Berkeley, so if you find one I haven't, please tell me immediately. Ask me anything, looking forward to meeting you :)"
+            ],
             linkedin: 'https://www.linkedin.com/in/aswinsurya/',
             calendly: 'https://calendly.com/aswinsurya/nib-coffee-chats',
             image: require('../img/prof/Aswin.jpg'),
