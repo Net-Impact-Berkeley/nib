@@ -124,9 +124,9 @@ let memberInfo = {
             name: 'Jules De Boni',
             title: 'Project Manager',
             bio: [
-             "Hey, what's up! My name is Jules and I'm a junior studying Economics and Data Science. I joined NIB last semester after arriving in the US for the first time, and this is singlehandedly the best decision I've made at Cal. Everything from my first semester's project with Evergreen Goodwill to our insane trip to Mexico has been an insane enhancement of my college experience. I've loved making so many wonderful memories with the people I now call my best friends and I can't wait for you to join the NIBFam!",
+                "Hey, what's up! My name is Jules and I'm a senior studying Economics and Data Science. I joined NIB last semester after arriving in the US for the first time, and this is singlehandedly the best decision I've made at Cal. Everything from my first semester's project with Evergreen Goodwill to our insane trip to Mexico has been an insane enhancement of my college experience. I've loved making so many wonderful memories with the people I now call my best friends and I can't wait for you to join the NIBFam!",
                 "Outside of school, I play football/soccer and am part of the Cal Boxing Club. I'm also a big Geography nerd and I love debating about electoral politics and geopolitics, so if you do too, don't hesitate to reach out!!"
-               ],
+            ],
             linkedin: 'https://www.linkedin.com/in/jules-de-boni',
             calendly: 'https://calendly.com/julesdeboni-berkeley/30min',
             image: require('../img/prof/jules.jpg'),
