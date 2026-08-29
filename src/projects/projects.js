@@ -131,32 +131,32 @@ const openModalHandler = (type) => {
                     <div className="clientTypeBox" onClick={() => openModalHandler(0)}>
                         <h2><b>For-profit</b> companies</h2>
                         <div className="clientLogos">
-                            <img src={salesforce} />
-                            <img src={bestbuy} />
-                            <img src={amazon} />
-                            <img src={kaiser} />
+                            <img loading="lazy" src={salesforce} />
+                            <img loading="lazy" src={bestbuy} />
+                            <img loading="lazy" src={amazon} />
+                            <img loading="lazy" src={kaiser} />
                         </div>
-                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                        <p>Learn more about our work <span className="arrow"><img loading="lazy" src={greyArrow}></img></span></p>
                     </div>
                     <div className="clientTypeBox" onClick={() => openModalHandler(1)}>
                         <h2><b>Mission-driven</b> companies</h2>
                         <div className="clientLogos">
-                            <img src={clif} />
-                            <img src={sce} />
-                            <img src={heifer} />
-                            <img src={reformation} />
+                            <img loading="lazy" src={clif} />
+                            <img loading="lazy" src={sce} />
+                            <img loading="lazy" src={heifer} />
+                            <img loading="lazy" src={reformation} />
                         </div>
-                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                        <p>Learn more about our work <span className="arrow"><img loading="lazy" src={greyArrow}></img></span></p>
                     </div>
                     <div className="clientTypeBox" onClick={() => openModalHandler(2)}>
                         <h2><b>Nonprofit</b> organizations</h2>
                         <div className="clientLogos">
-                            <img src={goodwill} />
-                            <img src={bmgf} />
-                            <img src={lls} />
-                            <img src={wb} />
+                            <img loading="lazy" src={goodwill} />
+                            <img loading="lazy" src={bmgf} />
+                            <img loading="lazy" src={lls} />
+                            <img loading="lazy" src={wb} />
                         </div>
-                        <p>Learn more about our work <span className="arrow"><img src={greyArrow}></img></span></p>
+                        <p>Learn more about our work <span className="arrow"><img loading="lazy" src={greyArrow}></img></span></p>
                     </div>
                 </div>
 
