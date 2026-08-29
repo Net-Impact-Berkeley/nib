@@ -20,11 +20,14 @@ RewriteRule ^ index.html [QSA,L]
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|css|js|woff2?|ttf|eot)$">
+  # (?i) because FilesMatch is case-sensitive and the build emits .JPEG as
+  # well as .jpeg. Without it those files fall through to the one-hour
+  # default and are re-fetched all day despite having hashed names.
+  <FilesMatch "(?i)\.(jpg|jpeg|png|webp|gif|svg|css|js|woff2?|ttf|eot)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 
-  <FilesMatch "\.html$">
+  <FilesMatch "(?i)\.html$">
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
 </IfModule>
