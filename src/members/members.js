@@ -224,7 +224,7 @@ const Members = () => {
           
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
-                <h4 className='description'>Coffee chats are only with our Associates and Senior Advisors. Click anyone below to read more, then book a time using the Calendly icon on their card.</h4>
+                <h4 className='description'>Coffee chats are only with our Associates and Senior Advisors, listed under Members below — not our Leadership Team or Project Managers. Click anyone to read more, then book a time using the Calendly icon on their card.</h4>
                 <h4 className='description'>Please limit yourself to 3 coffee chats, and book through Calendly rather than emailing or messaging members directly.</h4>
                 <h4 className='description'>URM coffee chats: <a href="https://tinyurl.com/298f8k67" target="_blank" rel="noopener noreferrer">sign up here</a>.</h4>
                 <section className= "showOnMobile tapQueue">
@@ -234,13 +234,10 @@ const Members = () => {
                 </section>
                 <section className="container">
                     <h2>Leadership Team</h2>
-                    <p className="sectionNote">Not available for coffee chats this cycle.</p>
                     <div className="leadershipGrid">{execList}</div>
                     <h2>Project Managers</h2>
-                    <p className="sectionNote">Not available for coffee chats this cycle.</p>
                     <div className="leadershipGrid">{pmList}</div>
                     <h2>Members</h2>
-                    <p className="sectionNote">Associates and Senior Advisors — these are the people to chat with.</p>
                     <div>{memberList}</div>
                 </section>
             </section>
