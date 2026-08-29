@@ -5,7 +5,7 @@ function ClientImage(props) {
 
     return (
         <a href={props.link} target = "_blank" rel="noopener noreferrer"> 
-            <img src={props.img} alt="" />
+            <img loading="lazy" src={props.img} alt="" />
         </a>
     );
 }

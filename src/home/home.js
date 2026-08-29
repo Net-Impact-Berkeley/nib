@@ -84,7 +84,7 @@ const Home = () => {
         </svg>
         <section className="inspired">
             <div className="showOnMobile">
-                <img src={secondSection1} className="hillpic" alt="NIB members on the steps of Doe Library" />
+                <img loading="lazy" src={secondSection1} className="hillpic" alt="NIB members on the steps of Doe Library" />
             </div>
             <div className="blobs">
                 <svg className="rope" width="664" height="904" viewBox="0 0 664 904" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,8 +97,8 @@ const Home = () => {
                     <path d="M145.25 82.5374C141.263 98.6358 127.069 109.343 113.339 122.396C99.542 135.4 86.1404 150.7 72.3693 150.659C58.7165 150.601 44.6437 135.269 34.4311 117.019C24.2185 98.7687 17.8833 77.7183 26.4059 69.1078C34.8608 60.4468 58.2412 64.2762 79.2265 58.7354C100.161 53.2623 118.633 38.3686 130.894 41.7093C143.205 44.9822 149.356 66.4218 145.25 82.5374Z" />
                 </svg>
 
-                <img src={secondSection1} className="exec" alt="NIB members on the steps of Doe Library" />
-                <img src={secondSection2} className="railroad" alt="NIB members posing on a railroad" />
+                <img loading="lazy" src={secondSection1} className="exec" alt="NIB members on the steps of Doe Library" />
+                <img loading="lazy" src={secondSection2} className="railroad" alt="NIB members posing on a railroad" />
             </div>
             <div className="container">
                 <div></div>
@@ -122,14 +122,14 @@ const Home = () => {
             <div className="container">
                 <h1>150+ Past Clients</h1>
                 {pastClients.map((client) => {
-                    return <img src={client.img} alt={client.alt} key={client.alt} />;
+                    return <img loading="lazy" src={client.img} alt={client.alt} key={client.alt} />;
                 })}
             </div>
         </section>
 
         <section className="who">
             <div className="grid container">
-                <img src={membersSectionImage} alt="Eight NIB members outside Doe Library" />
+                <img loading="lazy" src={membersSectionImage} alt="Eight NIB members outside Doe Library" />
                 <div>
                     <h2>Who We Are</h2>
                     <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make
