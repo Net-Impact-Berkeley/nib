@@ -27,6 +27,9 @@ const Member = ({person, handleClick}) => {
 
   const openOrFlip = () => {
     if (canHover || flipped) {
+      // Put the professional photo back as the bio opens, so closing it returns
+      // to the card the way it started rather than to the silly one.
+      setFlipped(false);
       handleClick(person);
       return;
     }
