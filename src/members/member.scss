@@ -81,6 +81,13 @@
     }
 }
 
+// Touch devices have no hover, so the swap is driven by a tap instead. Sticky
+// hover on those devices can also leave a card stuck mid-fade; this state does
+// not depend on it.
+.memberProfile .memberSillyImage.isFlipped {
+    opacity: 1;
+}
+
 @media (min-width: 800px) {
     .memberProfile {
         height: 18%;
