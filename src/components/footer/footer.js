@@ -36,7 +36,6 @@ const Footer = () => {
                 <div className="footerSection">
                     <FooterTitle text="Students" />
                     <FooterLink link="/apply" name="Join Us" />
-                    <a href="https://airtable.com/app6CUasmCcQ4YrJd/paguZKxpcxKPSrm8r/form" className="footerLink" target="_blank" rel="noopener noreferrer">Application</a>
                     <FooterLink link="/faq" name="FAQs" />
                 </div>
                 {/* <div className="footerSection">

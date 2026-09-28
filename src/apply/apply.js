@@ -55,12 +55,12 @@ const Apply = () => {
                <div className="left">
                    <h3>APPLY</h3>
                    <h1>Join our Family</h1>
-                   <p>Applications for our Fall 2026 recruitment cycle are open through 1 PM on Friday, September 4th.</p>
+                   <p>Stay tuned for information about our Spring 2027 recruitment cycle!</p>
                    {/*<Button
                        link={interestForm}
                        buttonText="Interest Form"
                        external
-                   />*/}
+                   />
                    <Button
                        link={application}
                        buttonText="Application"
@@ -71,8 +71,7 @@ const Apply = () => {
                        buttonText="URM Application"
                        style="light"
                        external
-                   />
-                   <p className="urmNote">The URM Social Impact Application is shared across Berkeley's social impact clubs and closes earlier, at 11:59 PM on Thursday, September 3rd.</p>
+                   />*/}
                </div>
            <div className="right hideOnMobile">
            <svg xmlns="http://www.w3.org/2000/svg" width="603" height="530" viewBox="0 0 603 530" fill="none" className="bigBlob">
