@@ -14,9 +14,11 @@ const CallToAction = () => (
                 link="/apply"
                 buttonText="Learn How to Apply"
             />
+            {/* Applications are closed between cycles; uncomment with the
+                current form when the next one opens.
             <div className="application">
                 <a href="https://airtable.com/app6CUasmCcQ4YrJd/paguZKxpcxKPSrm8r/form" target="_blank" rel="noopener noreferrer">Application Link →</a>
-            </div>
+            </div> */}
         </div>
     </div>
 );
