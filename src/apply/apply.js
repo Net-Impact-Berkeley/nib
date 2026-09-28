@@ -97,9 +97,9 @@ const Apply = () => {
                    <div className="item">
                        <img src={chat} alt="chat icon" />
                        <h4>Tabling</h4>
-                       <p>Wednesday, 8/26 – Friday, 9/4</p>
+                       <p>TBD</p>
                        <ul>
-                           <li>From August 26th through September 4th between 8AM - 4PM, come say hi on at our table on Sproul!</li>
+                           <li>Come say hi at our table on Sproul!</li>
                            {/* <li>Sign up for a 1:1 with a NIB member sometime January 17th - 26th.</li> */}
                            <li>Fill out our <a className="underline-magical" href={interestForm} target="_blank" rel="noopener noreferrer">interest form</a>!</li>
                        </ul>
@@ -107,19 +107,19 @@ const Apply = () => {
                    <div className="item">
                        <img src={network} alt="chat icon" />
                        <h4>Infosessions</h4>
-                       <p>Tuesday, 9/1 - Thursday, 9/3</p>
+                       <p>TBD</p>
                        <ul>
-                           <li>Tuesday: Infosession #1</li>
-                           <li>Wednesday: Infosession #2 + Case Demonstration</li>
-                           <li>Thursday: Case Coaching Session</li>
+                           <li>Infosession #1</li>
+                           <li>Infosession #2 + Case Demonstration</li>
+                           <li>Case Coaching Session</li>
                        </ul>
                    </div>
                    <div className="item">
                        <img src={doc} alt="chat icon" />
                        <h4>Applications and Interviews</h4>
-                       <p>Friday 9/4 - Wednesday 9/9</p>
+                       <p>TBD</p>
                        <ul>
-                           <li>Applications are due at 1PM PST on September 4th.</li>
+                           <li>The application deadline is announced with the full timeline.</li>
                            {/* Apply <a className="underline-magical" href={application} target="_blank" rel="noopener noreferrer"> here. </a> */}
                            <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                        </ul>
