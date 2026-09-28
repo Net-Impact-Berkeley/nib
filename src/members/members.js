@@ -225,7 +225,6 @@ const Members = () => {
             {showModal ? <Modal toggleShow={handleClick} person={modalInfo}></Modal> : null}
             <section className="memberGallery">
                 <h4 className='description'>Feel free to book up to 2 coffee chats with our Associates or Senior Advisors using the Calendly link on their profile!</h4>
-                <h4 className='description'>URM coffee chats: <a href="https://tinyurl.com/298f8k67" target="_blank" rel="noopener noreferrer">sign up here</a>.</h4>
                 <section className= "showOnMobile tapQueue">
                     <section className= "abiTest">
                         <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>
